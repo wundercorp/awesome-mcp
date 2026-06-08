@@ -13,7 +13,11 @@ node scripts/generate-readme.mjs
 
 ## Directory
 
-No MCP servers have been submitted yet.
+### Developer Tools
+
+| Name | Description | Transport | Status |
+|------|-------------|-----------|--------|
+| [TWZRD Agent Intel](https://intel.twzrd.xyz) | Trust scoring for Solana AI agent wallets. Verify agent identity before x402 USDC micropayments. Tools: `score_agent`, `preflight_check` (free), `get_trust_receipt` (HTTP 402 paid). | streamable-http | active |
 
 ## Repository format
 
