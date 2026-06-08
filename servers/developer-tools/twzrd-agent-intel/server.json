@@ -1,0 +1,17 @@
+{
+  "slug": "twzrd-agent-intel",
+  "name": "TWZRD Agent Intel",
+  "category": "developer-tools",
+  "description": "Trust scoring for Solana AI agent wallets. Verify agent identity before x402 USDC micropayments. Tools: score_agent (trust score 0-100), preflight_check (score + stake + age + activity), get_trust_receipt (signed receipt via HTTP 402). Zero-install streamable-HTTP MCP.",
+  "homepage_url": "https://intel.twzrd.xyz",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "score_agent",
+    "preflight_check",
+    "get_trust_receipt"
+  ],
+  "license": "proprietary",
+  "status": "active"
+}
