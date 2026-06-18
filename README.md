@@ -25,6 +25,7 @@ node scripts/generate-readme.mjs
 | Server | Description | Transport | Links |
 |---|---|---|---|
 | AccInt | Local-first Work Model and MCP server for coding-agent memory across Claude Code, OpenCode, Codex, and Cursor. Shares a SQLite memory substrate and feeds verified outcomes back into future retrieval. | stdio | [Homepage](https://accint.xyz/)<br>[GitHub](https://github.com/maxbaluev/accreted-intelligence) |
+| Agentage Memory | Shared memory layer for every AI - one markdown memory Claude, Cursor, and ChatGPT read and write over a remote MCP endpoint, mirrored locally as plain .md you own and can export anytime. Remote Streamable HTTP with OAuth 2.1 + PKCE + DCR. | streamable-http | [Homepage](https://agentage.io)<br>[Package](https://memory.agentage.io/mcp) |
 
 ## Repository format
 

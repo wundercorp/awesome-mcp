@@ -1,0 +1,25 @@
+{
+  "slug": "agentage-memory",
+  "name": "Agentage Memory",
+  "category": "knowledge",
+  "description": "Shared memory layer for every AI - one markdown memory Claude, Cursor, and ChatGPT read and write over a remote MCP endpoint, mirrored locally as plain .md you own and can export anytime. Remote Streamable HTTP with OAuth 2.1 + PKCE + DCR.",
+  "homepage_url": "https://agentage.io",
+  "package_url": "https://memory.agentage.io/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "memory__search",
+    "memory__read",
+    "memory__write",
+    "memory__edit",
+    "memory__list",
+    "memory__delete"
+  ],
+  "license": "Proprietary (hosted service; private source)",
+  "provider": {
+    "name": "Agentage",
+    "url": "https://agentage.io"
+  },
+  "status": "active"
+}
