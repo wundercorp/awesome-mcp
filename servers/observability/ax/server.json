@@ -1,0 +1,23 @@
+{
+  "slug": "ax",
+  "name": "ax",
+  "category": "observability",
+  "description": "Local-first transcript and telemetry graph for AI coding agents, with read-only MCP queries for sessions, tool use, skills, costs, and dispatch/routing analytics.",
+  "homepage_url": "https://github.com/Necmttn/ax",
+  "repository_url": "https://github.com/Necmttn/ax",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "recall",
+    "sessions_around",
+    "session_show",
+    "skills_weighted",
+    "cost_models",
+    "cost_split",
+    "cost_routability",
+    "dispatches"
+  ],
+  "license": "AGPL-3.0-only",
+  "status": "active"
+}
