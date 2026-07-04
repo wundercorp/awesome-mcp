@@ -1,0 +1,26 @@
+{
+  "slug": "most-recommended-books",
+  "name": "Most Recommended Books",
+  "category": "knowledge",
+  "description": "Read-only Streamable HTTP MCP server for verified book recommendations, reading lists, series reading orders, consensus best-of lists, and summaries with original sources.",
+  "homepage_url": "https://mostrecommendedbooks.com",
+  "repository_url": "https://github.com/richardreeze/mrb-api",
+  "package_url": "https://mostrecommendedbooks.com/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search_books",
+    "get_person_recommendations",
+    "get_book_recommenders",
+    "get_series_reading_order",
+    "get_list",
+    "get_summary"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Most Recommended Books",
+    "url": "https://mostrecommendedbooks.com"
+  },
+  "status": "active"
+}
