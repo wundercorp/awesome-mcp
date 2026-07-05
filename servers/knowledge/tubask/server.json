@@ -1,0 +1,23 @@
+{
+  "slug": "tubask",
+  "name": "Tubask",
+  "category": "knowledge",
+  "description": "Hosted YouTube MCP for Claude, Cursor, and ChatGPT — search videos, summarize talks, and pull timestamped quotes with 3 tools. Streamable HTTP with OAuth 2.0.",
+  "homepage_url": "https://tubask.app",
+  "repository_url": "https://github.com/Amorizz/tubask-mcp",
+  "package_url": "https://tubask.app/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "youtube_query",
+    "summarize_video",
+    "get_transcript"
+  ],
+  "license": "MIT (public repo; hosted service)",
+  "provider": {
+    "name": "Tubask",
+    "url": "https://tubask.app"
+  },
+  "status": "active"
+}
