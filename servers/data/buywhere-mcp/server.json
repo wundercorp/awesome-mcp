@@ -1,0 +1,13 @@
+{
+  "slug": "buywhere-mcp",
+  "name": "BuyWhere",
+  "category": "data",
+  "description": "Real-time product search and price comparison across 15+ Singapore/SEA merchants (11M+ products). REST API + MCP server for AI agents.",
+  "homepage_url": "https://buywhere.ai",
+  "repository_url": "https://github.com/BuyWhere/buywhere-mcp",
+  "package_url": "https://www.npmjs.com/package/@buywhere/mcp-server",
+  "transports": ["stdio", "streamable-http"],
+  "tools": ["search_products", "get_product", "find_best_price", "get_deals", "browse_categories"],
+  "license": "MIT",
+  "status": "active"
+}
