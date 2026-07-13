@@ -1,9 +1,9 @@
 {
   "slug": "aiservices",
-  "name": "AIServices",
+  "name": "AgentServices",
   "category": "data",
   "description": "29-service API platform for AI agents — real-time crypto prices, DeFi yields, on-chain analytics, whale tracking, exchange flows, and policy-driven dispute resolution. Paid endpoints use x402 USDC micropayments on Base. Remote MCP server included.",
-  "homepage_url": "https://api.aiservices.to",
+  "homepage_url": "https://agentservices.to",
   "repository_url": "https://github.com/vbkotecha/aiservices-api",
   "transports": ["streamable-http", "sse"],
   "tools": [
