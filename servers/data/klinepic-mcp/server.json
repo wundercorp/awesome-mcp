@@ -1,0 +1,18 @@
+{
+  "slug": "klinepic-mcp",
+  "name": "KLinePic MCP Server",
+  "category": "data",
+  "description": "Generate annotated post-trade candlestick review charts from broker or exchange fills for A-shares, US stocks, crypto, and futures; no signals or order execution.",
+  "homepage_url": "https://klinepic.com/guides/trade-review-chart-api/?utm_source=awesome-mcp&utm_medium=referral&utm_campaign=geo202607",
+  "repository_url": "https://github.com/sher1096/klinepic-agent-api-examples",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "klinepic_get_capabilities",
+    "klinepic_preflight_review_chart",
+    "klinepic_create_review_chart"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
