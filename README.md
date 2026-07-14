@@ -18,6 +18,7 @@ node scripts/generate-readme.mjs
 | Server | Description | Transport | Links |
 |---|---|---|---|
 | BuyWhere | Real-time product search and price comparison across 15+ Singapore/SEA merchants (11M+ products). REST API + MCP server for AI agents. | stdio, streamable-http | [Homepage](https://buywhere.ai)<br>[GitHub](https://github.com/BuyWhere/buywhere-mcp)<br>[Package](https://www.npmjs.com/package/@buywhere/mcp-server) |
+| KLinePic MCP Server | Generate annotated post-trade candlestick review charts from broker or exchange fills for A-shares, US stocks, crypto, and futures; no signals or order execution. | stdio | [Homepage](https://klinepic.com/guides/trade-review-chart-api/?utm_source=awesome-mcp&utm_medium=referral&utm_campaign=geo202607)<br>[GitHub](https://github.com/sher1096/klinepic-agent-api-examples) |
 | The Stall | 191 pay-per-call data tools via x402 on Base — stocks, crypto/DeFi, macro, SEC filings, compliance, global news, social momentum. No API keys. | streamable-http | [Homepage](https://the-stall.intuitek.ai)<br>[GitHub](https://github.com/thebrierfox/the-stall) |
 | Xquik MCP Server | MCP server for exploring Xquik's X data API and running source-backed X data workflows. | streamable-http | [Homepage](https://docs.xquik.com/mcp/overview)<br>[GitHub](https://github.com/Xquik-dev/x-twitter-scraper) |
 
@@ -27,8 +28,8 @@ node scripts/generate-readme.mjs
 |---|---|---|---|
 | AccInt | Local-first Work Model and MCP server for coding-agent memory across Claude Code, OpenCode, Codex, and Cursor. Shares a SQLite memory substrate and feeds verified outcomes back into future retrieval. | stdio | [Homepage](https://accint.xyz/)<br>[GitHub](https://github.com/maxbaluev/accreted-intelligence) |
 | Agentage Memory | Shared memory layer for every AI - one markdown memory Claude, Cursor, and ChatGPT read and write over a remote MCP endpoint, mirrored locally as plain .md you own and can export anytime. Remote Streamable HTTP with OAuth 2.1 + PKCE + DCR. | streamable-http | [Homepage](https://agentage.io)<br>[Package](https://memory.agentage.io/mcp) |
-| Tubask | Hosted YouTube MCP for Claude, Cursor, and ChatGPT — search videos, summarize talks, and pull timestamped quotes with 3 tools. Streamable HTTP with OAuth 2.0. | streamable-http | [Homepage](https://tubask.app)<br>[GitHub](https://github.com/Amorizz/tubask-mcp)<br>[Package](https://tubask.app/mcp) |
 | Most Recommended Books | Read-only Streamable HTTP MCP server for verified book recommendations, reading lists, series reading orders, consensus best-of lists, and summaries with original sources. | streamable-http | [Homepage](https://mostrecommendedbooks.com)<br>[GitHub](https://github.com/richardreeze/mrb-api)<br>[Package](https://mostrecommendedbooks.com/api/mcp) |
+| Tubask | Hosted YouTube MCP for Claude, Cursor, and ChatGPT — search videos, summarize talks, and pull timestamped quotes with 3 tools. Streamable HTTP with OAuth 2.0. | streamable-http | [Homepage](https://tubask.app)<br>[GitHub](https://github.com/Amorizz/tubask-mcp)<br>[Package](https://tubask.app/mcp) |
 
 ### Observability
 
