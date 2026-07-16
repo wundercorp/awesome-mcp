@@ -1,0 +1,25 @@
+{
+  "slug": "bde-score",
+  "name": "BDE Score MCP Server",
+  "category": "developer-tools",
+  "description": "AI governance scoring engine with EU AI Act Art.50 compliance. Evaluates AI system transparency, accountability and trustworthiness via MCP protocol.",
+  "homepage_url": "https://github.com/hbhqq9/bde-score",
+  "repository_url": "https://github.com/hbhqq9/bde-score",
+  "package_url": "https://www.npmjs.com/package/bde-score",
+  "transports": [
+    "stdio",
+    "sse"
+  ],
+  "tools": [
+    "evaluate_system",
+    "get_transparency_score",
+    "check_art50_compliance",
+    "get_governance_report"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "BDE Score",
+    "url": "https://github.com/hbhqq9/bde-score"
+  },
+  "status": "active"
+}
