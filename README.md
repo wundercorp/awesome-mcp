@@ -21,6 +21,12 @@ node scripts/generate-readme.mjs
 | The Stall | 191 pay-per-call data tools via x402 on Base — stocks, crypto/DeFi, macro, SEC filings, compliance, global news, social momentum. No API keys. | streamable-http | [Homepage](https://the-stall.intuitek.ai)<br>[GitHub](https://github.com/thebrierfox/the-stall) |
 | Xquik MCP Server | MCP server for exploring Xquik's X data API and running source-backed X data workflows. | streamable-http | [Homepage](https://docs.xquik.com/mcp/overview)<br>[GitHub](https://github.com/Xquik-dev/x-twitter-scraper) |
 
+### Developer Tools
+
+| Server | Description | Transport | Links |
+|---|---|---|---|
+| BDE Score MCP Server | AI governance scoring engine with EU AI Act Art.50 compliance. Evaluates AI system transparency, accountability and trustworthiness via MCP protocol. | stdio, sse | [Homepage](https://github.com/hbhqq9/bde-score)<br>[GitHub](https://github.com/hbhqq9/bde-score)<br>[Package](https://www.npmjs.com/package/bde-score) |
+
 ### Knowledge
 
 | Server | Description | Transport | Links |
