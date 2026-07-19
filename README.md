@@ -17,6 +17,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| AgentServices | 54 paid x402 data APIs for AI agents — crypto/fiat prices, forex, DeFi yields, market intel, SEC filings, global news, sanctions screening, wallet screening. 37 MCP tools. Streamable HTTP with x402 micropayments on Base. | streamable-http | [Homepage](https://agentservices.to)<br>[GitHub](https://github.com/vbkotecha/agentservices)<br>[Package](https://agentservices.to/.well-known/mcp.json) |
 | The Stall | 191 pay-per-call data tools via x402 on Base — stocks, crypto/DeFi, macro, SEC filings, compliance, global news, social momentum. No API keys. | streamable-http | [Homepage](https://the-stall.intuitek.ai)<br>[GitHub](https://github.com/thebrierfox/the-stall) |
 | Xquik MCP Server | MCP server for exploring Xquik's X data API and running source-backed X data workflows. | streamable-http | [Homepage](https://docs.xquik.com/mcp/overview)<br>[GitHub](https://github.com/Xquik-dev/x-twitter-scraper) |
 

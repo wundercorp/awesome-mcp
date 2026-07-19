@@ -1,0 +1,18 @@
+{
+  "slug": "agentservices",
+  "name": "AgentServices",
+  "category": "data",
+  "description": "54 paid x402 data APIs for AI agents — crypto/fiat prices, forex, DeFi yields, market intel, SEC filings, global news, sanctions screening, wallet screening. 37 MCP tools. Streamable HTTP with x402 micropayments on Base.",
+  "homepage_url": "https://agentservices.to",
+  "repository_url": "https://github.com/vbkotecha/agentservices",
+  "package_url": "https://agentservices.to/.well-known/mcp.json",
+  "transports": ["streamable-http"],
+  "tools": [
+    "crypto-fiat-price", "forex-rates", "defi-yields", "options-chain",
+    "market-intel", "sec-filing-intel", "insider-trades", "global-news-intel",
+    "social-momentum", "polymarket-intel", "sanctions-screening", "wallet-screener",
+    "onchain-data", "token-prices", "dex-liquidity", "gas-tracker"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
