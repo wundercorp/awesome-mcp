@@ -1,0 +1,34 @@
+{
+  "slug": "taisly",
+  "name": "Taisly Social Media Posting",
+  "category": "communication",
+  "description": "Publish and schedule short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.",
+  "homepage_url": "https://taisly.com/en/ai-agent-kit",
+  "repository_url": "https://github.com/taisly/agent",
+  "package_url": "https://www.npmjs.com/package/@taisly/agent",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "tools": [
+    "taisly_agent_setup_start",
+    "taisly_agent_checkin",
+    "taisly_auth_status",
+    "taisly_platforms_list",
+    "taisly_platform_schema",
+    "taisly_platform_connect_start",
+    "taisly_platform_connect_check",
+    "taisly_posts_validate",
+    "taisly_posts_create",
+    "taisly_posts_status",
+    "taisly_posts_list",
+    "taisly_reposts_list",
+    "taisly_reposts_create"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Taisly",
+    "url": "https://taisly.com/en"
+  },
+  "status": "active"
+}

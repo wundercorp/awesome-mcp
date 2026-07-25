@@ -13,6 +13,12 @@ node scripts/generate-readme.mjs
 
 ## Directory
 
+### Communication
+
+| Server | Description | Transport | Links |
+|---|---|---|---|
+| Taisly Social Media Posting | Publish and schedule short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook. | streamable-http, stdio | [Homepage](https://taisly.com/en/ai-agent-kit)<br>[GitHub](https://github.com/taisly/agent)<br>[Package](https://www.npmjs.com/package/@taisly/agent) |
+
 ### Data
 
 | Server | Description | Transport | Links |
