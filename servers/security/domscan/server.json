@@ -1,0 +1,19 @@
+{
+  "slug": "domscan",
+  "name": "DomScan",
+  "category": "security",
+  "description": "Hosted domain intelligence MCP for availability, DNS, WHOIS/RDAP, TLS, subdomains, reputation, email authentication, valuation, and brand monitoring.",
+  "homepage_url": "https://domscan.net/mcp-domain-checker",
+  "repository_url": "https://github.com/estevecastells/domscan-mcp",
+  "package_url": "https://domscan.net/mcp",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "license": "MIT (public wrapper; hosted service)",
+  "provider": {
+    "name": "DomScan",
+    "url": "https://domscan.net"
+  },
+  "status": "active"
+}

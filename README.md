@@ -48,6 +48,12 @@ node scripts/generate-readme.mjs
 |---|---|---|---|
 | ax | Local-first transcript and telemetry graph for AI coding agents, with read-only MCP queries for sessions, tool use, skills, costs, and dispatch/routing analytics. | stdio | [Homepage](https://github.com/Necmttn/ax)<br>[GitHub](https://github.com/Necmttn/ax) |
 
+### Security
+
+| Server | Description | Transport | Links |
+|---|---|---|---|
+| DomScan | Hosted domain intelligence MCP for availability, DNS, WHOIS/RDAP, TLS, subdomains, reputation, email authentication, valuation, and brand monitoring. | streamable-http, stdio | [Homepage](https://domscan.net/mcp-domain-checker)<br>[GitHub](https://github.com/estevecastells/domscan-mcp)<br>[Package](https://domscan.net/mcp) |
+
 ## Repository format
 
 - `CONTRIBUTING.md` explains the review policy.
