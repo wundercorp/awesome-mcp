@@ -1,0 +1,23 @@
+{
+  "slug": "depthfeed",
+  "name": "DepthFeed",
+  "category": "data",
+  "description": "Read-only live and historical prediction-market order books from Polymarket, Kalshi, and Limitless, with keyless access to start.",
+  "homepage_url": "https://depthfeed.com/mcp",
+  "repository_url": "https://github.com/vcorp-dev/depthfeed-mcp",
+  "package_url": "https://registry.modelcontextprotocol.io/v0.1/servers?search=com.depthfeed/depthfeed",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "market search",
+    "order-book snapshots",
+    "cross-venue screener"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "DepthFeed",
+    "url": "https://depthfeed.com"
+  },
+  "status": "active"
+}
