@@ -1,0 +1,23 @@
+{
+  "slug": "central-command",
+  "name": "Central Command",
+  "category": "data",
+  "description": "39-endpoint crypto trading intelligence MCP — funding rates, liquidations, counter-trade alpha, backtests, and paper-first agent console. Pay-per-use x402 (Base USDC) or prepaid X-Api-Key.",
+  "homepage_url": "https://rtcelwjnrbmfmrywacky.supabase.co/functions/v1/x402-docs",
+  "repository_url": "https://github.com/tlefko/central-command",
+  "package_url": "",
+  "transports": ["streamable-http"],
+  "tools": [
+    "list_catalog",
+    "cc_fear_greed",
+    "cc_funding_rates",
+    "agent_strategy",
+    "cc_liquidations"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Central Command",
+    "url": "https://github.com/tlefko/central-command"
+  },
+  "status": "active"
+}
