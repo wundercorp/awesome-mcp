@@ -1,0 +1,31 @@
+{
+  "slug": "talivia",
+  "name": "Talivia Revenue Analytics",
+  "category": "data",
+  "description": "Install and verify revenue-first website analytics, then connect traffic and customer journeys to payment attribution.",
+  "homepage_url": "https://talivia.com/ai-agent-kit",
+  "repository_url": "https://github.com/talivia-group/agent",
+  "package_url": "https://www.npmjs.com/package/@talivia/agent",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "tools": [
+    "talivia_account_status",
+    "talivia_websites_list",
+    "talivia_websites_create",
+    "talivia_tracking_snippet_get",
+    "talivia_framework_install_plan_get",
+    "talivia_setup_status_get",
+    "talivia_tracker_verify",
+    "talivia_payment_connect_start",
+    "talivia_payment_status_get",
+    "talivia_checkout_attribution_guide_get"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Talivia",
+    "url": "https://talivia.com"
+  },
+  "status": "active"
+}

@@ -24,6 +24,7 @@ node scripts/generate-readme.mjs
 | Server | Description | Transport | Links |
 |---|---|---|---|
 | BuyWhere | Real-time product search and price comparison across 15+ Singapore/SEA merchants (11M+ products). REST API + MCP server for AI agents. | stdio, streamable-http | [Homepage](https://buywhere.ai)<br>[GitHub](https://github.com/BuyWhere/buywhere-mcp)<br>[Package](https://www.npmjs.com/package/@buywhere/mcp-server) |
+| Talivia Revenue Analytics | Install and verify revenue-first website analytics, then connect traffic and customer journeys to payment attribution. | streamable-http, stdio | [Homepage](https://talivia.com/ai-agent-kit)<br>[GitHub](https://github.com/talivia-group/agent)<br>[Package](https://www.npmjs.com/package/@talivia/agent) |
 | The Stall | 191 pay-per-call data tools via x402 on Base — stocks, crypto/DeFi, macro, SEC filings, compliance, global news, social momentum. No API keys. | streamable-http | [Homepage](https://the-stall.intuitek.ai)<br>[GitHub](https://github.com/thebrierfox/the-stall) |
 | Xquik MCP Server | MCP server for exploring Xquik's X data API and running source-backed X data workflows. | streamable-http | [Homepage](https://docs.xquik.com/mcp/overview)<br>[GitHub](https://github.com/Xquik-dev/x-twitter-scraper) |
 
