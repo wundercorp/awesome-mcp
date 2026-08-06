@@ -1,0 +1,16 @@
+{
+  "slug": "notfair",
+  "name": "NotFair",
+  "category": "data",
+  "description": "Connect AI clients to Google Ads, Meta Ads, X Ads, Google Search Console, and Google Analytics with OAuth, approval-gated writes, and change history.",
+  "homepage_url": "https://notfair.co",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "NotFair",
+    "url": "https://notfair.co"
+  },
+  "status": "active"
+}
