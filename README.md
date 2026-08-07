@@ -17,6 +17,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| Autoposting | Generate, schedule and publish social posts to X, LinkedIn, Instagram, Threads and YouTube, plus video clipping and carousel building. | streamable-http | [Homepage](https://autoposting.ai)<br>[GitHub](https://github.com/Autoposting-ai/autoposting-mcp) |
 | Taisly Social Media Posting | Publish and schedule short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook. | streamable-http, stdio | [Homepage](https://taisly.com/en/ai-agent-kit)<br>[GitHub](https://github.com/taisly/agent)<br>[Package](https://www.npmjs.com/package/@taisly/agent) |
 
 ### Data
