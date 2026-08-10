@@ -1,0 +1,18 @@
+{
+  "slug": "hexis",
+  "name": "Hexis",
+  "category": "knowledge",
+  "description": "Git-backed platform for skills, tools, and context for AI agents, with reviewed changes, role-based access, encrypted secrets, and a remote OAuth 2.1 MCP endpoint.",
+  "homepage_url": "https://demo.bevel.software",
+  "repository_url": "https://github.com/Bevel-Software/Hexis",
+  "package_url": "https://demo.bevel.software/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Apache-2.0",
+  "provider": {
+    "name": "Bevel Software",
+    "url": "https://bevel.software"
+  },
+  "status": "active"
+}
