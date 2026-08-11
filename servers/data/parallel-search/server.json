@@ -1,0 +1,20 @@
+{
+  "slug": "parallel-search",
+  "name": "Parallel Search MCP",
+  "category": "data",
+  "description": "Hosted web search and page retrieval for AI agents at https://search.parallel.ai/mcp, with anonymous access available by default.",
+  "homepage_url": "https://docs.parallel.ai/integrations/mcp/search-mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "web_search",
+    "web_fetch"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Parallel",
+    "url": "https://parallel.ai"
+  },
+  "status": "active"
+}
