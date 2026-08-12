@@ -1,0 +1,24 @@
+{
+  "slug": "aisotools",
+  "name": "AISO Tools",
+  "category": "knowledge",
+  "description": "Read-only Streamable HTTP MCP server over a curated catalog of 1,655 AI tools: keyword/category/pricing search, full tool records with pricing and pros/cons, side-by-side comparison of 2-5 tools, and alternatives lookup. Every result carries a canonical aisotools.com URL for citation. No authentication.",
+  "homepage_url": "https://aisotools.com/mcp",
+  "package_url": "https://aisotools.com/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search_ai_tools",
+    "get_ai_tool",
+    "list_ai_tool_categories",
+    "compare_ai_tools",
+    "find_ai_tool_alternatives"
+  ],
+  "license": "Proprietary (hosted service; private source)",
+  "provider": {
+    "name": "Bity LLC",
+    "url": "https://aisotools.com"
+  },
+  "status": "active"
+}
