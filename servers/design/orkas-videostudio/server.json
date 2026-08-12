@@ -1,0 +1,29 @@
+{
+  "slug": "orkas-videostudio",
+  "name": "OrkasVideoStudio",
+  "category": "design",
+  "description": "Local TypeScript MCP server and CLI for coding-agent-driven video composition, editing, analysis, captions, transcription, and rendering with editable plan.json timelines.",
+  "homepage_url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+  "repository_url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "draft",
+    "render",
+    "edit_trim",
+    "edit_concat",
+    "edit_burnsubs",
+    "edit_mix",
+    "transcribe",
+    "scenes",
+    "quality",
+    "plan_promise_check"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Orkas-AI",
+    "url": "https://github.com/Orkas-AI"
+  },
+  "status": "active"
+}

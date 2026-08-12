@@ -33,6 +33,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| OrkasVideoStudio | Local TypeScript MCP server and CLI for coding-agent-driven video composition, editing, analysis, captions, transcription, and rendering with editable plan.json timelines. | stdio | [Homepage](https://github.com/Orkas-AI/Orkas-VideoStudio)<br>[GitHub](https://github.com/Orkas-AI/Orkas-VideoStudio) |
 | UIZZE | UI reference MCP for Codex, Claude Code, Cursor, and Copilot with 800,000+ real web and iOS screens, product-specific design contracts, implementation validation, audits, and screenshot critique. | streamable-http | [Homepage](https://uizze.com)<br>[GitHub](https://github.com/uizze/uizze-mcp)<br>[Package](https://uizze.com/mcp) |
 
 ### Knowledge
