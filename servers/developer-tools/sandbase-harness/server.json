@@ -1,0 +1,25 @@
+{
+  "slug": "sandbase-harness",
+  "name": "SandBase Harness",
+  "category": "developer-tools",
+  "description": "Model-agnostic managed-agent runtime with a stdio MCP bridge for persistent sandboxed sessions, streamed runs, artifacts, cancellation, audit, and replay.",
+  "homepage_url": "https://github.com/sandbaseai/sandbase-harness",
+  "repository_url": "https://github.com/sandbaseai/sandbase-harness",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "list_agents",
+    "create_session",
+    "run_session",
+    "get_session",
+    "list_artifacts",
+    "stop_session"
+  ],
+  "license": "Apache-2.0",
+  "provider": {
+    "name": "SandBase AI",
+    "url": "https://github.com/sandbaseai"
+  },
+  "status": "active"
+}
