@@ -35,6 +35,12 @@ node scripts/generate-readme.mjs
 |---|---|---|---|
 | UIZZE | UI reference MCP for Codex, Claude Code, Cursor, and Copilot with 800,000+ real web and iOS screens, product-specific design contracts, implementation validation, audits, and screenshot critique. | streamable-http | [Homepage](https://uizze.com)<br>[GitHub](https://github.com/uizze/uizze-mcp)<br>[Package](https://uizze.com/mcp) |
 
+### Developer Tools
+
+| Server | Description | Transport | Links |
+|---|---|---|---|
+| SandBase Harness | Model-agnostic managed-agent runtime with a stdio MCP bridge for persistent sandboxed sessions, streamed runs, artifacts, cancellation, audit, and replay. | stdio | [Homepage](https://github.com/sandbaseai/sandbase-harness)<br>[GitHub](https://github.com/sandbaseai/sandbase-harness) |
+
 ### Knowledge
 
 | Server | Description | Transport | Links |
