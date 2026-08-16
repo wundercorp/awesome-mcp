@@ -13,6 +13,12 @@ node scripts/generate-readme.mjs
 
 ## Directory
 
+### Browser Automation
+
+| Server | Description | Transport | Links |
+|---|---|---|---|
+| agent-qa | Author, run, and triage natural-language web and mobile tests with persistent test memory, self-healing execution, and evidence-backed results. | stdio, streamable-http | [Homepage](https://vostride.com/docs/agent-qa)<br>[GitHub](https://github.com/vostride/agent-qa)<br>[Package](https://www.npmjs.com/package/agent-qa) |
+
 ### Communication
 
 | Server | Description | Transport | Links |
