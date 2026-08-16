@@ -1,0 +1,49 @@
+{
+  "slug": "palisade-dmarc-agent",
+  "name": "Palisade DMARC Agent",
+  "category": "security",
+  "description": "AI-powered email-authentication management for DMARC, SPF, DKIM, BIMI, MTA-STS, DNS, and remediation tasks.",
+  "homepage_url": "https://palisade.email",
+  "repository_url": "https://github.com/palisadeemail/palisade-mcp",
+  "package_url": "https://www.npmjs.com/package/@palisadeemail/mcp",
+  "documentation_url": "https://developer.palisade.email/docs/guide",
+  "remote_endpoint_url": "https://api.palisade.email/mcp",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "tools": [
+    "get_account",
+    "list_domains",
+    "get_domain",
+    "add_domain",
+    "remove_domain",
+    "get_dns_records",
+    "enable_hosted_dmarc",
+    "verify_domain",
+    "get_mta_sts",
+    "enable_mta_sts",
+    "list_tasks",
+    "get_task",
+    "list_groups",
+    "create_group",
+    "get_subscription",
+    "start_checkout",
+    "get_billing_portal_url",
+    "list_webhook_events",
+    "list_webhook_endpoints",
+    "create_webhook_endpoint",
+    "delete_webhook_endpoint"
+  ],
+  "authentication": {
+    "type": "oauth2-or-api-key",
+    "authorization": "Bearer token",
+    "oauth_metadata_url": "https://api.palisade.email/.well-known/oauth-protected-resource"
+  },
+  "provider": {
+    "name": "Palisade",
+    "url": "https://palisade.email"
+  },
+  "license": "MIT",
+  "status": "active"
+}
