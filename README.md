@@ -23,6 +23,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| AgentServices | 37 MCP tools serving 54 x402-paid crypto/financial market data endpoints on Base — spot prices, OHLCV, on-chain metrics, FX, and bundled research synthesis for AI agents. | streamable-http | [Homepage](https://agentservices.to)<br>[GitHub](https://github.com/vbkotecha/aiservices-api) |
 | BuyWhere | Real-time product search and price comparison across 15+ Singapore/SEA merchants (11M+ products). REST API + MCP server for AI agents. | stdio, streamable-http | [Homepage](https://buywhere.ai)<br>[GitHub](https://github.com/BuyWhere/buywhere-mcp)<br>[Package](https://www.npmjs.com/package/@buywhere/mcp-server) |
 | NotFair | Connect AI clients to Google Ads, Meta Ads, X Ads, Google Search Console, and Google Analytics with OAuth, approval-gated writes, and change history. | streamable-http | [Homepage](https://notfair.co) |
 | Talivia Revenue Analytics | Install and verify revenue-first website analytics, then connect traffic and customer journeys to payment attribution. | streamable-http, stdio | [Homepage](https://talivia.com/ai-agent-kit)<br>[GitHub](https://github.com/talivia-group/agent)<br>[Package](https://www.npmjs.com/package/@talivia/agent) |
