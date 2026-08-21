@@ -55,7 +55,7 @@ node scripts/generate-readme.mjs
 | Server | Description | Transport | Links |
 |---|---|---|---|
 | DomScan | Hosted domain intelligence MCP for availability, DNS, WHOIS/RDAP, TLS, subdomains, reputation, email authentication, valuation, and brand monitoring. | streamable-http, stdio | [Homepage](https://domscan.net/mcp-domain-checker)<br>[GitHub](https://github.com/estevecastells/domscan-mcp)<br>[Package](https://domscan.net/mcp) |
-| Palisade DMARC Agent | AI-powered email-authentication management for DMARC, SPF, DKIM, BIMI, MTA-STS, DNS, and remediation tasks. | streamable-http, stdio | [Homepage](https://palisade.email)<br>[GitHub](https://github.com/palisadeemail/palisade-mcp)<br>[Package](https://www.npmjs.com/package/@palisadeemail/mcp) |
+| Palisade DMARC Agent | AI-powered email-authentication management for DMARC, SPF, DKIM, BIMI, MTA-STS, DNS, and remediation tasks. | streamable-http, stdio | [Homepage](https://www.palisade.email/mcp)<br>[GitHub](https://github.com/palisadeemail/palisade-mcp)<br>[Package](https://www.npmjs.com/package/@palisadeemail/mcp) |
 
 ## Repository format
 

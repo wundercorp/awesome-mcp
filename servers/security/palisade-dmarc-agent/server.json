@@ -3,7 +3,7 @@
   "name": "Palisade DMARC Agent",
   "category": "security",
   "description": "AI-powered email-authentication management for DMARC, SPF, DKIM, BIMI, MTA-STS, DNS, and remediation tasks.",
-  "homepage_url": "https://palisade.email",
+  "homepage_url": "https://www.palisade.email/mcp",
   "repository_url": "https://github.com/palisadeemail/palisade-mcp",
   "package_url": "https://www.npmjs.com/package/@palisadeemail/mcp",
   "documentation_url": "https://developer.palisade.email/docs/guide",
@@ -42,7 +42,7 @@
   },
   "provider": {
     "name": "Palisade",
-    "url": "https://palisade.email"
+    "url": "https://www.palisade.email/mcp"
   },
   "license": "MIT",
   "status": "active"
