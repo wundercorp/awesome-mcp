@@ -1,0 +1,17 @@
+{
+  "slug": "worklittle-jobs",
+  "name": "Worklittle Jobs",
+  "category": "data",
+  "description": "Search jobs with visa, salary, and distance filters, swipe to apply in your AI app, and save roles to a Worklittle account.",
+  "homepage_url": "https://docs.worklittle.com/mcp",
+  "repository_url": "https://github.com/worklittle/jobs-mcp",
+  "package_url": "https://www.npmjs.com/package/worklittle",
+  "transports": ["streamable-http"],
+  "tools": ["search_jobs", "get_job"],
+  "license": "MIT",
+  "provider": {
+    "name": "Worklittle",
+    "url": "https://worklittle.com"
+  },
+  "status": "active"
+}
