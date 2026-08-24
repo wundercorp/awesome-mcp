@@ -2,7 +2,7 @@
   "slug": "worklittle-jobs",
   "name": "Worklittle Jobs",
   "category": "data",
-  "description": "Search jobs with visa, salary, and distance filters, swipe to apply in your AI app, and save roles to a Worklittle account.",
+  "description": "Swipe to apply for jobs in your AI app, and search over 4 million jobs with filters like visa status, distance, and salary, and connect your Worklittle account to save jobs you love.",
   "homepage_url": "https://docs.worklittle.com/mcp",
   "repository_url": "https://github.com/worklittle/jobs-mcp",
   "package_url": "https://www.npmjs.com/package/worklittle",
