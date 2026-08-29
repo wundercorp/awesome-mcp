@@ -10,14 +10,8 @@
     "streamable-http"
   ],
   "tools": [
-    "create_ui_design_contract",
-    "search_ui_references",
-    "validate_implementation_manifest",
-    "audit_implemented_ui",
-    "critique_implemented_ui",
-    "get_screen_reference",
-    "get_app_reference_pack",
-    "get_flow_reference_pack"
+    "find_ui_references",
+    "find_ui_materials"
   ],
   "license": "MIT",
   "provider": {
