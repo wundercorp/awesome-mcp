@@ -1,0 +1,25 @@
+{
+  "slug": "sandbase-cli",
+  "name": "SandBase CLI",
+  "category": "developer-tools",
+  "description": "Secure local MCP bridge for AI clients to discover, inspect, and run models and APIs from a catalog of 2,000+ models.",
+  "homepage_url": "https://github.com/sandbaseai/cli",
+  "repository_url": "https://github.com/sandbaseai/cli",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "sandbase_discover",
+    "sandbase_inspect",
+    "sandbase_run",
+    "sandbase_status",
+    "sandbase_config",
+    "sandbase_help"
+  ],
+  "license": "Apache-2.0",
+  "provider": {
+    "name": "SandBase",
+    "url": "https://sandbase.ai"
+  },
+  "status": "active"
+}
