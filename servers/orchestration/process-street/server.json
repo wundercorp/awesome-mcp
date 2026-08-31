@@ -1,0 +1,17 @@
+{
+  "slug": "process-street",
+  "name": "Process Street",
+  "category": "orchestration",
+  "description": "Connect AI agents to Process Street workflows, tasks, runs, data sets, and operational records.",
+  "homepage_url": "https://www.process.st/help/docs/mcp-server/",
+  "repository_url": "https://github.com/process-street/process-street-mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Process Street",
+    "url": "https://www.process.st/"
+  },
+  "status": "active"
+}
