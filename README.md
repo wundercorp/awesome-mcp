@@ -60,6 +60,12 @@ node scripts/generate-readme.mjs
 |---|---|---|---|
 | ax | Local-first transcript and telemetry graph for AI coding agents, with read-only MCP queries for sessions, tool use, skills, costs, and dispatch/routing analytics. | stdio | [Homepage](https://github.com/Necmttn/ax)<br>[GitHub](https://github.com/Necmttn/ax) |
 
+### Orchestration
+
+| Server | Description | Transport | Links |
+|---|---|---|---|
+| Process Street | Connect AI agents to Process Street workflows, tasks, runs, data sets, and operational records. | streamable-http | [Homepage](https://www.process.st/help/docs/mcp-server/)<br>[GitHub](https://github.com/process-street/process-street-mcp) |
+
 ### Security
 
 | Server | Description | Transport | Links |
