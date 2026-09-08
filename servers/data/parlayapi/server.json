@@ -1,0 +1,19 @@
+{
+  "slug": "parlayapi",
+  "name": "ParlayAPI",
+  "category": "data",
+  "description": "Sports odds, player props, public event discovery, and account usage; account data tools require your own API key and allowances.",
+  "homepage_url": "https://parlay-api.com",
+  "repository_url": "https://github.com/JacobiusMakes/parlay-api-mcp",
+  "package_url": "https://pypi.org/project/parlayapi-mcp/",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [],
+  "license": "MIT",
+  "provider": {
+    "name": "ParlayAPI",
+    "url": "https://parlay-api.com"
+  },
+  "status": "active"
+}
