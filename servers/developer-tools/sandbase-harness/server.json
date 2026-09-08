@@ -1,0 +1,21 @@
+{
+  "slug": "sandbase-harness",
+  "name": "SandBase Harness",
+  "category": "developer-tools",
+  "description": "Local-first, self-hosted agent runtime with persistent sessions, sandboxed tools, memory, credentials, approvals, audit/replay, and a six-tool MCP bridge.",
+  "homepage_url": "https://github.com/sandbaseai/sandbase-harness",
+  "repository_url": "https://github.com/sandbaseai/sandbase-harness",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "list_agents",
+    "create_session",
+    "run_session",
+    "get_session",
+    "list_artifacts",
+    "stop_session"
+  ],
+  "license": "Apache-2.0",
+  "status": "active"
+}
