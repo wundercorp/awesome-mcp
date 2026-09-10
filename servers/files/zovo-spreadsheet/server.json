@@ -1,0 +1,28 @@
+{
+  "slug": "zovo-spreadsheet",
+  "name": "Zovo Spreadsheet",
+  "category": "files",
+  "description": "Open, inspect, filter, edit and convert xlsx and csv files. Runs locally over stdio from an mcpb bundle, and is also reachable as a hosted Streamable HTTP endpoint with a free anonymous token.",
+  "homepage_url": "https://mcp.zovo.one/s/spreadsheet",
+  "repository_url": "https://github.com/theluckystrike/mcp-spreadsheet",
+  "package_url": "https://mcp.zovo.one/mcp/spreadsheet",
+  "transports": [
+    "stdio",
+    "streamable-http"
+  ],
+  "tools": [
+    "sheet_info",
+    "sheet_read",
+    "sheet_query",
+    "sheet_stats",
+    "sheet_find",
+    "sheet_write",
+    "sheet_add_column"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "theluckystrike",
+    "url": "https://mcp.zovo.one"
+  },
+  "status": "active"
+}

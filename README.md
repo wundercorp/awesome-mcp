@@ -46,6 +46,12 @@ node scripts/generate-readme.mjs
 | OrkasVideoStudio | Local TypeScript MCP server and CLI for coding-agent-driven video composition, editing, analysis, captions, transcription, and rendering with editable plan.json timelines. | stdio | [Homepage](https://github.com/Orkas-AI/Orkas-VideoStudio)<br>[GitHub](https://github.com/Orkas-AI/Orkas-VideoStudio) |
 | UIZZE | Authenticated UI reference MCP for Codex, Claude Code, Cursor, and Copilot. It provides focused UI reference and hosted design-material search grounded in 800,000+ real web and iOS screens; the free anti-ui-slop Skill and GitHub Action are separate. | streamable-http | [Homepage](https://uizze.com)<br>[GitHub](https://github.com/uizze/uizze)<br>[Package](https://uizze.com/mcp) |
 
+### Files
+
+| Server | Description | Transport | Links |
+|---|---|---|---|
+| Zovo Spreadsheet | Open, inspect, filter, edit and convert xlsx and csv files. Runs locally over stdio from an mcpb bundle, and is also reachable as a hosted Streamable HTTP endpoint with a free anonymous token. | stdio, streamable-http | [Homepage](https://mcp.zovo.one/s/spreadsheet)<br>[GitHub](https://github.com/theluckystrike/mcp-spreadsheet)<br>[Package](https://mcp.zovo.one/mcp/spreadsheet) |
+
 ### Knowledge
 
 | Server | Description | Transport | Links |
