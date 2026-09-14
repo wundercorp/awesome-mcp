@@ -30,6 +30,7 @@ node scripts/generate-readme.mjs
 | Server | Description | Transport | Links |
 |---|---|---|---|
 | BuyWhere | Real-time product search and price comparison across 15+ Singapore/SEA merchants (11M+ products). REST API + MCP server for AI agents. | stdio, streamable-http | [Homepage](https://buywhere.ai)<br>[GitHub](https://github.com/BuyWhere/buywhere-mcp)<br>[Package](https://www.npmjs.com/package/@buywhere/mcp-server) |
+| CareClinic Health Tracker | Hosted OAuth MCP server for reviewing personal medication schedules, symptoms, mood, and confirmed health check-ins. | streamable-http | [Homepage](https://cdn.careclinic.io/mcp/help/index.html)<br>[Package](https://mcp.careclinic.io/mcp) |
 | NotFair | Connect AI clients to Google Ads, Meta Ads, X Ads, Google Search Console, and Google Analytics with OAuth, approval-gated writes, and change history. | streamable-http | [Homepage](https://notfair.co) |
 | Parallel Search MCP | Hosted web search and page retrieval for AI agents at https://search.parallel.ai/mcp, with anonymous access available by default. | streamable-http | [Homepage](https://docs.parallel.ai/integrations/mcp/search-mcp) |
 | ParlayAPI | Sports odds, player props, public event discovery, and account usage; account data tools require your own API key and allowances. | stdio | [Homepage](https://parlay-api.com)<br>[GitHub](https://github.com/JacobiusMakes/parlay-api-mcp)<br>[Package](https://pypi.org/project/parlayapi-mcp/) |

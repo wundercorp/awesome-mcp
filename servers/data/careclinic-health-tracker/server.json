@@ -1,0 +1,18 @@
+{
+  "slug": "careclinic-health-tracker",
+  "name": "CareClinic Health Tracker",
+  "category": "data",
+  "description": "Hosted OAuth MCP server for reviewing personal medication schedules, symptoms, mood, and confirmed health check-ins.",
+  "homepage_url": "https://cdn.careclinic.io/mcp/help/index.html",
+  "package_url": "https://mcp.careclinic.io/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary (hosted service; private source)",
+  "provider": {
+    "name": "CareClinic",
+    "url": "https://careclinic.io"
+  },
+  "status": "active"
+}
