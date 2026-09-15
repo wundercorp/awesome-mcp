@@ -1,0 +1,17 @@
+{
+  "slug": "fidelis",
+  "name": "fidelis",
+  "category": "knowledge",
+  "description": "Zero-LLM local-first agent memory combining BM25, dense-vector, and reciprocal-rank-fusion retrieval, returning original passages verbatim by default instead of paraphrased summaries.",
+  "homepage_url": "https://pypi.org/project/fidelis-memory/",
+  "repository_url": "https://github.com/hermes-labs-ai/fidelis",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "search",
+    "retrieve"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
