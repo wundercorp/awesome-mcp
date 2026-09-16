@@ -1,0 +1,22 @@
+{
+  "slug": "statsnet",
+  "name": "Statsnet",
+  "category": "data",
+  "description": "Background check any company in the world: registration, executives, courts and finances via remote MCP at https://statsnet.co/mcp.",
+  "homepage_url": "https://statsnet.co",
+  "repository_url": "https://github.com/usenetstate/statsnet-mcp",
+  "package_url": "https://statsnet.co/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search_companies",
+    "get_company"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Statsnet",
+    "url": "https://statsnet.co"
+  },
+  "status": "active"
+}
