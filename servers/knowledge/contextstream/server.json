@@ -1,0 +1,28 @@
+{
+  "slug": "contextstream",
+  "name": "ContextStream",
+  "category": "knowledge",
+  "description": "Shared project context for AI coding agents: hosted MCP with code search, decisions, lessons, and plans across Cursor, Claude, and other MCP clients.",
+  "homepage_url": "https://contextstream.io",
+  "repository_url": "https://github.com/contextstream/mcp-server",
+  "package_url": "https://mcp.contextstream.io/mcp",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "tools": [
+    "search",
+    "context",
+    "session",
+    "project",
+    "qa",
+    "capsule",
+    "graph"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "ContextStream",
+    "url": "https://contextstream.io"
+  },
+  "status": "active"
+}
