@@ -1,0 +1,17 @@
+{
+  "slug": "zovo-mcp",
+  "name": "Zovo MCP Estate",
+  "category": "data",
+  "description": "Hosted MCP estate of 42 document, finance and office servers — spreadsheets, invoices, expense tracking, bank statements, PDF, DOCX, time tracking, amortization and currency — reachable over streamable HTTP with no install and no API key.",
+  "homepage_url": "https://mcp.zovo.one/mcp",
+  "repository_url": "https://github.com/theluckystrike/mcp-servers",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Zovo",
+    "url": "https://zovo.one"
+  },
+  "status": "active"
+}

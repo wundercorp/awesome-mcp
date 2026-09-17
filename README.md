@@ -37,6 +37,7 @@ node scripts/generate-readme.mjs
 | The Stall | 191 pay-per-call data tools via x402 on Base — stocks, crypto/DeFi, macro, SEC filings, compliance, global news, social momentum. No API keys. | streamable-http | [Homepage](https://the-stall.intuitek.ai)<br>[GitHub](https://github.com/thebrierfox/the-stall) |
 | Worklittle Jobs | Swipe to apply for jobs in your AI app, and search over 4 million jobs with filters like visa status, distance, and salary, and connect your Worklittle account to save jobs you love. | streamable-http | [Homepage](https://docs.worklittle.com/mcp)<br>[GitHub](https://github.com/worklittle/jobs-mcp)<br>[Package](https://www.npmjs.com/package/worklittle) |
 | Xquik MCP Server | MCP server for exploring Xquik's X data API and running source-backed X data workflows. | streamable-http | [Homepage](https://docs.xquik.com/mcp/overview)<br>[GitHub](https://github.com/Xquik-dev/x-twitter-scraper) |
+| Zovo MCP Estate | Hosted MCP estate of 42 document, finance and office servers — spreadsheets, invoices, expense tracking, bank statements, PDF, DOCX, time tracking, amortization and currency — reachable over streamable HTTP with no install and no API key. | streamable-http | [Homepage](https://mcp.zovo.one/mcp)<br>[GitHub](https://github.com/theluckystrike/mcp-servers) |
 
 ### Design
 
