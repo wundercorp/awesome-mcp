@@ -1,0 +1,33 @@
+{
+  "slug": "council-of-ai-gspc",
+  "name": "Council of AI (GSPC)",
+  "category": "security",
+  "description": "MCP server that reads a public board of signed AI behaviour measurement cards and verifies Ed25519 signatures and Merkle inclusion client-side. Hosted Streamable HTTP endpoint with no authentication for read tools; evidence tools are x402-metered. Also runs locally via npx -y csoai-gspc-mcp.",
+  "homepage_url": "https://councilof.ai/quickstart",
+  "repository_url": "https://github.com/CSOAI-ORG/councilof-ai",
+  "package_url": "https://councilof.ai/mcp",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "tools": [
+    "board_totals",
+    "get_axis",
+    "verify_card",
+    "list_cards",
+    "get_root",
+    "get_card",
+    "verify_inclusion",
+    "x402_trust",
+    "commission_card",
+    "art50_marking_evidence",
+    "rwa_evidence",
+    "receipts_batch"
+  ],
+  "license": "Apache-2.0",
+  "provider": {
+    "name": "CSOAI Ltd",
+    "url": "https://councilof.ai"
+  },
+  "status": "active"
+}
