@@ -83,6 +83,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| AffixIO | Local stdio MCP wrapping the affixio SDK. Host-side signed ACTION yes/no attestations with tools attest_action, verify_action, and gate_tool_call. PII stays on the host. Not person/age/KYC. | stdio | [Homepage](https://www.npmjs.com/package/@affixio/mcp)<br>[GitHub](https://github.com/AffixIO/affixio-mcp)<br>[Package](https://www.npmjs.com/package/@affixio/mcp) |
 | DomScan | Hosted domain intelligence MCP for availability, DNS, WHOIS/RDAP, TLS, subdomains, reputation, email authentication, valuation, and brand monitoring. | streamable-http, stdio | [Homepage](https://domscan.net/mcp-domain-checker)<br>[GitHub](https://github.com/estevecastells/domscan-mcp)<br>[Package](https://domscan.net/mcp) |
 | Palisade DMARC Agent | AI-powered email-authentication management for DMARC, SPF, DKIM, BIMI, MTA-STS, DNS, and remediation tasks. | streamable-http, stdio | [Homepage](https://www.palisade.email/mcp)<br>[GitHub](https://github.com/palisadeemail/palisade-mcp)<br>[Package](https://www.npmjs.com/package/@palisadeemail/mcp) |
 

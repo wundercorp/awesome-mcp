@@ -1,0 +1,23 @@
+{
+  "slug": "affixio-mcp",
+  "name": "AffixIO",
+  "category": "security",
+  "description": "Local stdio MCP wrapping the affixio SDK. Host-side signed ACTION yes/no attestations with tools attest_action, verify_action, and gate_tool_call. PII stays on the host. Not person/age/KYC.",
+  "homepage_url": "https://www.npmjs.com/package/@affixio/mcp",
+  "repository_url": "https://github.com/AffixIO/affixio-mcp",
+  "package_url": "https://www.npmjs.com/package/@affixio/mcp",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "attest_action",
+    "verify_action",
+    "gate_tool_call"
+  ],
+  "license": "Apache-2.0",
+  "provider": {
+    "name": "AffixIO",
+    "url": "https://www.affix-io.com"
+  },
+  "status": "active"
+}
