@@ -1,0 +1,22 @@
+{
+  "slug": "optionsahoy",
+  "name": "OptionsAhoy",
+  "category": "data",
+  "description": "Equity-compensation planning math: ISO exercise schedules under AMT, NSO and RSU sell-vs-hold, lot selection, concentration risk, protective-put and collar pricing from daily option-chain data, and QSBS eligibility. No key, no signup.",
+  "homepage_url": "https://optionsahoy.com/for-agents",
+  "repository_url": "https://github.com/AlvisoOculus/optionsahoy-mcp",
+  "package_url": "https://www.npmjs.com/package/optionsahoy-mcp",
+  "transports": ["streamable-http", "stdio"],
+  "tools": [
+    "amt_iso_optimize",
+    "nso_calculate",
+    "rsu_sell_vs_hold",
+    "rsu_lot_optimize",
+    "concentration_analyze",
+    "protective_put_price",
+    "qsbs_check",
+    "equity_funding_plan"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
