@@ -1,0 +1,13 @@
+{
+  "slug": "orcareplay",
+  "name": "OrcaReplay",
+  "category": "observability",
+  "description": "Local-first record and replay of AI agent runs: captures provider traffic to an on-disk trace library and serves it over a read-only stdio MCP server with six tools (list, show, checkpoints, graph, replay, compare) for inspecting, diffing, and offline replay.",
+  "homepage_url": "https://github.com/Continuum-AI-Corp/OrcaReplay",
+  "repository_url": "https://github.com/Continuum-AI-Corp/OrcaReplay",
+  "package_url": "https://www.npmjs.com/package/orcareplay",
+  "transports": ["stdio"],
+  "tools": ["list", "show", "checkpoints", "graph", "replay", "compare"],
+  "license": "Apache-2.0",
+  "status": "active"
+}

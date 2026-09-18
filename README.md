@@ -72,6 +72,7 @@ node scripts/generate-readme.mjs
 | Server | Description | Transport | Links |
 |---|---|---|---|
 | ax | Local-first transcript and telemetry graph for AI coding agents, with read-only MCP queries for sessions, tool use, skills, costs, and dispatch/routing analytics. | stdio | [Homepage](https://github.com/Necmttn/ax)<br>[GitHub](https://github.com/Necmttn/ax) |
+| OrcaReplay | Local-first record and replay of AI agent runs: captures provider traffic to an on-disk trace library and serves it over a read-only stdio MCP server with six tools (list, show, checkpoints, graph, replay, compare) for inspecting, diffing, and offline replay. | stdio | [Homepage](https://github.com/Continuum-AI-Corp/OrcaReplay)<br>[GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay)<br>[Package](https://www.npmjs.com/package/orcareplay) |
 
 ### Orchestration
 
