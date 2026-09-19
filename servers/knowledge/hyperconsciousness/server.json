@@ -1,0 +1,25 @@
+{
+  "slug": "hyperconsciousness",
+  "name": "Hyperconsciousness",
+  "category": "knowledge",
+  "description": "Developer-alpha encrypted, append-only knowledge store with MCP search and retrieval through scoped, expiring grants. Requires a local store and an owner-issued grant.",
+  "homepage_url": "https://github.com/louis030195/hyperconsciousness",
+  "repository_url": "https://github.com/louis030195/hyperconsciousness",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "overview",
+    "request_access",
+    "access_status",
+    "search",
+    "recent",
+    "record",
+    "remember",
+    "remember_many",
+    "use_secret",
+    "files"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
