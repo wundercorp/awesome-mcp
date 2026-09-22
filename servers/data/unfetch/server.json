@@ -1,0 +1,14 @@
+{
+  "slug": "unfetch",
+  "name": "Unfetch",
+  "category": "data",
+  "description": "Google Ads MCP reporting for campaign spend, conversions, and search terms, plus Google Analytics, Google Search Console, keyword research, and web research with OAuth and read-only account access.",
+  "homepage_url": "https://unfetch.com",
+  "repository_url": "https://github.com/unfetch-com/agent-plugin",
+  "documentation_url": "https://unfetch.com/plugin",
+  "endpoint_url": "https://unfetch.com/api/mcp",
+  "transports": ["streamable-http"],
+  "auth": "OAuth",
+  "license": "Not specified (hosted service)",
+  "status": "active"
+}
