@@ -1,0 +1,20 @@
+{
+  "slug": "screenpipe",
+  "name": "Screenpipe",
+  "category": "knowledge",
+  "description": "Search locally captured screen text and audio history for recall, meeting notes, and work summaries. Requires the Screenpipe recorder and local API key; configured cloud services can receive context. Source-available under the Screenpipe Commercial License.",
+  "homepage_url": "https://screenpipe.com/",
+  "repository_url": "https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp",
+  "package_url": "https://www.npmjs.com/package/screenpipe-mcp",
+  "documentation_url": "https://docs.screenpipe.com/mcp-server",
+  "transports": [
+    "stdio"
+  ],
+  "license": "Screenpipe Commercial License (source-available)",
+  "license_url": "https://github.com/screenpipe/screenpipe/blob/main/LICENSE.md",
+  "provider": {
+    "name": "Screenpipe",
+    "url": "https://screenpipe.com/"
+  },
+  "status": "active"
+}
