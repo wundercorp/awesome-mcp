@@ -1,0 +1,16 @@
+{
+  "slug": "robot-speed",
+  "name": "Robot Speed",
+  "category": "data",
+  "description": "Hosted SEO server for AI agents: 8-category site audits, Core Web Vitals, meta/schema/noindex checks, keyword ideas, AI visibility, Search Console traffic, backlinks and CMS publishing. 12 read-only tools work without an account; the rest use OAuth 2.1.",
+  "homepage_url": "https://www.robot-speed.com/mcp",
+  "repository_url": "https://github.com/robot-speed/mcp",
+  "transports": ["streamable-http"],
+  "tools": ["seo_audit", "seo_plan", "seo_score", "meta_tag_analyzer", "page_speed_check", "broken_link_check", "readability_check", "ai_visibility_score", "keyword_generator", "schema_validator", "noindex_checker"],
+  "license": "MIT",
+  "provider": {
+    "name": "Robot Speed",
+    "url": "https://www.robot-speed.com"
+  },
+  "status": "active"
+}
