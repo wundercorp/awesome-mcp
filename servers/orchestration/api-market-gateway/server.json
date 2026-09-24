@@ -1,0 +1,20 @@
+{
+  "slug": "api-market-gateway",
+  "name": "API.market MCP Gateway",
+  "category": "orchestration",
+  "description": "Discover and call 580+ APIs through five gateway tools, with OAuth or API-key authentication and per-API pricing.",
+  "homepage_url": "https://api.market/mcp",
+  "endpoint_url": "https://api.market/api/mcp/gateway",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search_apis",
+    "get_api_tools",
+    "call_api",
+    "check_usage",
+    "manage_subscription"
+  ],
+  "license": "Proprietary hosted service",
+  "status": "active"
+}
