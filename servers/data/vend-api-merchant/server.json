@@ -1,0 +1,12 @@
+{
+  "slug": "vend-api-merchant",
+  "name": "Vend API Merchant",
+  "category": "data",
+  "description": "Pay-per-call AI-agent APIs settled in Nano (XNO): extract clean text from any URL, web search, link/status check, domain intelligence, geoip, nano account info, YouTube transcript. Feeless, instant, x402 v2 self-verifying on-ledger. Cheapest call 0.0001 XNO.",
+  "homepage_url": "https://paypercall.dev",
+  "repository_url": "https://github.com/PANDeveloper001/vend",
+  "transports": ["streamable-http"],
+  "tools": ["extract_url", "web_search", "check_link", "domain_info", "geoip_lookup", "check_url_status", "nano_account_info", "youtube_transcript", "pdf_extract", "mcp_find"],
+  "license": "MIT",
+  "status": "active"
+}
