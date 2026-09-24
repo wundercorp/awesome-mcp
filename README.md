@@ -81,6 +81,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| API.market MCP Gateway | Discover and call 580+ APIs through five gateway tools, with OAuth or API-key authentication and per-API pricing. | streamable-http | [Homepage](https://api.market/mcp) |
 | Process Street | Connect AI agents to Process Street workflows, tasks, runs, data sets, and operational records. | streamable-http | [Homepage](https://www.process.st/help/docs/mcp-server/)<br>[GitHub](https://github.com/process-street/process-street-mcp) |
 
 ### Security
