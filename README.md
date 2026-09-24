@@ -50,6 +50,12 @@ node scripts/generate-readme.mjs
 | OrkasVideoStudio | Local TypeScript MCP server and CLI for coding-agent-driven video composition, editing, analysis, captions, transcription, and rendering with editable plan.json timelines. | stdio | [Homepage](https://github.com/Orkas-AI/Orkas-VideoStudio)<br>[GitHub](https://github.com/Orkas-AI/Orkas-VideoStudio) |
 | UIZZE | Authenticated UI reference MCP for Codex, Claude Code, Cursor, and Copilot. It provides focused UI reference and hosted design-material search grounded in 800,000+ real web and iOS screens; the free anti-ui-slop Skill and GitHub Action are separate. | streamable-http | [Homepage](https://uizze.com)<br>[GitHub](https://github.com/uizze/uizze)<br>[Package](https://uizze.com/mcp) |
 
+### Developer Tools
+
+| Server | Description | Transport | Links |
+|---|---|---|---|
+| Kleap | Let AI agents create, edit, publish and host real websites and web apps: generate sites, edit files, publish with a verified-live check, connect domains, take screenshots. Remote server uses OAuth; the same package also runs locally over stdio and as a CLI. | streamable-http, stdio | [Homepage](https://kleap.co/mcp)<br>[GitHub](https://github.com/kleaphq/cli)<br>[Package](https://www.npmjs.com/package/kleap-cli) |
+
 ### Files
 
 | Server | Description | Transport | Links |
