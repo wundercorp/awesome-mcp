@@ -87,6 +87,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| Council of AI (GSPC) | MCP server that reads a public board of signed AI behaviour measurement cards and verifies Ed25519 signatures and Merkle inclusion client-side. Hosted Streamable HTTP endpoint with no authentication for read tools; evidence tools are x402-metered. Also runs locally via npx -y csoai-gspc-mcp. | streamable-http, stdio | [Homepage](https://councilof.ai/quickstart)<br>[GitHub](https://github.com/CSOAI-ORG/councilof-ai)<br>[Package](https://councilof.ai/mcp) |
 | DomScan | Hosted domain intelligence MCP for availability, DNS, WHOIS/RDAP, TLS, subdomains, reputation, email authentication, valuation, and brand monitoring. | streamable-http, stdio | [Homepage](https://domscan.net/mcp-domain-checker)<br>[GitHub](https://github.com/estevecastells/domscan-mcp)<br>[Package](https://domscan.net/mcp) |
 | Palisade DMARC Agent | AI-powered email-authentication management for DMARC, SPF, DKIM, BIMI, MTA-STS, DNS, and remediation tasks. | streamable-http, stdio | [Homepage](https://www.palisade.email/mcp)<br>[GitHub](https://github.com/palisadeemail/palisade-mcp)<br>[Package](https://www.npmjs.com/package/@palisadeemail/mcp) |
 
