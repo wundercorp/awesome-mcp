@@ -1,0 +1,19 @@
+{
+  "slug": "clera",
+  "name": "Clera",
+  "category": "data",
+  "description": "Hosted OAuth MCP server for hiring: search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros.",
+  "homepage_url": "https://www.getclera.com/mcp",
+  "repository_url": "https://github.com/getclera/mcp",
+  "package_url": "https://mcp.getclera.com",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "MIT (plugin and docs repo); hosted service",
+  "provider": {
+    "name": "Clera",
+    "url": "https://www.getclera.com"
+  },
+  "status": "active"
+}
