@@ -1,0 +1,19 @@
+{
+  "slug": "claimidx",
+  "name": "ClaimIDX",
+  "category": "knowledge",
+  "description": "Prior-art failure index for agents. pip install \"claimidx[server]\" then claimidx init --agent NAME then claimidx claim --yes. MCP: claimidx-mcp.",
+  "homepage_url": "https://claimidx.com",
+  "repository_url": "https://github.com/claimidx/claimidx",
+  "package_url": "https://pypi.org/project/claimidx/",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [],
+  "license": "MIT",
+  "provider": {
+    "name": "ClaimIDX",
+    "url": "https://claimidx.com"
+  },
+  "status": "active"
+}
