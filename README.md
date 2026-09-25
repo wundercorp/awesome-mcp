@@ -40,7 +40,7 @@ node scripts/generate-readme.mjs
 | Unfetch | Google Ads MCP reporting for campaign spend, conversions, and search terms, plus Google Analytics, Google Search Console, keyword research, and web research with OAuth and read-only account access. | streamable-http | [Homepage](https://unfetch.com)<br>[GitHub](https://github.com/unfetch-com/agent-plugin) |
 | Worklittle Jobs | Swipe to apply for jobs in your AI app, and search over 4 million jobs with filters like visa status, distance, and salary, and connect your Worklittle account to save jobs you love. | streamable-http | [Homepage](https://docs.worklittle.com/mcp)<br>[GitHub](https://github.com/worklittle/jobs-mcp)<br>[Package](https://www.npmjs.com/package/worklittle) |
 | Xquik MCP Server | MCP server for exploring Xquik's X data API and running source-backed X data workflows. | streamable-http | [Homepage](https://docs.xquik.com/mcp/overview)<br>[GitHub](https://github.com/Xquik-dev/x-twitter-scraper) |
-| Zovo MCP Estate | Hosted MCP estate of 42 document, finance and office servers — spreadsheets, invoices, expense tracking, bank statements, PDF, DOCX, time tracking, amortization and currency — reachable over streamable HTTP with no install and no API key. | streamable-http | [Homepage](https://mcp.zovo.one/mcp)<br>[GitHub](https://github.com/theluckystrike/mcp-servers) |
+| Zovo MCP Estate | Hosted MCP estate of 42 document, finance and office servers  spreadsheets, invoices, expense tracking, bank statements, PDF, DOCX, time tracking, amortization and currency  reachable over streamable HTTP with no install and no API key. | streamable-http | [Homepage](https://mcp.zovo.one/mcp)<br>[GitHub](https://github.com/theluckystrike/mcp-servers) |
 
 ### Design
 
@@ -63,12 +63,13 @@ node scripts/generate-readme.mjs
 | AccInt | Local-first Work Model and MCP server for coding-agent memory across Claude Code, OpenCode, Codex, and Cursor. Shares a SQLite memory substrate and feeds verified outcomes back into future retrieval. | stdio | [Homepage](https://accint.xyz/)<br>[GitHub](https://github.com/maxbaluev/accreted-intelligence) |
 | Agentage Memory | Shared memory layer for every AI - one markdown memory Claude, Cursor, and ChatGPT read and write over a remote MCP endpoint, mirrored locally as plain .md you own and can export anytime. Remote Streamable HTTP with OAuth 2.1 + PKCE + DCR. | streamable-http | [Homepage](https://agentage.io)<br>[Package](https://memory.agentage.io/mcp) |
 | AISO Tools | Read-only Streamable HTTP MCP server over a curated catalog of 1,655 AI tools: keyword/category/pricing search, full tool records with pricing and pros/cons, side-by-side comparison of 2-5 tools, and alternatives lookup. Every result carries a canonical aisotools.com URL for citation. No authentication. | streamable-http | [Homepage](https://aisotools.com/mcp)<br>[Package](https://aisotools.com/api/mcp) |
+| Concord MCP | Local-first shared work-state for coding agents (presence, claims, messaging, handoffs, review packets) | stdio | [Homepage](https://getconcord.ai)<br>[GitHub](https://github.com/Get-Concord-AI/concord-mcp)<br>[Package](https://www.npmjs.com/package/@concord-ai/concord-mcp) |
 | ContextStream | Shared project context for AI coding agents: hosted MCP with code search, decisions, lessons, and plans across Cursor, Claude, and other MCP clients. | streamable-http, stdio | [Homepage](https://contextstream.io)<br>[GitHub](https://github.com/contextstream/mcp-server)<br>[Package](https://mcp.contextstream.io/mcp) |
 | fidelis | Zero-LLM local-first agent memory combining BM25, dense-vector, and reciprocal-rank-fusion retrieval, returning original passages verbatim by default instead of paraphrased summaries. | stdio | [Homepage](https://pypi.org/project/fidelis-memory/)<br>[GitHub](https://github.com/hermes-labs-ai/fidelis) |
 | Hyperconsciousness | Developer-alpha encrypted, append-only knowledge store with MCP search and retrieval through scoped, expiring grants. Requires a local store and an owner-issued grant. | stdio | [Homepage](https://github.com/louis030195/hyperconsciousness)<br>[GitHub](https://github.com/louis030195/hyperconsciousness) |
 | Most Recommended Books | Read-only Streamable HTTP MCP server for verified book recommendations, reading lists, series reading orders, consensus best-of lists, and summaries with original sources. | streamable-http | [Homepage](https://mostrecommendedbooks.com)<br>[GitHub](https://github.com/richardreeze/mrb-api)<br>[Package](https://mostrecommendedbooks.com/api/mcp) |
 | Screenpipe | Search locally captured screen text and audio history for recall, meeting notes, and work summaries. Requires the Screenpipe recorder and local API key; configured cloud services can receive context. Source-available under the Screenpipe Commercial License. | stdio | [Homepage](https://screenpipe.com/)<br>[GitHub](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp)<br>[Package](https://www.npmjs.com/package/screenpipe-mcp) |
-| Tubask | Hosted YouTube MCP for Claude, Cursor, and ChatGPT — search videos, summarize talks, and pull timestamped quotes with 3 tools. Streamable HTTP with OAuth 2.0. | streamable-http | [Homepage](https://tubask.app)<br>[GitHub](https://github.com/Amorizz/tubask-mcp)<br>[Package](https://tubask.app/mcp) |
+| Tubask | Hosted YouTube MCP for Claude, Cursor, and ChatGPT  search videos, summarize talks, and pull timestamped quotes with 3 tools. Streamable HTTP with OAuth 2.0. | streamable-http | [Homepage](https://tubask.app)<br>[GitHub](https://github.com/Amorizz/tubask-mcp)<br>[Package](https://tubask.app/mcp) |
 
 ### Observability
 
@@ -93,10 +94,11 @@ node scripts/generate-readme.mjs
 ## Repository format
 
 - `CONTRIBUTING.md` explains the review policy.
-- `.github/pull_request_template.md` keeps submissions consistent.
-- `.github/workflows/validate.yml` validates JSON and README generation.
-- `schema/` documents the expected metadata shape.
+  - `.github/pull_request_template.md` keeps submissions consistent.
+    - `.github/workflows/validate.yml` validates JSON and README generation.
+      - `schema/` documents the expected metadata shape.
 
-## License
+        ## License
 
-Directory metadata is MIT licensed unless an entry says otherwise. Each listed project keeps its own license.
+        Directory metadata is MIT licensed unless an entry says otherwise. Each listed project keeps its own license.
+        
