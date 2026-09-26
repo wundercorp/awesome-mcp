@@ -1,0 +1,13 @@
+{
+  "slug": "threadfox-lite",
+  "name": "ThreadFox Lite",
+  "category": "data",
+  "description": "Read-only Reddit research for AI agents: subreddit rules with self-promotion rules flagged, community search, account standing and post status, read through the user's own signed-in Chrome. No API keys.",
+  "homepage_url": "https://threadfox.vip",
+  "repository_url": "https://github.com/amflimited/threadfox-lite",
+  "package_url": "https://pypi.org/project/threadfox-lite/",
+  "transports": ["stdio"],
+  "tools": ["subreddit_rules", "find_communities", "account_check", "post_status", "threadfox_full_kit"],
+  "license": "MIT",
+  "status": "active"
+}
