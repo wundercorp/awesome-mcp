@@ -1,0 +1,36 @@
+{
+  "slug": "remote-arc",
+  "name": "Remote Arc",
+  "category": "developer-tools",
+  "description": "Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation.",
+  "homepage_url": "https://remotearc.app",
+  "repository_url": "https://github.com/yaohuangguan/remote-arc",
+  "package_url": "https://www.npmjs.com/package/remotelink",
+  "documentation_url": "https://github.com/yaohuangguan/remote-arc#readme",
+  "remote_endpoint_url": "https://mcp.remotearc.app/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "list_devices",
+    "device_tools",
+    "list_directory",
+    "read_file",
+    "get_file_info",
+    "list_processes",
+    "start_process",
+    "process_status",
+    "process_output",
+    "stop_process",
+    "write_file",
+    "edit_block",
+    "undo_last_change"
+  ],
+  "license": "Remote Arc Proprietary Source License (source-available)",
+  "license_url": "https://github.com/yaohuangguan/remote-arc/blob/master/LICENSE",
+  "provider": {
+    "name": "Remote Arc",
+    "url": "https://remotearc.app"
+  },
+  "status": "active"
+}
