@@ -1,0 +1,31 @@
+{
+  "slug": "continuity",
+  "name": "Continuity",
+  "category": "knowledge",
+  "description": "Private story bible for fiction writers. Locked canon, approved scenes, and provisional checkpoints that ChatGPT, Claude, Gemini, Grok, and Cursor can read before drafting. Remote Streamable HTTP with OAuth and dynamic client registration. Story tools require Pro or an active 14-day trial.",
+  "homepage_url": "https://continuitywriter.com",
+  "repository_url": "https://github.com/LAHutchins91/continuity-mcp",
+  "package_url": "https://continuitywriter.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "list_story_projects",
+    "create_story_project",
+    "get_continuity_context",
+    "search_story_canon",
+    "upsert_canon_entry",
+    "get_canon_history",
+    "list_approved_scenes",
+    "record_approved_scene",
+    "save_story_checkpoint",
+    "list_story_checkpoints",
+    "continuity_audit"
+  ],
+  "license": "Proprietary (hosted service)",
+  "provider": {
+    "name": "Continuity",
+    "url": "https://continuitywriter.com"
+  },
+  "status": "active"
+}
