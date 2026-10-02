@@ -1,0 +1,20 @@
+{
+  "slug": "videogen",
+  "name": "VideoGen",
+  "category": "design",
+  "description": "Create editable videos from scripts and storyboards, manage projects, and export results through the VideoGen API.",
+  "homepage_url": "https://videogen.io",
+  "repository_url": "https://github.com/video-gen/videogen-mcp",
+  "package_url": "https://www.npmjs.com/package/@videogen/mcp",
+  "endpoint_url": "https://mcp.videogen.io/mcp",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "license": "No declared license",
+  "provider": {
+    "name": "VideoGen",
+    "url": "https://videogen.io"
+  },
+  "status": "active"
+}
