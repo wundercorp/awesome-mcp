@@ -1,0 +1,13 @@
+{
+  "slug": "lognorm",
+  "name": "LogNorm",
+  "category": "data",
+  "description": "Hosted MCP server that hands a site's SEO/GEO growth backlog (site audits, fixes, content drafts, AI-visibility tracking) to Claude Code, Codex and Cursor, with OAuth 2.1 sign-in.",
+  "homepage_url": "https://lognorm.com",
+  "repository_url": "https://github.com/lognorm/lognorm-mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
