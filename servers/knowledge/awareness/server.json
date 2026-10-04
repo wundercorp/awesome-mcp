@@ -1,0 +1,26 @@
+{
+  "slug": "awareness",
+  "name": "Awareness",
+  "category": "knowledge",
+  "description": "Local-first persistent memory for AI coding agents. Markdown + SQLite hybrid retrieval (FTS5 + embeddings), works offline, no account. LongMemEval R@5 96.0%; retrieval runs with zero LLM calls.",
+  "homepage_url": "https://awareness.market",
+  "repository_url": "https://github.com/everest-an/Awareness-Market",
+  "package_url": "https://www.npmjs.com/package/@awareness.market/local",
+  "transports": [
+    "stdio",
+    "streamable-http"
+  ],
+  "tools": [
+    "awareness_init",
+    "awareness_recall",
+    "awareness_record",
+    "awareness_lookup",
+    "awareness_apply_skill",
+    "awareness_mark_skill_used",
+    "awareness_get_agent_prompt",
+    "awareness_publish_agent",
+    "awareness_workspace_search"
+  ],
+  "license": "Apache-2.0",
+  "status": "active"
+}
