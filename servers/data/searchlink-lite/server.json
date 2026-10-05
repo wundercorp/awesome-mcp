@@ -1,0 +1,22 @@
+{
+  "slug": "searchlink-lite",
+  "name": "SearchLink Lite",
+  "category": "data",
+  "description": "Read-only Google Search Console reporting for MCP clients: site overview with period comparison, breakdowns by query, page, country, device or date, low-CTR and rank 8-20 opportunities, URL index inspection, sitemap status, on-page checks, and Google ranking update history. Runs locally over stdio with your own Google service-account credentials.",
+  "homepage_url": "https://github.com/GlobalMatchHub/searchlink-lite",
+  "repository_url": "https://github.com/GlobalMatchHub/searchlink-lite",
+  "package_url": "https://www.npmjs.com/package/searchlink-lite",
+  "transports": ["stdio"],
+  "tools": [
+    "list_sites",
+    "site_overview",
+    "search_performance",
+    "find_opportunities",
+    "inspect_url",
+    "sitemaps",
+    "page_check",
+    "algorithm_updates"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
