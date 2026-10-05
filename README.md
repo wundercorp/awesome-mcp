@@ -97,6 +97,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| Darkmoon | Drives a self-hosted Darkmoon Pro instance, an autonomous AI penetration testing platform (open source GPL-3.0 engine and CLI), to start authorized pentest runs, check run status, list campaigns, and read findings with severity statistics. Requires your own Darkmoon Pro Dashboard API; there is no hosted endpoint. | stdio | [Homepage](https://github.com/ASCIT31/darkmoon-mcp-server)<br>[GitHub](https://github.com/ASCIT31/darkmoon-mcp-server)<br>[Package](https://www.npmjs.com/package/@darkmoon_ai/mcp-server) |
 | DomScan | Hosted domain intelligence MCP for availability, DNS, WHOIS/RDAP, TLS, subdomains, reputation, email authentication, valuation, and brand monitoring. | streamable-http, stdio | [Homepage](https://domscan.net/mcp-domain-checker)<br>[GitHub](https://github.com/estevecastells/domscan-mcp)<br>[Package](https://domscan.net/mcp) |
 | Palisade DMARC Agent | AI-powered email-authentication management for DMARC, SPF, DKIM, BIMI, MTA-STS, DNS, and remediation tasks. | streamable-http, stdio | [Homepage](https://www.palisade.email/mcp)<br>[GitHub](https://github.com/palisadeemail/palisade-mcp)<br>[Package](https://www.npmjs.com/package/@palisadeemail/mcp) |
 
