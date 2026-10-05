@@ -1,0 +1,34 @@
+{
+  "slug": "darkmoon",
+  "name": "Darkmoon",
+  "category": "security",
+  "description": "Drives a self-hosted Darkmoon Pro instance, an autonomous AI penetration testing platform (open source GPL-3.0 engine and CLI), to start authorized pentest runs, check run status, list campaigns, and read findings with severity statistics. Requires your own Darkmoon Pro Dashboard API; there is no hosted endpoint.",
+  "homepage_url": "https://github.com/ASCIT31/darkmoon-mcp-server",
+  "repository_url": "https://github.com/ASCIT31/darkmoon-mcp-server",
+  "package_url": "https://www.npmjs.com/package/@darkmoon_ai/mcp-server",
+  "documentation_url": "https://github.com/ASCIT31/darkmoon-mcp-server#readme",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "run_pentest",
+    "get_run_status",
+    "list_campaigns",
+    "get_findings"
+  ],
+  "authentication": {
+    "type": "username-password-or-jwt",
+    "environment_variables": [
+      "DARKMOON_BASE_URL",
+      "DARKMOON_USERNAME",
+      "DARKMOON_PASSWORD",
+      "DARKMOON_TOKEN"
+    ]
+  },
+  "provider": {
+    "name": "ASC-IT (Darkmoon)",
+    "url": "https://github.com/ASCIT31/Dark-Moon"
+  },
+  "license": "GPL-3.0-only",
+  "status": "active"
+}
