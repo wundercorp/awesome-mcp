@@ -1,0 +1,19 @@
+{
+  "slug": "shipvela",
+  "name": "Shipvela",
+  "category": "developer-tools",
+  "description": "OAuth-protected website publishing from coding assistants: inspect projects and deployments, create supported sites, and publish with owner confirmation. A Shipvela account is required; Hobby includes 3 projects and 20 publishes per month.",
+  "homepage_url": "https://shipvela.com",
+  "repository_url": "https://github.com/stefanautomateed/shipvela-codex",
+  "package_url": "https://shipvela.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary hosted service; public client/plugin bundle MIT",
+  "provider": {
+    "name": "Content Petit LLC",
+    "url": "https://shipvela.com"
+  },
+  "status": "active"
+}
