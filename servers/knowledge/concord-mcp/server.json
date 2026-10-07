@@ -1,0 +1,17 @@
+{
+  "slug": "concord-mcp",
+  "name": "Concord MCP",
+  "category": "knowledge",
+  "description": "Local-first shared work-state for coding agents (presence, claims, messaging, handoffs, review packets)",
+  "homepage_url": "https://getconcord.ai",
+  "repository_url": "https://github.com/Get-Concord-AI/concord-mcp",
+  "package_url": "https://www.npmjs.com/package/@concord-ai/concord-mcp",
+  "transports": ["stdio"],
+  "tools": ["start_work", "inspect_work", "update_work", "transfer_work", "finish_work"],
+  "license": "MIT",
+  "provider": {
+    "name": "Concord",
+    "url": "https://getconcord.ai"
+  },
+  "status": "active"
+}
