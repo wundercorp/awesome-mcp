@@ -58,6 +58,7 @@ node scripts/generate-readme.mjs
 | Server | Description | Transport | Links |
 |---|---|---|---|
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
+| Shipvela | OAuth-protected website publishing from coding assistants: inspect projects and deployments, create supported sites, and publish with owner confirmation. A Shipvela account is required; Hobby includes 3 projects and 20 publishes per month. | streamable-http | [Homepage](https://shipvela.com)<br>[GitHub](https://github.com/stefanautomateed/shipvela-codex)<br>[Package](https://shipvela.com/mcp) |
 
 ### Files
 
