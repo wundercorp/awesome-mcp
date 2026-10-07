@@ -1,0 +1,26 @@
+{
+  "slug": "tvojelajky",
+  "name": "TvojeLajky MCP",
+  "category": "data",
+  "description": "Czech-market Instagram/TikTok followers, likes and views: live catalog, price quotes, order status and paid CZK purchases with OAuth and a customer-approved prepaid budget.",
+  "homepage_url": "https://tvojelajky.cz/developers",
+  "remote_url": "https://tvojelajky.cz/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "list_services",
+    "get_profile",
+    "list_posts",
+    "get_quote",
+    "create_order",
+    "get_order",
+    "get_wallet",
+    "pay_order"
+  ],
+  "license": "Proprietary hosted service",
+  "status": "active",
+  "authentication": "Public catalog and quotes need no account. Private tools require OAuth; paid credit purchases require a customer-approved prepaid budget.",
+  "operator": "Tomáš Přibyl, Czech sole trader, IČO 09264990",
+  "notes": "No organic-growth guarantee, posting, scheduling or ad management. Original directory metadata only; private application source is not contributed."
+}
