@@ -29,6 +29,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| BOIM (보임) | Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth on the free tier (5 results per tool). | streamable-http | [Homepage](https://boim.io/connect/)<br>[GitHub](https://github.com/kikiyop1101/boim-mcp)<br>[Package](https://boim.io/api/mcp) |
 | BuyWhere | Real-time product search and price comparison across 15+ Singapore/SEA merchants (11M+ products). REST API + MCP server for AI agents. | stdio, streamable-http | [Homepage](https://buywhere.ai)<br>[GitHub](https://github.com/BuyWhere/buywhere-mcp)<br>[Package](https://www.npmjs.com/package/@buywhere/mcp-server) |
 | CareClinic Health Tracker | Hosted OAuth MCP server for reviewing personal medication schedules, symptoms, mood, and confirmed health check-ins. | streamable-http | [Homepage](https://cdn.careclinic.io/mcp/help/index.html)<br>[Package](https://mcp.careclinic.io/mcp) |
 | Clera | Hosted OAuth MCP server for hiring: search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros. | streamable-http | [Homepage](https://www.getclera.com/mcp)<br>[GitHub](https://github.com/getclera/mcp)<br>[Package](https://mcp.getclera.com) |
