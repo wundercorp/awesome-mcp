@@ -1,0 +1,29 @@
+{
+  "slug": "tale",
+  "name": "Tale",
+  "category": "orchestration",
+  "description": "Retrieve organizational knowledge and author, test, deploy, and run automations through a self-hosted workspace’s built-in HTTP MCP server; requires a bearer API key and organization header.",
+  "homepage_url": "https://docs.tale.dev/develop/mcp-endpoint",
+  "repository_url": "https://github.com/tale-project/tale",
+  "transports": [
+    "http"
+  ],
+  "tools": [
+    "get_docs",
+    "get_catalog",
+    "validate_automation",
+    "run_automation",
+    "test_automation",
+    "save_automation",
+    "deploy_automation",
+    "run_deployed",
+    "start_run",
+    "get_knowledge"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Tale",
+    "url": "https://tale.dev"
+  },
+  "status": "active"
+}
