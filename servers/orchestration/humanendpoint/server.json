@@ -1,0 +1,29 @@
+{
+  "slug": "humanendpoint",
+  "name": "HumanEndpoint",
+  "category": "orchestration",
+  "description": "Remote MCP service for quote-first human execution: business and supplier phone enquiries, stock and availability checks, physical verification, bounded manual research, and independent human QA. Supports x402 USDC payments on Base after accepted human-reviewed terms.",
+  "homepage_url": "https://humanendpoint.au",
+  "repository_url": "https://github.com/greatn8/humanendpoint-examples",
+  "package_url": "https://humanendpoint.au/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "human_list_services",
+    "human_policy_preflight",
+    "human_request_quote",
+    "human_get_quote",
+    "human_create_job",
+    "human_get_job",
+    "human_list_evidence",
+    "human_reply_to_job",
+    "human_cancel_job"
+  ],
+  "license": "Proprietary service; public examples MIT",
+  "provider": {
+    "name": "HumanEndpoint",
+    "url": "https://humanendpoint.au"
+  },
+  "status": "active"
+}
