@@ -1,0 +1,16 @@
+{
+  "slug": "rea",
+  "name": "REA",
+  "category": "developer-tools",
+  "description": "Local CLI and MCP tools for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies, with evidence provenance and explicit analysis limitations. Native deep analysis uses separately installed Hopper, Ghidra, or IDA.",
+  "homepage_url": "https://github.com/morluto/rea",
+  "repository_url": "https://github.com/morluto/rea",
+  "package_url": "https://www.npmjs.com/package/rea-agents",
+  "documentation_url": "https://github.com/morluto/rea/blob/main/docs/installation.md",
+  "transports": [
+    "stdio"
+  ],
+  "license": "MIT",
+  "license_url": "https://github.com/morluto/rea/blob/main/LICENSE",
+  "status": "active"
+}
