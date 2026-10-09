@@ -1,0 +1,23 @@
+{
+  "slug": "shotapi",
+  "name": "ShotAPI",
+  "category": "browser-automation",
+  "description": "Screenshot and render any URL or HTML via one REST API call - MCP server for AI agents to see the web.",
+  "homepage_url": "https://shotapi.net",
+  "repository_url": "https://github.com/smallhandsome/shotapi-mcp-server",
+  "package_url": "",
+  "transports": [
+    "stdio",
+    "streamable-http"
+  ],
+  "tools": [
+    "screenshot",
+    "render"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "ShotAPI",
+    "url": "https://shotapi.net"
+  },
+  "status": "active"
+}
