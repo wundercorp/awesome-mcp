@@ -65,6 +65,12 @@ node scripts/generate-readme.mjs
 |---|---|---|---|
 | Zovo Spreadsheet | Open, inspect, filter, edit and convert xlsx and csv files. Runs locally over stdio from an mcpb bundle, and is also reachable as a hosted Streamable HTTP endpoint with a free anonymous token. | stdio, streamable-http | [Homepage](https://mcp.zovo.one/s/spreadsheet)<br>[GitHub](https://github.com/theluckystrike/mcp-spreadsheet)<br>[Package](https://mcp.zovo.one/mcp/spreadsheet) |
 
+### Developer Tools
+
+| Server | Description | Transport | Links |
+|---|---|---|---|
+| SandBase Harness | Local-first, self-hosted agent runtime with persistent sessions, sandboxed tools, memory, credentials, approvals, audit/replay, and a six-tool MCP bridge. | stdio | [Homepage](https://github.com/sandbaseai/sandbase-harness)<br>[GitHub](https://github.com/sandbaseai/sandbase-harness) |
+
 ### Knowledge
 
 | Server | Description | Transport | Links |
