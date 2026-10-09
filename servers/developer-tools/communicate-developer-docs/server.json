@@ -1,0 +1,21 @@
+{
+  "slug": "communicate-developer-docs",
+  "name": "Communicate Developer Docs",
+  "category": "developer-tools",
+  "description": "Public read-only MCP server for Communicate developer documentation, OpenAPI discovery, and official support contact information. Connect at https://communicate.so/mcp; no authentication required. It does not access workspaces or customer data.",
+  "homepage_url": "https://communicate.so/developers",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "communicate_get_developer_guide",
+    "communicate_get_openapi_summary",
+    "communicate_get_support_contact"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Communicate",
+    "url": "https://communicate.so"
+  },
+  "status": "active"
+}

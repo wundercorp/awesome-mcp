@@ -59,6 +59,12 @@ node scripts/generate-readme.mjs
 |---|---|---|---|
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
 
+### Developer Tools
+
+| Server | Description | Transport | Links |
+|---|---|---|---|
+| Communicate Developer Docs | Public read-only MCP server for Communicate developer documentation, OpenAPI discovery, and official support contact information. Connect at https://communicate.so/mcp; no authentication required. It does not access workspaces or customer data. | streamable-http | [Homepage](https://communicate.so/developers) |
+
 ### Files
 
 | Server | Description | Transport | Links |
