@@ -1,0 +1,15 @@
+{
+  "slug": "autoposting",
+  "name": "Autoposting",
+  "category": "communication",
+  "description": "Generate, schedule and publish social posts to X, LinkedIn, Instagram, Threads and YouTube, plus video clipping and carousel building.",
+  "homepage_url": "https://autoposting.ai",
+  "repository_url": "https://github.com/Autoposting-ai/autoposting-mcp",
+  "documentation_url": "https://docs.autoposting.ai/mcp/overview",
+  "endpoint_url": "https://app.autoposting.ai/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary hosted service",
+  "status": "active"
+}
