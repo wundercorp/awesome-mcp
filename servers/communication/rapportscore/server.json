@@ -1,0 +1,17 @@
+{
+  "slug": "rapportscore",
+  "name": "RapportScore",
+  "category": "communication",
+  "description": "Hosted OAuth MCP for evidence-linked Conversational AI Coaching from recorded conversations and permissioned Team Dynamics reports. Team Dynamics is a limited U.S. pilot; access depends on account, plan, and permissions.",
+  "homepage_url": "https://rapportscore.ai",
+  "package_url": "https://mcp.rapportscore.ai/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary (hosted service; private source)",
+  "provider": {
+    "name": "RapportScore",
+    "url": "https://rapportscore.ai"
+  },
+  "status": "active"
+}
