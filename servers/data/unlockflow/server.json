@@ -1,0 +1,22 @@
+{
+  "slug": "unlockflow",
+  "name": "Capital Flow Desk — UnlockFlow MCP",
+  "category": "data",
+  "description": "Unlock and capital-flow event tools for trading agents and bots, with schema-stable UnlockFlowEvent v1 and invalidation fields. Samples are illustrative and not financial advice (NFA); live feed onboarding is separate.",
+  "homepage_url": "https://github.com/mhr2027r-dotcom/mcp-unlockflow",
+  "repository_url": "https://github.com/mhr2027r-dotcom/mcp-unlockflow",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "list_unlock_events",
+    "get_unlock_event",
+    "get_schema"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Capital Flow Desk",
+    "url": "https://github.com/mhr2027r-dotcom/mcp-unlockflow"
+  },
+  "status": "active"
+}
