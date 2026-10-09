@@ -1,0 +1,17 @@
+{
+  "slug": "kleap",
+  "name": "Kleap",
+  "category": "developer-tools",
+  "description": "Let AI agents create, edit, publish and host real websites and web apps: generate sites, edit files, publish with a verified-live check, connect domains, take screenshots. Remote server uses OAuth; the same package also runs locally over stdio and as a CLI.",
+  "homepage_url": "https://kleap.co/mcp",
+  "repository_url": "https://github.com/kleaphq/cli",
+  "package_url": "https://www.npmjs.com/package/kleap-cli",
+  "transports": ["streamable-http", "stdio"],
+  "tools": ["create_app", "find_app", "list_apps", "read_files", "write_files", "edit_files", "publish_app", "get_publish_status", "check_domain", "connect_domain", "get_screenshot"],
+  "license": "MIT",
+  "provider": {
+    "name": "Kleap",
+    "url": "https://kleap.co"
+  },
+  "status": "active"
+}

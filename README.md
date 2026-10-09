@@ -59,6 +59,12 @@ node scripts/generate-readme.mjs
 |---|---|---|---|
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
 
+### Developer Tools
+
+| Server | Description | Transport | Links |
+|---|---|---|---|
+| Kleap | Let AI agents create, edit, publish and host real websites and web apps: generate sites, edit files, publish with a verified-live check, connect domains, take screenshots. Remote server uses OAuth; the same package also runs locally over stdio and as a CLI. | streamable-http, stdio | [Homepage](https://kleap.co/mcp)<br>[GitHub](https://github.com/kleaphq/cli)<br>[Package](https://www.npmjs.com/package/kleap-cli) |
+
 ### Files
 
 | Server | Description | Transport | Links |
