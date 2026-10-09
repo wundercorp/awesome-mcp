@@ -1,0 +1,12 @@
+{
+  "slug": "pandastock",
+  "name": "PandaStock",
+  "category": "data",
+  "description": "A-share real-time market data MCP server. NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening. 176 server-side endpoints, 22 open endpoints, free public test account.",
+  "homepage_url": "https://github.com/D-Asce/pandastocksdk",
+  "repository_url": "https://github.com/D-Asce/pandastocksdk",
+  "package_url": "https://pypi.org/project/pandastock-mcp/",
+  "transports": ["stdio"],
+  "license": "MIT",
+  "status": "active"
+}
