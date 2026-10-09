@@ -1,0 +1,42 @@
+{
+  "slug": "erius-phone-mcp",
+  "name": "ERIUS PHONE MCP",
+  "category": "developer-tools",
+  "description": "Drive an ERIUS PHONE hosted Android phone or tablet from an MCP client: read the screen as an accessibility tree or screenshot, tap, type, swipe and scroll, launch apps, install APKs, and pull crash logs. Requires an ERIUS PHONE account and API key (early access).",
+  "homepage_url": "https://eriusphone.com",
+  "repository_url": "https://github.com/Protremix/erius-phone-mcp",
+  "package_url": "https://pypi.org/project/erius-phone-mcp/",
+  "documentation_url": "https://github.com/Protremix/erius-phone-mcp#readme",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "whoami",
+    "list_devices",
+    "get_device",
+    "snapshot",
+    "screenshot",
+    "foreground",
+    "wait_for_text",
+    "tap",
+    "long_press",
+    "type_text",
+    "press_key",
+    "swipe",
+    "scroll",
+    "launch_app",
+    "open_url",
+    "send_intent",
+    "stop_app",
+    "list_apps",
+    "install_apk",
+    "uninstall_app",
+    "get_crash_log"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "ERIUS",
+    "url": "https://eriusphone.com"
+  },
+  "status": "active"
+}
