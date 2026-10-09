@@ -29,6 +29,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| AgentServices | 37 MCP tools serving 54 x402-paid crypto/financial market data endpoints on Base — spot prices, OHLCV, on-chain metrics, FX, and bundled research synthesis for AI agents. | streamable-http | [Homepage](https://agentservices.to)<br>[GitHub](https://github.com/vbkotecha/aiservices-api) |
 | BuyWhere | Real-time product search and price comparison across 15+ Singapore/SEA merchants (11M+ products). REST API + MCP server for AI agents. | stdio, streamable-http | [Homepage](https://buywhere.ai)<br>[GitHub](https://github.com/BuyWhere/buywhere-mcp)<br>[Package](https://www.npmjs.com/package/@buywhere/mcp-server) |
 | CareClinic Health Tracker | Hosted OAuth MCP server for reviewing personal medication schedules, symptoms, mood, and confirmed health check-ins. | streamable-http | [Homepage](https://cdn.careclinic.io/mcp/help/index.html)<br>[Package](https://mcp.careclinic.io/mcp) |
 | Clera | Hosted OAuth MCP server for hiring: search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros. | streamable-http | [Homepage](https://www.getclera.com/mcp)<br>[GitHub](https://github.com/getclera/mcp)<br>[Package](https://mcp.getclera.com) |

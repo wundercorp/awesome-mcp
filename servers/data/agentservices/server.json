@@ -1,0 +1,16 @@
+{
+  "slug": "agentservices",
+  "name": "AgentServices",
+  "category": "data",
+  "description": "37 MCP tools serving 54 x402-paid crypto/financial market data endpoints on Base — spot prices, OHLCV, on-chain metrics, FX, and bundled research synthesis for AI agents.",
+  "homepage_url": "https://agentservices.to",
+  "repository_url": "https://github.com/vbkotecha/aiservices-api",
+  "transports": ["streamable-http"],
+  "tools": [
+    "crypto-spot-prices", "ohlcv-candles", "onchain-metrics", "fx-rates",
+    "market-depth", "token-info", "defi-pool-data", "gas-tracker",
+    "exchange-rates", "historical-prices", "market-cap", "trading-volume"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
