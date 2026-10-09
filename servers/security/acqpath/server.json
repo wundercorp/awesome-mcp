@@ -1,0 +1,18 @@
+{
+  "slug": "acqpath",
+  "name": "AcqPath",
+  "category": "security",
+  "description": "Remote MCP for signed, timestamped observations of machine-readable source-rights declarations before RAG, indexing, training, search, or AI input.",
+  "homepage_url": "https://developers.getacqpath.com",
+  "repository_url": "https://github.com/reflectme-source/acqpath-distribution",
+  "package_url": "https://api.getacqpath.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "AcqPath",
+    "url": "https://developers.getacqpath.com"
+  },
+  "status": "active"
+}
