@@ -1,0 +1,26 @@
+{
+  "slug": "skyaccess",
+  "name": "SkyAccess",
+  "category": "data",
+  "description": "Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key.",
+  "homepage_url": "https://skyaccess.com",
+  "repository_url": "https://github.com/sky-access/skyaccess-mcp",
+  "endpoint_url": "https://mcp.skyaccess.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search_empty_legs",
+    "get_flight",
+    "booking_handoff",
+    "get_charter_estimate",
+    "request_booking"
+  ],
+  "auth": "None",
+  "license": "MIT",
+  "provider": {
+    "name": "SkyAccess",
+    "url": "https://skyaccess.com"
+  },
+  "status": "active"
+}
