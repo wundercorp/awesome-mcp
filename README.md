@@ -57,6 +57,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| ERIUS PHONE MCP | Drive an ERIUS PHONE hosted Android phone or tablet from an MCP client: read the screen as an accessibility tree or screenshot, tap, type, swipe and scroll, launch apps, install APKs, and pull crash logs. Requires an ERIUS PHONE account and API key (early access). | stdio | [Homepage](https://eriusphone.com)<br>[GitHub](https://github.com/Protremix/erius-phone-mcp)<br>[Package](https://pypi.org/project/erius-phone-mcp/) |
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
 
 ### Files
