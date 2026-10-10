@@ -1,0 +1,22 @@
+{
+  "slug": "runx",
+  "name": "Runx",
+  "category": "orchestration",
+  "description": "Search and inspect the Runx skill catalog over hosted MCP; the CLI runs skills with bounded authority and signed receipts.",
+  "homepage_url": "https://runx.ai",
+  "repository_url": "https://github.com/runxhq/runx",
+  "package_url": "https://api.runx.ai/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search_skills",
+    "get_skill"
+  ],
+  "license": "Proprietary (hosted service; OSS CLI Apache-2.0)",
+  "provider": {
+    "name": "Runx",
+    "url": "https://runx.ai"
+  },
+  "status": "active"
+}
