@@ -1,0 +1,25 @@
+{
+  "slug": "duplicacy-mcp",
+  "name": "Duplicacy MCP",
+  "category": "observability",
+  "description": "Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status.",
+  "homepage_url": "https://github.com/GeiserX/duplicacy-mcp",
+  "repository_url": "https://github.com/GeiserX/duplicacy-mcp",
+  "package_url": "https://www.npmjs.com/package/duplicacy-mcp",
+  "transports": [
+    "stdio",
+    "streamable-http"
+  ],
+  "tools": [
+    "get_backup_status",
+    "get_backup_history",
+    "list_snapshots",
+    "get_prune_status"
+  ],
+  "license": "GPL-3.0-or-later",
+  "provider": {
+    "name": "GeiserX",
+    "url": "https://github.com/GeiserX"
+  },
+  "status": "active"
+}
