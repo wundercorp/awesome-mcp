@@ -57,6 +57,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| Oh My Android | Local stdio MCP server shipped inside a native macOS app (macOS 26+, Apple silicon) that lets coding agents see and drive the Android Emulator and adb-connected phones: dp-scaled screenshots, compact UI tree, taps and typing, logcat, read-only SharedPreferences and SQLite, and dark mode, font scale, locale/RTL and TalkBack switches. No API key or account. | stdio | [Homepage](https://royan.se/work/oh-my-android/)<br>[GitHub](https://github.com/ateymoori/oh-my-android) |
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
 
 ### Files
