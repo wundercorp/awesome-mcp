@@ -1,0 +1,17 @@
+{
+  "slug": "invokely",
+  "name": "Invokely",
+  "category": "data",
+  "description": "Hosted MCP server for official statistics. Search indicators and places, retrieve values and time series with source citations, compare places, and rank results across U.S. states and counties, EU countries and NUTS 2 regions, Spanish municipalities, and World Bank data for every country and the world. Anonymous trial: 25 calls per day per IP.",
+  "homepage_url": "https://invokely.ai/docs",
+  "package_url": "https://invokely.ai/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Invokely",
+    "url": "https://invokely.ai/"
+  },
+  "status": "active"
+}
