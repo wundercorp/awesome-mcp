@@ -1,0 +1,21 @@
+{
+  "slug": "orano",
+  "name": "ORANO",
+  "category": "knowledge",
+  "description": "Read-only remote MCP server that lets your own AI assistant search your saved ORANO library (summaries, key takeaways, tasks and plans from saved videos and articles) with a personal bearer API key.",
+  "homepage_url": "https://oranoai.com/mcp",
+  "repository_url": "https://github.com/infotik/orano-mcp-server",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "list_projects",
+    "get_project",
+    "get_project_context",
+    "search_library",
+    "read_memory_facts",
+    "get_pending_handoffs"
+  ],
+  "license": "Proprietary",
+  "status": "active"
+}
