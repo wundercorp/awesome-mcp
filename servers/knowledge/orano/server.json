@@ -16,6 +16,6 @@
     "read_memory_facts",
     "get_pending_handoffs"
   ],
-  "license": "MIT",
+  "license": "Proprietary",
   "status": "active"
 }
