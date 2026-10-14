@@ -1,0 +1,17 @@
+{
+  "slug": "playable-gift",
+  "name": "Playable Gift",
+  "category": "design",
+  "description": "Create a personalized playable browser-game gift and share it with the recipient through a link.",
+  "homepage_url": "https://playablegift.com/agents",
+  "package_url": "https://playablegift.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "No declared license",
+  "provider": {
+    "name": "Playable Gift",
+    "url": "https://playablegift.com"
+  },
+  "status": "active"
+}
