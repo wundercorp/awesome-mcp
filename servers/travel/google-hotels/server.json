@@ -1,0 +1,19 @@
+{
+  "slug": "google-hotels",
+  "name": "Google Hotels MCP",
+  "category": "travel",
+  "description": "Query Google Hotels for property details with amenities and OTA reviews, 3-month daily price calendars, and vacation rental results (Airbnb, VRBO, Booking) from Google Vacation Rentals. Three tools backed by Apify actors, needs only APIFY_TOKEN.",
+  "homepage_url": "https://github.com/huynhtanan/google-hotels-mcp",
+  "repository_url": "https://github.com/huynhtanan/google-hotels-mcp",
+  "package_url": "https://github.com/huynhtanan/google-hotels-mcp/releases/tag/v0.1.2",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "hotel_entity",
+    "hotel_price_calendar",
+    "vacation_rental_search"
+  ],
+  "license": "MIT",
+  "status": "active"
+}

@@ -106,6 +106,12 @@ node scripts/generate-readme.mjs
 | DomScan | Hosted domain intelligence MCP for availability, DNS, WHOIS/RDAP, TLS, subdomains, reputation, email authentication, valuation, and brand monitoring. | streamable-http, stdio | [Homepage](https://domscan.net/mcp-domain-checker)<br>[GitHub](https://github.com/estevecastells/domscan-mcp)<br>[Package](https://domscan.net/mcp) |
 | Palisade DMARC Agent | AI-powered email-authentication management for DMARC, SPF, DKIM, BIMI, MTA-STS, DNS, and remediation tasks. | streamable-http, stdio | [Homepage](https://www.palisade.email/mcp)<br>[GitHub](https://github.com/palisadeemail/palisade-mcp)<br>[Package](https://www.npmjs.com/package/@palisadeemail/mcp) |
 
+### Travel
+
+| Server | Description | Transport | Links |
+|---|---|---|---|
+| Google Hotels MCP | Query Google Hotels for property details with amenities and OTA reviews, 3-month daily price calendars, and vacation rental results (Airbnb, VRBO, Booking) from Google Vacation Rentals. Three tools backed by Apify actors, needs only APIFY_TOKEN. | stdio | [GitHub](https://github.com/huynhtanan/google-hotels-mcp)<br>[Glama](https://glama.ai/mcp/servers/huynhtanan/google-hotels-mcp) |
+
 ## Repository format
 
 - `CONTRIBUTING.md` explains the review policy.
