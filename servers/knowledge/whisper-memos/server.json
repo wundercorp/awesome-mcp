@@ -1,0 +1,25 @@
+{
+  "slug": "whisper-memos",
+  "name": "Whisper Memos",
+  "category": "knowledge",
+  "description": "Official remote MCP server for the Whisper Memos iPhone and Apple Watch voice memo app. Lists and reads memo transcripts and summaries, lists labels, shows account details, and deletes memos; it cannot create or edit memos. Remote Streamable HTTP with OAuth 2.1 and dynamic client registration, approved by the user in the iOS app.",
+  "homepage_url": "https://whispermemos.com",
+  "repository_url": "https://github.com/whispermemos/whisper-memos-plugin",
+  "package_url": "https://whispermemos.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "list_memos",
+    "get_memo",
+    "list_labels",
+    "delete_memo",
+    "get_account"
+  ],
+  "license": "Proprietary (hosted service; private source)",
+  "provider": {
+    "name": "Median Tech, s.r.o.",
+    "url": "https://whispermemos.com"
+  },
+  "status": "active"
+}
