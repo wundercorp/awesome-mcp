@@ -18,6 +18,7 @@ node scripts/generate-readme.mjs
 | Server | Description | Transport | Links |
 |---|---|---|---|
 | agent-qa | Author, run, and triage natural-language web and mobile tests with persistent test memory, self-healing execution, and evidence-backed results. | stdio, streamable-http | [Homepage](https://vostride.com/docs/agent-qa)<br>[GitHub](https://github.com/vostride/agent-qa)<br>[Package](https://www.npmjs.com/package/agent-qa) |
+| CurlShot | Hosted Streamable HTTP MCP server that screenshots any URL, HTML or Markdown as PNG, JPEG, WebP, PDF or scrolling MP4/WebM/GIF, with full-page, CSS-selector element capture, device presets, dark mode and ad/cookie-banner blocking. Bearer API key; free plan of 100 screenshots a month. | streamable-http | [Homepage](https://curlshot.com/tools/screenshot-tool-for-ai-agents)<br>[Package](https://curlshot.com/api/mcp) |
 
 ### Communication
 

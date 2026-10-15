@@ -1,0 +1,21 @@
+{
+  "slug": "curlshot",
+  "name": "CurlShot",
+  "category": "browser-automation",
+  "description": "Hosted Streamable HTTP MCP server that screenshots any URL, HTML or Markdown as PNG, JPEG, WebP, PDF or scrolling MP4/WebM/GIF, with full-page, CSS-selector element capture, device presets, dark mode and ad/cookie-banner blocking. Bearer API key; free plan of 100 screenshots a month.",
+  "homepage_url": "https://curlshot.com/tools/screenshot-tool-for-ai-agents",
+  "package_url": "https://curlshot.com/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "take_screenshot",
+    "list_devices"
+  ],
+  "license": "Proprietary (hosted service)",
+  "provider": {
+    "name": "CurlShot",
+    "url": "https://curlshot.com"
+  },
+  "status": "active"
+}
