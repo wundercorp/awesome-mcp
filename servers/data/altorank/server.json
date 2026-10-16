@@ -1,0 +1,18 @@
+{
+  "slug": "altorank",
+  "name": "AltoRank",
+  "category": "data",
+  "description": "Hosted MCP server for AltoRank, open-source SEO content software: site readiness audits, JSON-LD proposals, Google Search Console, keyword research, and SEO drafts written into a person's review queue. Streamable HTTP at https://app.altorank.co/api/mcp with AltoRank account OAuth. No tool approves or publishes a draft. Self-hostable (AGPL-3.0).",
+  "homepage_url": "https://altorank.co/docs/mcp/",
+  "repository_url": "https://github.com/AltoRank/altorank",
+  "endpoint_url": "https://app.altorank.co/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "AGPL-3.0",
+  "provider": {
+    "name": "AltoRank",
+    "url": "https://altorank.co"
+  },
+  "status": "active"
+}
