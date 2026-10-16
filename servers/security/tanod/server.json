@@ -1,0 +1,18 @@
+{
+  "slug": "tanod",
+  "name": "Tanod",
+  "category": "security",
+  "description": "Hosted MCP server with 140+ tools: phishing URL and OFAC checks, contract and package scans, domain lookups, PDF and OCR, images, web pages, chain reads and search.",
+  "homepage_url": "https://tanod.dev/mcp-servers/",
+  "repository_url": "https://github.com/tanod-labs/tanod-mcp",
+  "package_url": "https://tanod.dev/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "MIT (public repo; hosted service)",
+  "provider": {
+    "name": "Tanod",
+    "url": "https://tanod.dev"
+  },
+  "status": "active"
+}
