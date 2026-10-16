@@ -1,0 +1,19 @@
+{
+  "slug": "carejobs-now",
+  "name": "CareJobs.Now",
+  "category": "data",
+  "description": "Hosted read-only MCP server for US healthcare jobs: search 170,000+ open jobs read daily from hospitals' and health systems' career sites, with job details, posted pay by kind of job, employers and states. No account, no API key.",
+  "homepage_url": "https://carejobs.now/data",
+  "repository_url": "https://github.com/yumaheymans/carejobs-mcp",
+  "package_url": "https://carejobs.now/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "MIT (docs repo); free hosted service",
+  "provider": {
+    "name": "CareJobs.Now",
+    "url": "https://carejobs.now"
+  },
+  "status": "active"
+}
