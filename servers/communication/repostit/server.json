@@ -1,0 +1,14 @@
+{
+  "slug": "repostit",
+  "name": "Repostit",
+  "category": "communication",
+  "description": "Official Repostit MCP connector for social publishing: create editable post and carousel drafts, schedule or publish content to connected social accounts, inspect per-destination delivery, and set up cross-account workflows. Repostit distributes finished video; it does not generate clips.",
+  "homepage_url": "https://app.repostit.io/claude-connector.html",
+  "transports": ["streamable-http"],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Repostit",
+    "url": "https://repostit.io/"
+  },
+  "status": "active"
+}
