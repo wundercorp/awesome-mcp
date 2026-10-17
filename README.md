@@ -59,6 +59,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| Jev Agent | Hosted Jev AI MCP and Decision API: seven judgment/grader tools over Streamable HTTP, plus OpenAI Decisions-format REST and optional X-TypeSafe-Key BYOK (0 credits). Sign-in gives 5 free credits/month. Independent; not affiliated with TypeSafe AI. | streamable-http | [Homepage](https://jev-agent.com/api-access) |
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
 
 ### Files

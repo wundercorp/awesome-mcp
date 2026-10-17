@@ -1,0 +1,25 @@
+{
+  "slug": "jev-agent",
+  "name": "Jev Agent",
+  "category": "developer-tools",
+  "description": "Hosted Jev AI MCP and Decision API: seven judgment/grader tools over Streamable HTTP, plus OpenAI Decisions-format REST and optional X-TypeSafe-Key BYOK (0 credits). Sign-in gives 5 free credits/month. Independent; not affiliated with TypeSafe AI.",
+  "homepage_url": "https://jev-agent.com/api-access",
+  "documentation_url": "https://jev-agent.com/docs",
+  "remote_endpoint_url": "https://jev-agent.com/api/mcp",
+  "transports": ["streamable-http"],
+  "tools": [
+    "judge_yes_no",
+    "judge_choice",
+    "judge_score",
+    "compare_versions",
+    "grade_essay",
+    "check_resume",
+    "grade_with_rubric"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Waller",
+    "url": "https://jev-agent.com"
+  },
+  "status": "active"
+}
