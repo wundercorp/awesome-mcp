@@ -1,0 +1,18 @@
+{
+  "slug": "backlinkgenie",
+  "name": "BacklinkGenie",
+  "category": "data",
+  "description": "Hosted MCP server for link-building outreach: list sites and prospects, review, edit and approve pitches to editors, read and answer replies, import posts to pitch, and check which backlinks are live. Streamable HTTP at https://app.backlinkgenie.com/mcp with OAuth 2.1 (PKCE, dynamic client registration) or a Bearer API key. MCP access is on the Growth and Agency plans.",
+  "homepage_url": "https://backlinkgenie.com/mcp/",
+  "repository_url": "https://github.com/nikunjness/backlinkgenie-mcp",
+  "endpoint_url": "https://app.backlinkgenie.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "MIT (docs and manifest); hosted service",
+  "provider": {
+    "name": "BacklinkGenie",
+    "url": "https://backlinkgenie.com"
+  },
+  "status": "active"
+}

@@ -29,6 +29,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| BacklinkGenie | Hosted MCP server for link-building outreach: list sites and prospects, review, edit and approve pitches to editors, read and answer replies, import posts to pitch, and check which backlinks are live. Streamable HTTP at https://app.backlinkgenie.com/mcp with OAuth 2.1 (PKCE, dynamic client registration) or a Bearer API key. MCP access is on the Growth and Agency plans. | streamable-http | [Homepage](https://backlinkgenie.com/mcp/)<br>[GitHub](https://github.com/nikunjness/backlinkgenie-mcp) |
 | BuyWhere | Real-time product search and price comparison across 15+ Singapore/SEA merchants (11M+ products). REST API + MCP server for AI agents. | stdio, streamable-http | [Homepage](https://buywhere.ai)<br>[GitHub](https://github.com/BuyWhere/buywhere-mcp)<br>[Package](https://www.npmjs.com/package/@buywhere/mcp-server) |
 | CareClinic Health Tracker | Hosted OAuth MCP server for reviewing personal medication schedules, symptoms, mood, and confirmed health check-ins. | streamable-http | [Homepage](https://cdn.careclinic.io/mcp/help/index.html)<br>[Package](https://mcp.careclinic.io/mcp) |
 | Clera | Hosted OAuth MCP server for hiring: search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros. | streamable-http | [Homepage](https://www.getclera.com/mcp)<br>[GitHub](https://github.com/getclera/mcp)<br>[Package](https://mcp.getclera.com) |
