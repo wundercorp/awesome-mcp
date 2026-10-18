@@ -60,6 +60,7 @@ node scripts/generate-readme.mjs
 | Server | Description | Transport | Links |
 |---|---|---|---|
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
+| Zerouter MCP | AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi through one OpenAI-compatible Zerouter API key: chat, compare models side by side, and look up API pricing. | stdio | [Homepage](https://www.zerouter.ai)<br>[GitHub](https://github.com/ZerouterAI/zerouter-mcp)<br>[Package](https://github.com/ZerouterAI/zerouter-mcp/releases/tag/v0.1.0) |
 
 ### Files
 
