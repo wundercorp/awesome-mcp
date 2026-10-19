@@ -1,0 +1,27 @@
+{
+  "slug": "whale-coupons",
+  "name": "Whale Coupons",
+  "category": "data",
+  "description": "Read-only lookup of coupon and discount codes issued by independent online stores: find a code by store name, website domain or product URL, search stores by product category, or list the largest discounts. No account or API key.",
+  "homepage_url": "https://whalecoupons.co",
+  "repository_url": "https://github.com/whalecoupons/whale-coupons-mcp",
+  "documentation_url": "https://github.com/whalecoupons/whale-coupons-mcp#readme",
+  "remote_endpoint_url": "https://whalecoupons.co/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "find_coupons",
+    "search_stores",
+    "get_store",
+    "list_categories",
+    "list_largest_discounts"
+  ],
+  "license": "MIT",
+  "license_url": "https://github.com/whalecoupons/whale-coupons-mcp/blob/main/LICENSE",
+  "provider": {
+    "name": "Whale Coupons",
+    "url": "https://whalecoupons.co"
+  },
+  "status": "active"
+}
