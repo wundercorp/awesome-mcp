@@ -1,0 +1,17 @@
+{
+  "slug": "agent-payment-node",
+  "name": "Agent Payment Node",
+  "category": "developer-tools",
+  "description": "Local macOS CLI and stdio MCP payments with foreground owner approval for signing.",
+  "homepage_url": "https://github.com/nuanu-ai/agent-payment-node",
+  "repository_url": "https://github.com/nuanu-ai/agent-payment-node",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "apn_version",
+    "apn_foreground_handoff"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
