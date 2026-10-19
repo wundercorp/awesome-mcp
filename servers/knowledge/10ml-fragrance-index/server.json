@@ -1,0 +1,11 @@
+{
+  "slug": "10ml-fragrance-index",
+  "name": "10ML Fragrance Index",
+  "category": "knowledge",
+  "description": "Perfume notes, accords, families, similar scents and alternatives, houses and expert guides, curated by 10ML's fragrance editors. Hosted, read-only, no sign-in.",
+  "homepage_url": "https://mcp.10ml.com",
+  "repository_url": "https://github.com/10ml-com/perfume-finder-mcp",
+  "transports": ["streamable-http"],
+  "license": "MIT",
+  "status": "active"
+}
