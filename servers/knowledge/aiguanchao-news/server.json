@@ -1,0 +1,29 @@
+{
+  "slug": "aiguanchao-news",
+  "name": "AI Guanchao News",
+  "category": "knowledge",
+  "description": "Hosted MCP for curated daily AI news (Chinese summaries with source links): latest picks, news search, daily briefs, trending stories and company/topic timelines. Streamable HTTP with a free personal Bearer token.",
+  "homepage_url": "https://aiguanchao.com/en/agent",
+  "repository_url": "https://github.com/AmbroseX/aiguanchao",
+  "package_url": "https://aiguanchao.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "dn_get_latest",
+    "dn_search",
+    "dn_get_hot",
+    "dn_get_daily",
+    "dn_get_topic",
+    "dn_get_theme",
+    "dn_ask",
+    "dn_my",
+    "dn_guide"
+  ],
+  "license": "Proprietary (hosted service; public docs repo, no license)",
+  "provider": {
+    "name": "AI Guanchao",
+    "url": "https://aiguanchao.com"
+  },
+  "status": "active"
+}
