@@ -23,6 +23,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| PlaceCall | Hosted MCP server that places real outbound phone calls to US businesses (reservations, appointments, quotes), gets through IVR menus, holds and transfers, and returns the outcome, transcript and recording. | streamable-http | [Homepage](https://voygr.tech/placecall/)<br>[GitHub](https://github.com/voygr-tech/placecall)<br>[Package](https://api.voygr.tech/mcp) |
 | Taisly Social Media Posting | Publish and schedule short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook. | streamable-http, stdio | [Homepage](https://taisly.com/en/ai-agent-kit)<br>[GitHub](https://github.com/taisly/agent)<br>[Package](https://www.npmjs.com/package/@taisly/agent) |
 
 ### Data

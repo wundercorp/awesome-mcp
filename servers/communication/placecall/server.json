@@ -1,0 +1,24 @@
+{
+  "slug": "placecall",
+  "name": "PlaceCall",
+  "category": "communication",
+  "description": "Hosted MCP server that places real outbound phone calls to US businesses (reservations, appointments, quotes), gets through IVR menus, holds and transfers, and returns the outcome, transcript and recording.",
+  "homepage_url": "https://voygr.tech/placecall/",
+  "repository_url": "https://github.com/voygr-tech/placecall",
+  "package_url": "https://api.voygr.tech/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "suggest_places",
+    "place_call",
+    "get_call_result",
+    "answer_question"
+  ],
+  "license": "MIT (client, skill and plugins repo); hosted call service is proprietary",
+  "provider": {
+    "name": "VOYGR",
+    "url": "https://voygr.tech/placecall/"
+  },
+  "status": "active"
+}
