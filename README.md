@@ -59,6 +59,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| Dreamtune | Access model requests, tool APIs, GPU jobs and request traces through a workspace-scoped API key. Hosted Streamable HTTP requires the X-Dreamtune-API-Key header; paid operations use workspace credit and the key's permissions. | streamable-http, stdio | [Homepage](https://docs.dreamtunelabs.com/connect/mcp)<br>[Package](https://www.npmjs.com/package/@dreamtune/sdk) |
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
 
 ### Files
