@@ -1,0 +1,22 @@
+{
+  "slug": "winelabs",
+  "name": "Wine Labs",
+  "category": "data",
+  "description": "Hosted wine identity matching, pricing, auctions, merchant comparisons, and cellar workflows. Requires a Wine Labs account and OAuth sign-in.",
+  "homepage_url": "https://winelabs.ai/agents",
+  "repository_url": "https://github.com/imiraoui/winelabs-mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search_winelabs_endpoints",
+    "fetch_winelabs_data",
+    "fetch_winelabs_data_bundle"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Wine Labs",
+    "url": "https://winelabs.ai"
+  },
+  "status": "active"
+}
