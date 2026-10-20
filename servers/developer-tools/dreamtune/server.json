@@ -1,0 +1,26 @@
+{
+  "slug": "dreamtune",
+  "name": "Dreamtune",
+  "category": "developer-tools",
+  "description": "Access model requests, tool APIs, GPU jobs and request traces through a workspace-scoped API key. Hosted Streamable HTTP requires the X-Dreamtune-API-Key header; paid operations use workspace credit and the key's permissions.",
+  "homepage_url": "https://docs.dreamtunelabs.com/connect/mcp",
+  "package_url": "https://www.npmjs.com/package/@dreamtune/sdk",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "tools": [
+    "list_tools",
+    "inspect_tool",
+    "create_model_run",
+    "compute_catalog",
+    "create_compute_job",
+    "list_request_traces"
+  ],
+  "license": "Proprietary hosted service; MIT SDK",
+  "provider": {
+    "name": "Dreamtune",
+    "url": "https://dreamtunelabs.com"
+  },
+  "status": "active"
+}
