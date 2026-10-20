@@ -1,0 +1,17 @@
+{
+  "slug": "mysocial",
+  "name": "Mysocial",
+  "category": "data",
+  "description": "Hosted OAuth social media intelligence from connected content history, performance signals, and creator memory; Streamable HTTP at https://app.mysocial.io/mcp.",
+  "homepage_url": "https://mysocial.io/mcp/",
+  "repository_url": "https://github.com/mysocialio/mysocial-intelligence",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Mysocial",
+    "url": "https://mysocial.io"
+  },
+  "status": "active"
+}
