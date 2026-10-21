@@ -1,0 +1,20 @@
+{
+  "slug": "arcmira",
+  "name": "Arcmira: YouTube Transcript Search",
+  "category": "knowledge",
+  "description": "Search indexed YouTube transcripts for timestamped passages, speaker appearances, sponsors and recommendations through an authenticated hosted MCP connection.",
+  "homepage_url": "https://arcmira.com",
+  "repository_url": "https://github.com/arcmira/mcp",
+  "documentation_url": "https://arcmira.com/docs/mcp-server",
+  "endpoint_url": "https://mcp.arcmira.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Arcmira",
+    "url": "https://arcmira.com"
+  },
+  "status": "active"
+}
