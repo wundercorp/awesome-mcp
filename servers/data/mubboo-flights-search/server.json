@@ -1,0 +1,24 @@
+{
+  "slug": "mubboo-flights-search",
+  "name": "Mubboo Flights Search",
+  "category": "data",
+  "description": "Prepare flight searches with airport lookup, validated trip inputs and ready-to-open search links. Free hosted service with no account or API key; no live fares or inventory, bookings or payments.",
+  "homepage_url": "https://mubboo.flights/mcp",
+  "repository_url": "https://github.com/Mubboo-Ai/mubboo-flights-mcp",
+  "endpoint_url": "https://mubboo.flights/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "find_airports",
+    "prepare_flight_search",
+    "get_service_info"
+  ],
+  "license": "Proprietary",
+  "license_notes": "The hosted backend is private. Public documentation and original client examples in the linked repository are MIT licensed; this is not a self-hostable server implementation.",
+  "provider": {
+    "name": "Mubboo Flights",
+    "url": "https://mubboo.flights"
+  },
+  "status": "active"
+}
