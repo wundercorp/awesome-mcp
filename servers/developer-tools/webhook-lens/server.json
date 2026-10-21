@@ -1,0 +1,23 @@
+{
+  "slug": "webhook-lens",
+  "name": "Webhook Lens",
+  "category": "developer-tools",
+  "description": "Inspect local webhook JSON structure, compare payload shapes, and validate fixtures against JSON Schema draft-07 through a read-only MCP server.",
+  "homepage_url": "https://github.com/webizmo/webhook-lens",
+  "repository_url": "https://github.com/webizmo/webhook-lens",
+  "documentation_url": "https://github.com/webizmo/webhook-lens/blob/main/docs/claude.md",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "inspect_payload",
+    "compare_payloads",
+    "validate_payload"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Webizmo",
+    "url": "https://webizmo.tr"
+  },
+  "status": "active"
+}
