@@ -1,0 +1,19 @@
+{
+  "slug": "rentreboot",
+  "name": "RentReboot",
+  "category": "data",
+  "description": "NYC renter guides and neighborhood rent percentiles, with scoped OAuth tools for apartment alerts, saved searches and Housing Lottery statuses.",
+  "homepage_url": "https://rentreboot.com",
+  "repository_url": "https://github.com/imiraoui/rentreboot-mcp",
+  "package_url": "https://rentreboot.com/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary hosted service; public setup documentation is MIT licensed",
+  "provider": {
+    "name": "RentReboot",
+    "url": "https://rentreboot.com"
+  },
+  "status": "active"
+}
