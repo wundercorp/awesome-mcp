@@ -1,0 +1,21 @@
+{
+  "slug": "court-rules",
+  "name": "Court Rules",
+  "category": "data",
+  "description": "MCP server for U.S. federal and state court filing rules, local rules, judge standing orders and court holiday calendars, each returned with a citation to the source document.",
+  "homepage_url": "https://docs.courtrules.app/guides/mcp-court-rules",
+  "repository_url": "https://github.com/foklepoint/court-rules-mcp",
+  "package_url": "",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "court-rules"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Court Rules",
+    "url": "https://www.courtrules.app/"
+  },
+  "status": "active"
+}
