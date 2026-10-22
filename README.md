@@ -59,6 +59,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| deed.page | Publish an HTML file or static folder to a permanent https://{slug}.deed.page/ URL without an account, then update it, restore earlier versions, or delete it with the owner token returned at publish time. | streamable-http | [Homepage](https://deed.page)<br>[GitHub](https://github.com/f-o-x11/deed-page-skill) |
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
 
 ### Files

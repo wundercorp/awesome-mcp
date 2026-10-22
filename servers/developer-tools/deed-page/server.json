@@ -1,0 +1,46 @@
+{
+  "slug": "deed-page",
+  "name": "deed.page",
+  "category": "developer-tools",
+  "description": "Publish an HTML file or static folder to a permanent https://{slug}.deed.page/ URL without an account, then update it, restore earlier versions, or delete it with the owner token returned at publish time.",
+  "homepage_url": "https://deed.page",
+  "repository_url": "https://github.com/f-o-x11/deed-page-skill",
+  "documentation_url": "https://deed.page/docs",
+  "remote_endpoint_url": "https://deed.page/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "publish_site",
+    "update_site",
+    "get_site",
+    "list_sites",
+    "delete_site",
+    "rotate_token",
+    "revoke_token",
+    "whoami",
+    "get_upgrade_link",
+    "list_versions",
+    "restore_version",
+    "add_domain",
+    "list_domains",
+    "remove_domain",
+    "domain_status",
+    "plan_upload",
+    "finalize_upload",
+    "get_manifest",
+    "site_analytics",
+    "set_site_access",
+    "set_listing",
+    "create_webhook",
+    "list_webhooks",
+    "delete_webhook"
+  ],
+  "license": "MIT (client skill and plugin manifests); hosted service",
+  "license_url": "https://github.com/f-o-x11/deed-page-skill/blob/main/LICENSE",
+  "provider": {
+    "name": "Avatar 8 LLC",
+    "url": "https://deed.page"
+  },
+  "status": "active"
+}
