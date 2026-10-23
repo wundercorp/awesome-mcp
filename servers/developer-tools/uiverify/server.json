@@ -1,0 +1,37 @@
+{
+  "slug": "uiverify",
+  "name": "UI Verify",
+  "category": "developer-tools",
+  "description": "Visual testing for coding agents. The agent sees screenshot diffs of its UI changes and can accept or reject them over a hosted MCP server.",
+  "homepage_url": "https://uiverify.ai",
+  "repository_url": "https://github.com/uiverify/uiverify",
+  "documentation_url": "https://uiverify.ai/docs/mcp-tools",
+  "remote_endpoint_url": "https://uiverify.ai/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "auth": "OAuth",
+  "tools": [
+    "list_projects",
+    "list_builds",
+    "get_build",
+    "list_build_stories",
+    "get_pr_changeset",
+    "list_pr_stories",
+    "get_diff",
+    "render_diff_image",
+    "review_diff",
+    "accept_build",
+    "list_comments",
+    "post_comment",
+    "update_comment",
+    "resolve_comment",
+    "delete_comment"
+  ],
+  "license": "Proprietary (hosted service; uiverify/uiverify clients and skills MIT)",
+  "provider": {
+    "name": "UI Verify",
+    "url": "https://uiverify.ai"
+  },
+  "status": "active"
+}

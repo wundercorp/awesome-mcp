@@ -60,6 +60,7 @@ node scripts/generate-readme.mjs
 | Server | Description | Transport | Links |
 |---|---|---|---|
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
+| UI Verify | Visual testing for coding agents. The agent sees screenshot diffs of its UI changes and can accept or reject them over a hosted MCP server. | streamable-http | [Homepage](https://uiverify.ai)<br>[GitHub](https://github.com/uiverify/uiverify) |
 
 ### Files
 
