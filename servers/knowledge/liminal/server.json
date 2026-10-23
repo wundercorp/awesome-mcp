@@ -1,0 +1,21 @@
+{
+  "slug": "liminal",
+  "name": "Liminal",
+  "category": "knowledge",
+  "description": "Augment your work with Liminal. Stop repeating yourself and build on what’s already solved. Hosted MCP server that turns objectives into structured work: scope guardrails, resources and constraints, gaps, research and next steps, with continuity carried across sessions.",
+  "homepage_url": "https://physea.ai/mcp",
+  "repository_url": "https://github.com/jaybro2042-alt/liminality-mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "solve",
+    "get_capabilities",
+    "get_result_detail",
+    "handoff",
+    "research",
+    "task"
+  ],
+  "license": "Apache-2.0",
+  "status": "active"
+}
