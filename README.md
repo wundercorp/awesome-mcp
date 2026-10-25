@@ -23,6 +23,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| Hail | Give your AI assistant a phone number and an email inbox to handle calls, texts, and email. Open-source or cloud priced on usage. | streamable-http, stdio | [Homepage](https://hail.so)<br>[GitHub](https://github.com/hail-hq/hail) |
 | Taisly Social Media Posting | Publish and schedule short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook. | streamable-http, stdio | [Homepage](https://taisly.com/en/ai-agent-kit)<br>[GitHub](https://github.com/taisly/agent)<br>[Package](https://www.npmjs.com/package/@taisly/agent) |
 
 ### Data

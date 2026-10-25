@@ -1,0 +1,23 @@
+{
+  "slug": "hail",
+  "name": "Hail",
+  "category": "communication",
+  "description": "Give your AI assistant a phone number and an email inbox to handle calls, texts, and email. Open-source or cloud priced on usage.",
+  "homepage_url": "https://hail.so",
+  "repository_url": "https://github.com/hail-hq/hail",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "tools": [
+    "place_call",
+    "send_sms",
+    "send_email"
+  ],
+  "license": "AGPL-3.0-or-later",
+  "provider": {
+    "name": "Hail",
+    "url": "https://hail.so/mcp"
+  },
+  "status": "active"
+}
