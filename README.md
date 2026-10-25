@@ -116,3 +116,6 @@ node scripts/generate-readme.mjs
 ## License
 
 Directory metadata is MIT licensed unless an entry says otherwise. Each listed project keeps its own license.
+
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - Non-custodial 3-line Web3 checkout widget, REST API, and remote MCP payment receipt verifier (`wDOOM` on Base Mainnet & `DOOM` Layer-1).
+- [BountyGuard](https://github.com/doomsday-network/bounty-guard) - Zero-dependency MCP security server & CLI auditor that verifies on-chain bounty escrow before AI agents start work.
