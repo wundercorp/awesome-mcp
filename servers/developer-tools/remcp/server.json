@@ -1,0 +1,29 @@
+{
+  "slug": "remcp",
+  "name": "ReMCP",
+  "category": "developer-tools",
+  "description": "OAuth-protected Streamable HTTP MCP for terminal, files, browser and desktop operations on explicitly user-paired Windows, macOS and Linux computers. Some tools modify device state.",
+  "homepage_url": "https://remcp.site",
+  "repository_url": "https://github.com/getremcp/remcp",
+  "documentation_url": "https://github.com/getremcp/remcp/blob/main/README.md",
+  "remote_endpoint_url": "https://remcp.site/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "list_devices",
+    "device_tools",
+    "device_action",
+    "start_process",
+    "read_file",
+    "write_file",
+    "computer_snapshot",
+    "computer_action"
+  ],
+  "license": "MIT (public runtime/plugin; hosted relay proprietary)",
+  "provider": {
+    "name": "getremcp",
+    "url": "https://remcp.site"
+  },
+  "status": "active"
+}

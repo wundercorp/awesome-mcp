@@ -59,6 +59,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| ReMCP | OAuth-protected Streamable HTTP MCP for terminal, files, browser and desktop operations on explicitly user-paired Windows, macOS and Linux computers. Some tools modify device state. | streamable-http | [Homepage](https://remcp.site)<br>[GitHub](https://github.com/getremcp/remcp) |
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
 
 ### Files
