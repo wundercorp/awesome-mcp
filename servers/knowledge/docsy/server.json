@@ -1,0 +1,26 @@
+{
+  "slug": "docsy",
+  "name": "Docsy",
+  "category": "knowledge",
+  "description": "Hosted read-only Streamable HTTP MCP for resolving developer libraries and versions, searching public indexed documentation, and fetching original source-linked references. Requires user OAuth 2.1 sign-in.",
+  "homepage_url": "https://docsy.remcp.site",
+  "repository_url": "https://github.com/getremcp/docsy-plugin",
+  "documentation_url": "https://github.com/getremcp/docsy-plugin/blob/main/docs/GETTING-STARTED.md",
+  "remote_endpoint_url": "https://docsy.remcp.site/mcp/registry",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "resolve_library_id",
+    "list_library_versions",
+    "query_docs",
+    "search",
+    "fetch"
+  ],
+  "license": "MIT (public client plugin; hosted backend proprietary)",
+  "provider": {
+    "name": "getremcp",
+    "url": "https://docsy.remcp.site"
+  },
+  "status": "active"
+}
