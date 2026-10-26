@@ -1,0 +1,14 @@
+{
+  "slug": "speakeasy-control-plane",
+  "name": "Speakeasy control plane",
+  "category": "orchestration",
+  "description": "MCP gateway that combines remote, private-network, and API-backed tools behind governed endpoints with identity-based access and tool-call logs.",
+  "homepage_url": "https://www.speakeasy.com/",
+  "repository_url": "https://github.com/speakeasy-api/gram",
+  "license": "AGPL-3.0 (source); commercial hosted service",
+  "provider": {
+    "name": "Speakeasy",
+    "url": "https://www.speakeasy.com/"
+  },
+  "status": "active"
+}

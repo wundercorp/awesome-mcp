@@ -98,6 +98,7 @@ node scripts/generate-readme.mjs
 |---|---|---|---|
 | Aident Loadout | Remote MCP server that connects Codex, Claude Code, Cursor, ChatGPT and other MCP clients to 1,000+ apps and 400+ expert-built Skills through one reusable setup. OAuth in the browser; credentials stay in Aident Vault; every action is logged in Audit. Freemium pay-as-you-go. | streamable-http | [Homepage](https://aident.ai)<br>[GitHub](https://github.com/Aident-AI/aident-skill)<br>[Package](https://loadout.aident.ai/mcp) |
 | Process Street | Connect AI agents to Process Street workflows, tasks, runs, data sets, and operational records. | streamable-http | [Homepage](https://www.process.st/help/docs/mcp-server/)<br>[GitHub](https://github.com/process-street/process-street-mcp) |
+| Speakeasy control plane | MCP gateway that combines remote, private-network, and API-backed tools behind governed endpoints with identity-based access and tool-call logs. |  | [Homepage](https://www.speakeasy.com/)<br>[GitHub](https://github.com/speakeasy-api/gram) |
 
 ### Security
 
