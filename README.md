@@ -59,6 +59,8 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| Coding Tools MCP | Rust + Tauri 2 desktop MCP workspace that gives AI agents hands on a local project: file edits, command and test execution, Git status, and resumable history sessions. Windows and macOS installers included. | stdio | [Homepage](https://github.com/mybolide/coding-tools-mcp)<br>[GitHub](https://github.com/mybolide/coding-tools-mcp) |
+| mcp-probe-kit | Spec-driven development workflow MCP for coding agents: start_feature / start_bugfix / start_ui orchestrate the whole flow, plans resume across sessions, and a converge gate refuses to close a task without spec, test and review evidence. | stdio | [Homepage](https://github.com/mybolide/mcp-probe-kit)<br>[GitHub](https://github.com/mybolide/mcp-probe-kit)<br>[Package](https://www.npmjs.com/package/mcp-probe-kit) |
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
 
 ### Files
