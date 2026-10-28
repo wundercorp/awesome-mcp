@@ -1,0 +1,14 @@
+{
+  "slug": "coding-tools-mcp",
+  "name": "Coding Tools MCP",
+  "category": "developer-tools",
+  "description": "Rust + Tauri 2 desktop MCP workspace that gives AI agents hands on a local project: file edits, command and test execution, Git status, and resumable history sessions. Windows and macOS installers included.",
+  "homepage_url": "https://github.com/mybolide/coding-tools-mcp",
+  "repository_url": "https://github.com/mybolide/coding-tools-mcp",
+  "documentation_url": "https://github.com/mybolide/coding-tools-mcp#readme",
+  "transports": [
+    "stdio"
+  ],
+  "license": "Apache-2.0",
+  "status": "active"
+}

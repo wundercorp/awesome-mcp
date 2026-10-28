@@ -1,0 +1,27 @@
+{
+  "slug": "mcp-probe-kit",
+  "name": "mcp-probe-kit",
+  "category": "developer-tools",
+  "description": "Spec-driven development workflow MCP for coding agents: start_feature / start_bugfix / start_ui orchestrate the whole flow, plans resume across sessions, and a converge gate refuses to close a task without spec, test and review evidence.",
+  "homepage_url": "https://github.com/mybolide/mcp-probe-kit",
+  "repository_url": "https://github.com/mybolide/mcp-probe-kit",
+  "package_url": "https://www.npmjs.com/package/mcp-probe-kit",
+  "documentation_url": "https://github.com/mybolide/mcp-probe-kit#readme",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "start_feature",
+    "start_bugfix",
+    "start_ui",
+    "resume_plan",
+    "plan_heartbeat",
+    "converge",
+    "check_spec",
+    "code_review",
+    "gentest",
+    "init_project"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
