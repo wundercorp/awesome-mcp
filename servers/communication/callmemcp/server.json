@@ -1,0 +1,27 @@
+{
+  "slug": "callmemcp",
+  "name": "CallMeMCP Phone Calls",
+  "category": "communication",
+  "description": "Rings your own iPhone or Android phone, reads the agent's question aloud and returns your spoken answer as text; can also send you a text and wait for the reply.",
+  "homepage_url": "https://callmemcp.com",
+  "repository_url": "https://github.com/radres/call-me",
+  "package_url": "",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "call",
+    "say",
+    "hang_up",
+    "poll_result",
+    "text",
+    "wait_for_reply",
+    "setup"
+  ],
+  "license": "Proprietary service; client plugin MIT",
+  "provider": {
+    "name": "Serdar Oztetik",
+    "url": "https://callmemcp.com"
+  },
+  "status": "active"
+}

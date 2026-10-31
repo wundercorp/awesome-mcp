@@ -23,6 +23,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| CallMeMCP Phone Calls | Rings your own iPhone or Android phone, reads the agent's question aloud and returns your spoken answer as text; can also send you a text and wait for the reply. | streamable-http | [Homepage](https://callmemcp.com)<br>[GitHub](https://github.com/radres/call-me) |
 | Taisly Social Media Posting | Publish and schedule short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook. | streamable-http, stdio | [Homepage](https://taisly.com/en/ai-agent-kit)<br>[GitHub](https://github.com/taisly/agent)<br>[Package](https://www.npmjs.com/package/@taisly/agent) |
 
 ### Data
