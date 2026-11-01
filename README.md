@@ -14,12 +14,12 @@ A curated directory of Model Context Protocol (MCP) servers maintained by Wunder
 | [Design & Media](categories/design.md) | 4 | Create or edit visual, audio, and other creative artifacts |
 | [Developer Tools](categories/developer-tools.md) | 3 | Help develop, test, debug, or document software |
 | [Files](categories/files.md) | 1 | Read, search, edit, or manage file storage |
-| [Knowledge](categories/knowledge.md) | 13 | Retrieve or organize research, memory, and reference knowledge |
+| [Knowledge](categories/knowledge.md) | 14 | Retrieve or organize research, memory, and reference knowledge |
 | [Observability](categories/observability.md) | 4 | Inspect logs, metrics, traces, health, and operational events |
 | [Orchestration](categories/orchestration.md) | 2 | Coordinate workflows, tools, jobs, and agent execution |
 | [Security](categories/security.md) | 2 | Assess, monitor, or enforce system and application security |
 
-**52 servers** across 11 categories.
+**53 servers** across 11 categories.
 
 ## Submit an MCP server
 

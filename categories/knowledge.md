@@ -5,7 +5,7 @@
 
 Retrieve or organize research, memory, and reference knowledge
 
-**13 servers**
+**14 servers**
 
 | Server | Description | Transport | Project links |
 | --- | --- | --- | --- |
@@ -18,6 +18,7 @@ Retrieve or organize research, memory, and reference knowledge
 | fidelis | Zero-LLM local-first agent memory combining BM25, dense-vector, and reciprocal-rank-fusion retrieval, returning original passages verbatim by default instead of paraphrased summaries. | stdio | [Homepage](https://pypi.org/project/fidelis-memory/) · [GitHub](https://github.com/hermes-labs-ai/fidelis) |
 | Hyperconsciousness | Developer-alpha encrypted, append-only knowledge store with MCP search and retrieval through scoped, expiring grants. Requires a local store and an owner-issued grant. | stdio | [Homepage](https://github.com/louis030195/hyperconsciousness) · [GitHub](https://github.com/louis030195/hyperconsciousness) |
 | Most Recommended Books | Read-only Streamable HTTP MCP server for verified book recommendations, reading lists, series reading orders, consensus best-of lists, and summaries with original sources. | streamable-http | [Homepage](https://mostrecommendedbooks.com/) · [GitHub](https://github.com/richardreeze/mrb-api) · [Package](https://mostrecommendedbooks.com/api/mcp) |
+| Nova Research (CIVAI) | Hosted Streamable HTTP MCP server for deep research and sourced report generation over live web search, from the Nova catalog by CIVAI Technologies. | streamable-http | [Homepage](https://nova.civai.co/agent/research-agent) · [GitHub](https://github.com/civai-technologies/research-agent-mcp-by-nova-civai) · [Package](https://nova.civai.co/mcp/agents/research-agent) |
 | Screenpipe | Search locally captured screen text and audio history for recall, meeting notes, and work summaries. Requires the Screenpipe recorder and local API key; configured cloud services can receive context. Source-available under the Screenpipe Commercial License. | stdio | [Homepage](https://screenpipe.com/) · [GitHub](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp) · [Package](https://www.npmjs.com/package/screenpipe-mcp) |
 | Tubask | Hosted YouTube MCP for Claude, Cursor, and ChatGPT — search videos, summarize talks, and pull timestamped quotes with 3 tools. Streamable HTTP with OAuth 2.0. | streamable-http | [Homepage](https://tubask.app/) · [GitHub](https://github.com/Amorizz/tubask-mcp) · [Package](https://tubask.app/mcp) |
 | UK Legislation Changes | Point-in-time amendment history for UK legislation, derived from legislation.gov.uk under the Open Government Licence v3.0. Deterministic version-boundary diffs, not AI-generated text. | streamable-http | [Homepage](https://github.com/busybusybussiness/uk-legislation-changes) · [GitHub](https://github.com/busybusybussiness/uk-legislation-changes) |
