@@ -1,0 +1,14 @@
+{
+  "slug": "blossom-research",
+  "name": "Blossom Research",
+  "category": "data",
+  "description": "Search published psychedelic research papers, clinical-trial registrations, stakeholders, patents and editorial overviews with source links. Hosted service with 18 read-only tools; OAuth and a free Blossom account required.",
+  "homepage_url": "https://www.moreblossom.com/connect",
+  "endpoint_url": "https://www.moreblossom.com/mcp",
+  "transports": ["streamable-http"],
+  "authentication": "OAuth 2.0",
+  "version": "1.3.0",
+  "tool_count": 18,
+  "license": "Proprietary hosted service; source repository is private",
+  "status": "active"
+}

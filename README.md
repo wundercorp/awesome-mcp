@@ -29,6 +29,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| Blossom Research | Search published psychedelic research papers, clinical-trial registrations, stakeholders, patents and editorial overviews with source links. Hosted service with 18 read-only tools; OAuth and a free Blossom account required. | streamable-http | [Homepage](https://www.moreblossom.com/connect) |
 | BuyWhere | Real-time product search and price comparison across 15+ Singapore/SEA merchants (11M+ products). REST API + MCP server for AI agents. | stdio, streamable-http | [Homepage](https://buywhere.ai)<br>[GitHub](https://github.com/BuyWhere/buywhere-mcp)<br>[Package](https://www.npmjs.com/package/@buywhere/mcp-server) |
 | CareClinic Health Tracker | Hosted OAuth MCP server for reviewing personal medication schedules, symptoms, mood, and confirmed health check-ins. | streamable-http | [Homepage](https://cdn.careclinic.io/mcp/help/index.html)<br>[Package](https://mcp.careclinic.io/mcp) |
 | Clera | Hosted OAuth MCP server for hiring: search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros. | streamable-http | [Homepage](https://www.getclera.com/mcp)<br>[GitHub](https://github.com/getclera/mcp)<br>[Package](https://mcp.getclera.com) |
