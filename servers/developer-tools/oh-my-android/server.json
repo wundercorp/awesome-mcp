@@ -1,0 +1,39 @@
+{
+  "slug": "oh-my-android",
+  "name": "Oh My Android",
+  "category": "developer-tools",
+  "description": "Local stdio MCP server shipped inside a native macOS app (macOS 26+, Apple silicon) that lets coding agents see and drive the Android Emulator and adb-connected phones: dp-scaled screenshots, compact UI tree, taps and typing, logcat, read-only SharedPreferences and SQLite, and dark mode, font scale, locale/RTL and TalkBack switches. No API key or account.",
+  "homepage_url": "https://royan.se/work/oh-my-android/",
+  "repository_url": "https://github.com/ateymoori/oh-my-android",
+  "documentation_url": "https://github.com/ateymoori/oh-my-android#ai-agents-mcp",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "list_devices",
+    "get_device_state",
+    "set_device_settings",
+    "screenshot",
+    "get_ui",
+    "accessibility_audit",
+    "tap",
+    "swipe",
+    "type_text",
+    "press_key",
+    "list_apps",
+    "open_app",
+    "manage_app",
+    "install_apk",
+    "logcat",
+    "read_preferences",
+    "query_database",
+    "emulator_action"
+  ],
+  "license": "MIT",
+  "license_url": "https://github.com/ateymoori/oh-my-android/blob/main/LICENSE",
+  "provider": {
+    "name": "Amir Teymoori",
+    "url": "https://github.com/ateymoori"
+  },
+  "status": "active"
+}
