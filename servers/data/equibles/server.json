@@ -1,0 +1,22 @@
+{
+  "slug": "equibles",
+  "name": "Equibles",
+  "category": "data",
+  "description": "US company research for AI assistants: SEC filing search and text, fundamentals as reported in 10-K and 10-Q filings, earnings-call transcripts, 13F holdings, insider and congressional trades, and FRED macro series, with links to the source filings. OAuth sign-in, free tier of 100 requests a day.",
+  "homepage_url": "https://equibles.com/mcp",
+  "repository_url": "https://github.com/daniel3303/Equibles",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "SearchDocuments",
+    "GetFinancialStatement",
+    "GetEarningsCallTranscript",
+    "GetInstitutionQuarterlyActivity",
+    "GetInsiderTransactions",
+    "GetCongressionalTrades",
+    "GetEconomicIndicator"
+  ],
+  "license": "AGPL-3.0 (open-source core); hosted service",
+  "status": "active"
+}
