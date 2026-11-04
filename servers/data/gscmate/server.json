@@ -1,0 +1,31 @@
+{
+  "slug": "gscmate",
+  "name": "GSCmate",
+  "category": "data",
+  "description": "Hosted, read-only Google Search Console MCP for properties, search analytics, sitemaps, and URL inspection. OAuth 2.1; plans start at USD 19 per month.",
+  "homepage_url": "https://gscmate.com",
+  "repository_url": "https://github.com/Fushey/gscmate-mcp-listing",
+  "package_url": "https://gscmate.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "list_google_accounts",
+    "list_properties",
+    "get_property",
+    "get_portfolio_summary",
+    "get_property_performance",
+    "search_analytics_query",
+    "get_insights",
+    "get_sitemaps",
+    "get_sitemap",
+    "inspect_url",
+    "get_data_access_status"
+  ],
+  "license": "Proprietary (hosted service; private source)",
+  "provider": {
+    "name": "GSCmate",
+    "url": "https://gscmate.com"
+  },
+  "status": "active"
+}
