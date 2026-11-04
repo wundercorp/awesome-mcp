@@ -1,0 +1,26 @@
+{
+  "slug": "boim",
+  "name": "BOIM (보임)",
+  "category": "data",
+  "description": "Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth on the free tier (5 results per tool).",
+  "homepage_url": "https://boim.io/connect/",
+  "repository_url": "https://github.com/kikiyop1101/boim-mcp",
+  "package_url": "https://boim.io/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "find_businesses",
+    "search_vendors",
+    "get_vendor",
+    "find_public_bids",
+    "find_local_shops",
+    "list_categories"
+  ],
+  "license": "MIT (docs and client-config repo); hosted service, server code not open source",
+  "provider": {
+    "name": "Public identity Co., Ltd.",
+    "url": "https://www.public-id.co.kr"
+  },
+  "status": "active"
+}
