@@ -60,6 +60,7 @@ node scripts/generate-readme.mjs
 | Server | Description | Transport | Links |
 |---|---|---|---|
 | Remote Arc | Connect MCP clients to explicitly paired Windows, macOS, and Linux computers for permission-scoped file operations, process inspection, terminal execution, and local undo through a hosted OAuth-protected relay. Source-available core implementation. | streamable-http | [Homepage](https://remotearc.app)<br>[GitHub](https://github.com/yaohuangguan/remote-arc)<br>[Package](https://www.npmjs.com/package/remotelink) |
+| Sem | Local code entity search, dependency and impact inspection, structural diffs, and history for Git repositories over stdio MCP; launch sem mcp in the repository to inspect. | stdio | [Homepage](https://github.com/Ataraxy-Labs/sem#use-with-ai-agents-mcp)<br>[GitHub](https://github.com/Ataraxy-Labs/sem)<br>[Package](https://www.npmjs.com/package/@ataraxy-labs/sem) |
 
 ### Files
 

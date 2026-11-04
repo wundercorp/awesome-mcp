@@ -1,0 +1,13 @@
+{
+  "slug": "sem",
+  "name": "Sem",
+  "category": "developer-tools",
+  "description": "Local code entity search, dependency and impact inspection, structural diffs, and history for Git repositories over stdio MCP; launch sem mcp in the repository to inspect.",
+  "homepage_url": "https://github.com/Ataraxy-Labs/sem#use-with-ai-agents-mcp",
+  "repository_url": "https://github.com/Ataraxy-Labs/sem",
+  "package_url": "https://www.npmjs.com/package/@ataraxy-labs/sem",
+  "transports": ["stdio"],
+  "tools": ["sem_find", "sem_grep", "sem_impact", "sem_check", "sem_certify", "sem_diff", "sem_graph", "sem_history"],
+  "license": "MIT OR Apache-2.0",
+  "status": "active"
+}
