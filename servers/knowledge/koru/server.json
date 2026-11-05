@@ -1,0 +1,24 @@
+{
+  "slug": "koru",
+  "name": "Koru",
+  "category": "knowledge",
+  "description": "Local MCP server (koru-mcp) built into Koru, an open-source, local-first notes workspace written in Rust. Claude, Claude Code and other MCP clients can search, read, create and edit documents and files stored on the device.",
+  "homepage_url": "https://www.koru.do",
+  "repository_url": "https://github.com/koruworks/mono",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "list_workspaces",
+    "list_documents",
+    "search_documents",
+    "read_document",
+    "create_document",
+    "edit_document",
+    "list_files",
+    "search_files",
+    "read_file"
+  ],
+  "license": "MPL-2.0",
+  "status": "active"
+}
