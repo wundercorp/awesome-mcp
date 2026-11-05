@@ -1,0 +1,30 @@
+{
+  "slug": "grok-bot-wiki",
+  "name": "Grok Bot Wiki",
+  "category": "knowledge",
+  "description": "Hosted Streamable HTTP MCP for searching community Grok Bot templates and source-linked guides, with a free human-reviewed submission queue and optional paid listing-upgrade checkout links. No authentication; unofficial and not affiliated with xAI. Public listings are not execution tests.",
+  "homepage_url": "https://www.grokbotwiki.com/mcp",
+  "endpoint_url": "https://www.grokbotwiki.com/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search_bots",
+    "get_bot",
+    "list_categories",
+    "search_guides",
+    "get_guide",
+    "troubleshoot",
+    "search",
+    "fetch",
+    "submit_bot",
+    "check_listing",
+    "start_checkout"
+  ],
+  "license": "Not specified (hosted service)",
+  "provider": {
+    "name": "Grok Bot Wiki",
+    "url": "https://www.grokbotwiki.com"
+  },
+  "status": "active"
+}
