@@ -1,0 +1,27 @@
+{
+  "slug": "realtycrawl",
+  "name": "RealtyCrawl",
+  "category": "data",
+  "description": "Discover real estate capabilities and schemas, then retrieve source-linked observations with explicit credit budgets; data calls require an API key.",
+  "homepage_url": "https://realtycrawl.dev",
+  "repository_url": "https://github.com/realtycrawl/realtycrawl-mcp",
+  "endpoint_url": "https://realtycrawl.dev/mcp",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "tools": [
+    "list_platforms",
+    "get_capabilities",
+    "list_endpoints",
+    "get_endpoint",
+    "call_endpoint"
+  ],
+  "license": "MIT client; commercial hosted backend",
+  "status": "active",
+  "authentication": {
+    "type": "api-key",
+    "notes": "Metadata discovery is public; data calls require a user-supplied API key and credits."
+  },
+  "coverage_notes": "Check live capabilities. Research, unavailable and documentation-backed beta entries do not establish verified live source coverage."
+}
