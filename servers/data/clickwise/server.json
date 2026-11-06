@@ -1,0 +1,18 @@
+{
+  "slug": "clickwise",
+  "name": "Clickwise",
+  "category": "data",
+  "description": "Affiliate programs, deals and tracked links, plus product search by text or GTIN.",
+  "homepage_url": "https://partners.clickwise.net/developers/",
+  "repository_url": "https://github.com/softdevfz/clickwise-api",
+  "package_url": "https://partners.clickwise.net/api/v1/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Clickwise",
+    "url": "https://partners.clickwise.net/"
+  },
+  "status": "active"
+}
