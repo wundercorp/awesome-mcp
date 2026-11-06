@@ -1,0 +1,23 @@
+{
+  "slug": "artigram",
+  "name": "ArtiGram",
+  "category": "design",
+  "description": "Remote MCP server for ArtiGram, a free gallery of interactive HTML artifacts made with AI assistants. Search and list communities without a key, post and update artifacts with an API key as Bearer token.",
+  "homepage_url": "https://artigram.cafeboon.com",
+  "package_url": "https://artigram.cafeboon.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search_artifacts",
+    "list_communities",
+    "post_artifact",
+    "update_artifact"
+  ],
+  "license": "Proprietary (hosted service; private source)",
+  "provider": {
+    "name": "Cafe Boon",
+    "url": "https://artigram.cafeboon.com"
+  },
+  "status": "active"
+}
