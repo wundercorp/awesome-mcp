@@ -1,0 +1,18 @@
+{
+  "slug": "etsy-sales-mcp",
+  "name": "Etsy Sales MCP",
+  "category": "data",
+  "description": "Etsy search results by keyword, marketplace and category plus daily sales counts and growth for any Etsy shop. Local stdio server via npx; needs your own Apify API token.",
+  "homepage_url": "https://github.com/GeminiGeorge22/etsy-sales-mcp",
+  "repository_url": "https://github.com/GeminiGeorge22/etsy-sales-mcp",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [],
+  "license": "MIT",
+  "provider": {
+    "name": "GeminiGeorge22",
+    "url": "https://github.com/GeminiGeorge22"
+  },
+  "status": "active"
+}
