@@ -1,0 +1,19 @@
+{
+  "slug": "enhanciar",
+  "name": "Enhanciar",
+  "category": "knowledge",
+  "description": "A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve.",
+  "homepage_url": "https://enhanciar.in/?utm_source=directory&utm_medium=listing&utm_campaign=wundercorp-awesome-mcp",
+  "repository_url": "https://github.com/enhanciar/enhanciar-mcp",
+  "package_url": "https://enhanciar.in/enhanciar/mcp/",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary; hosted service",
+  "provider": {
+    "name": "Enhanciar",
+    "url": "https://enhanciar.in"
+  },
+  "status": "active"
+}
