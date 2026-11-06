@@ -1,0 +1,18 @@
+{
+  "slug": "ats-jobs-mcp",
+  "name": "ATS Jobs MCP",
+  "category": "data",
+  "description": "New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards. Local stdio server via npx; needs your own Apify API token.",
+  "homepage_url": "https://github.com/GeminiGeorge22/ats-jobs-mcp",
+  "repository_url": "https://github.com/GeminiGeorge22/ats-jobs-mcp",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [],
+  "license": "MIT",
+  "provider": {
+    "name": "GeminiGeorge22",
+    "url": "https://github.com/GeminiGeorge22"
+  },
+  "status": "active"
+}
