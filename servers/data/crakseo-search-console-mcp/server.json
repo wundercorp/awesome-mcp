@@ -1,0 +1,25 @@
+{
+  "slug": "crakseo-search-console-mcp",
+  "name": "CrakSEO Search Console MCP",
+  "category": "data",
+  "description": "Free remote MCP access to owned-site Google Search Console and Bing Webmaster data; authentication and property authorization required.",
+  "homepage_url": "https://docs.crakseo.com/mcp-servers/search-console",
+  "documentation_url": "https://docs.crakseo.com/seo-mcp/connect",
+  "endpoint_url": "https://crakseo.com/mcp/search-console",
+  "transports": [
+    "streamable-http"
+  ],
+  "authentication": "CrakSEO OAuth or a scoped API key; users separately authorize their own Google or Bing properties.",
+  "tools": [
+    "list_search_console_properties",
+    "get_search_console_performance",
+    "inspect_url_in_google",
+    "list_sitemaps",
+    "submit_sitemap",
+    "get_bing_webmaster_stats",
+    "get_bing_crawl_issues",
+    "get_bing_url_submission_quota"
+  ],
+  "license": "Proprietary hosted service",
+  "status": "active"
+}
