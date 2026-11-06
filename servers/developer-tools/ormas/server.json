@@ -1,0 +1,19 @@
+{
+  "slug": "ormas",
+  "name": "Ormas Outcomes",
+  "category": "developer-tools",
+  "description": "Local stdio MCP client for delegating bounded GitHub coding tasks with agreed acceptance checks, an authorized price limit, and a result branch and receipt. Early alpha; US-only; an Ormas account and credit are required for paid work.",
+  "homepage_url": "https://ormas.ai/docs/first-task",
+  "package_url": "https://ormas.ai/downloads/tensorbox_spec-0.0.5-py3-none-any.whl",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "ormas_prepare_task",
+    "ormas_create_outcomes_project",
+    "ormas_outcomes_job"
+  ],
+  "license": "See vendor licensing terms",
+  "license_url": "https://ormas.ai/docs/open-client",
+  "status": "active"
+}
