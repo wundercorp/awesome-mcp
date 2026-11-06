@@ -1,0 +1,30 @@
+{
+  "slug": "looot",
+  "name": "looot",
+  "category": "data",
+  "description": "Remote MCP server and API with one key and prepaid balance for 2,500+ data endpoints: work email, phone, company and people enrichment, Google SERP, web search and web pages. Pay per call.",
+  "homepage_url": "https://looot.ai",
+  "repository_url": "https://github.com/loootai/looot-mcp",
+  "package_url": "",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "find_work_email",
+    "verify_email",
+    "find_phone",
+    "enrich_company",
+    "search_companies",
+    "search_people",
+    "company_tech_stack",
+    "google_search_results",
+    "web_search",
+    "read_web_page"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "looot",
+    "url": "https://looot.ai"
+  },
+  "status": "active"
+}
