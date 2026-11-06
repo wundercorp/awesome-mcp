@@ -23,6 +23,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| Repostit | Official Repostit MCP connector for social publishing: create editable post and carousel drafts, schedule or publish content to connected social accounts, inspect per-destination delivery, and set up cross-account workflows. Repostit distributes finished video; it does not generate clips. | streamable-http | [Homepage](https://app.repostit.io/claude-connector.html) |
 | Taisly Social Media Posting | Publish and schedule short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook. | streamable-http, stdio | [Homepage](https://taisly.com/en/ai-agent-kit)<br>[GitHub](https://github.com/taisly/agent)<br>[Package](https://www.npmjs.com/package/@taisly/agent) |
 
 ### Data
