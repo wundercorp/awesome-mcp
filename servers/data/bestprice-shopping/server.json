@@ -1,0 +1,17 @@
+{
+  "slug": "bestprice-shopping",
+  "name": "BestPrice Shopping",
+  "category": "data",
+  "description": "Read-only shopping decisions, product search, live offers, delivered totals, and price history for Greece. No BestPrice account or API key.",
+  "homepage_url": "https://www.bestprice.gr/mcp",
+  "repository_url": "https://github.com/TheBestCo/bestprice-mcp",
+  "package_url": "",
+  "transports": ["streamable-http"],
+  "tools": ["get_shopping_decision", "search_products", "compare_offers", "get_price_history"],
+  "license": "Apache-2.0",
+  "provider": {
+    "name": "BestPrice.gr",
+    "url": "https://www.bestprice.gr"
+  },
+  "status": "active"
+}
