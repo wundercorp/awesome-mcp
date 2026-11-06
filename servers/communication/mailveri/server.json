@@ -1,0 +1,24 @@
+{
+  "slug": "mailveri",
+  "name": "MailVeri MCP",
+  "category": "communication",
+  "description": "Verify single emails and bulk lists from AI agents via the MailVeri API: SMTP, catch-all, disposable and role detection.",
+  "homepage_url": "https://mailveri.com/docs/mcp/",
+  "repository_url": "https://github.com/mailveri/mailveri-mcp",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "mailveri_verify_email",
+    "mailveri_verify_batch",
+    "mailveri_get_batch_status",
+    "mailveri_download_batch_result",
+    "mailveri_get_balance"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "MailVeri",
+    "url": "https://mailveri.com"
+  },
+  "status": "active"
+}
