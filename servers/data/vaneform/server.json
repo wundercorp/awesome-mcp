@@ -1,0 +1,18 @@
+{
+  "slug": "vaneform",
+  "name": "Vaneform",
+  "category": "data",
+  "description": "Hosted MCP for free website traffic lookups: estimated monthly visits, trends, top countries, and traffic-source mix for any domain, plus leaderboards of growing sites and AI tools.",
+  "homepage_url": "https://vaneform.com/mcp",
+  "repository_url": "https://github.com/vaneform/vaneform-mcp",
+  "endpoint_url": "https://vaneform.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Not specified (hosted service)",
+  "provider": {
+    "name": "Vaneform",
+    "url": "https://vaneform.com/"
+  },
+  "status": "active"
+}
