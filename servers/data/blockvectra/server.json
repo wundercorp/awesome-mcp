@@ -1,0 +1,18 @@
+{
+  "slug": "blockvectra",
+  "name": "BlockVectra",
+  "category": "data",
+  "description": "Hosted MCP for developers and AI agents: keyless documentation, chain discovery, pricing and permitted public JSON-RPC; indexed Data API and account tools require an API key. Signed-transaction broadcasting is a separate write tool. Free plan available; usage beyond plan limits is metered; RPC access follows each chain policy.",
+  "homepage_url": "https://docs.blockvectra.com/en/guides/mcp-server/",
+  "repository_url": "https://github.com/blockvectra/mcp",
+  "endpoint_url": "https://docs.blockvectra.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "MIT (public client repository)",
+  "provider": {
+    "name": "BlockVectra",
+    "url": "https://docs.blockvectra.com/en/guides/mcp-server/"
+  },
+  "status": "active"
+}
