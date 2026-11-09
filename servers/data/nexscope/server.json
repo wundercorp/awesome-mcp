@@ -1,0 +1,13 @@
+{
+  "slug": "nexscope",
+  "name": "Nexscope",
+  "category": "data",
+  "description": "Ecommerce marketplace data for Amazon, TikTok Shop, Walmart, Shopee, Temu, 1688+ via remote Streamable HTTP MCP (Bearer API key). Official Registry: io.github.nexscope/ecommerce.",
+  "homepage_url": "https://www.nexscope.ai/?co-from=wundercorp-awesome-mcp",
+  "repository_url": "https://github.com/nexscope-ai/nexscope-ecommerce-api",
+  "package_url": "https://api.nexscope.ai/mcp",
+  "transports": ["streamable-http"],
+  "tools": ["product_research", "competitor_analysis", "keyword_research", "listing_insights"],
+  "license": "Proprietary",
+  "status": "active"
+}
