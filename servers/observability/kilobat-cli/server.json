@@ -1,0 +1,13 @@
+{
+  "slug": "kilobat-cli",
+  "name": "Kilobat CLI",
+  "category": "observability",
+  "description": "Open-source macOS network diagnostics CLI with a local stdio MCP server for inspecting connection status. The separate Kilobat desktop app is proprietary.",
+  "homepage_url": "https://github.com/seifip/kilobat-cli",
+  "repository_url": "https://github.com/seifip/kilobat-cli",
+  "transports": ["stdio"],
+  "tools": ["get_status"],
+  "license": "GPL-3.0-only",
+  "provider": {"name": "Philip Seifi", "url": "https://github.com/seifip"},
+  "status": "active"
+}
