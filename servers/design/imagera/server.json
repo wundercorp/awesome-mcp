@@ -1,0 +1,19 @@
+{
+  "slug": "imagera",
+  "name": "Imagera MCP",
+  "category": "design",
+  "description": "Hosted OAuth MCP server for generating and editing images, video, voice and music with Imagera's models, plus agent skills; sign in with an Imagera account, no API key.",
+  "homepage_url": "https://imagera.ai/mcp",
+  "repository_url": "https://github.com/alexadams6ix/imagera-skills",
+  "package_url": "https://mcp.imagera.ai/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary; hosted service",
+  "provider": {
+    "name": "Imagera",
+    "url": "https://imagera.ai"
+  },
+  "status": "active"
+}
