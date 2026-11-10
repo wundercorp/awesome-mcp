@@ -1,0 +1,52 @@
+{
+  "slug": "imageat",
+  "name": "imageat",
+  "category": "design",
+  "description": "Generate and edit images and videos, plus narrated explainers and voiceovers, from any MCP client.",
+  "homepage_url": "https://imageat.com/mcp",
+  "repository_url": "https://github.com/incendies/imageat-mcp",
+  "package_url": "https://www.npmjs.com/package/@imageat/mcp",
+  "endpoint_url": "https://mcp.imageat.com/mcp",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "imageat",
+    "url": "https://imageat.com"
+  },
+  "status": "active",
+  "documentation_url": "https://imageat.com/mcp",
+  "tools": [
+    "imageat_generate_image",
+    "imageat_generate_video",
+    "imageat_generate_video_task",
+    "imageat_check_video_status",
+    "imageat_ask_gemini_argon",
+    "imageat_check_credits",
+    "ai_visibility_check",
+    "imageat_game_guide",
+    "imageat_search_game_models",
+    "imageat_generate_game_asset",
+    "imageat_publish_game",
+    "imageat_update_game",
+    "imageat_social_list_accounts",
+    "imageat_social_create_post",
+    "imageat_social_list_posts",
+    "imageat_social_cancel_post",
+    "imageat_social_queue_autopilot"
+  ],
+  "install_command": "npx -y @imageat/mcp",
+  "authentication": {
+    "stdio": {
+      "environment_variable": "IMAGEAT_API_KEY"
+    },
+    "streamable-http": {
+      "methods": [
+        "API key"
+      ]
+    }
+  },
+  "requirements": "An imageat account and API key are required. Some tools need a paid plan or prepaid credits."
+}

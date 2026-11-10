@@ -55,6 +55,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| imageat | Generate and edit images and videos, plus narrated explainers and voiceovers, from any MCP client. | streamable-http, stdio | [Homepage](https://imageat.com/mcp)<br>[GitHub](https://github.com/incendies/imageat-mcp)<br>[Package](https://www.npmjs.com/package/@imageat/mcp) |
 | Magic Hour | Hosted Streamable HTTP MCP server for generating and editing video, images, and audio with Magic Hour. | streamable-http | [Homepage](https://magichour.ai/mcp)<br>[GitHub](https://github.com/magichourhq/magic-hour-mcp)<br>[Package](https://mcp.magichour.ai/) |
 | OrkasVideoStudio | Local TypeScript MCP server and CLI for coding-agent-driven video composition, editing, analysis, captions, transcription, and rendering with editable plan.json timelines. | stdio | [Homepage](https://github.com/Orkas-AI/Orkas-VideoStudio)<br>[GitHub](https://github.com/Orkas-AI/Orkas-VideoStudio) |
 | UIZZE | Authenticated UI reference MCP for Codex, Claude Code, Cursor, and Copilot. It provides focused UI reference and hosted design-material search grounded in 800,000+ real web and iOS screens; the free anti-ui-slop Skill and GitHub Action are separate. | streamable-http | [Homepage](https://uizze.com)<br>[GitHub](https://github.com/uizze/uizze)<br>[Package](https://uizze.com/mcp) |
