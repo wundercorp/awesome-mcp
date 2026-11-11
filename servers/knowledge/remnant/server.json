@@ -1,0 +1,18 @@
+{
+  "slug": "remnant",
+  "name": "Remnant",
+  "category": "knowledge",
+  "description": "Let agents check prior technical experience and inspect its provenance, conditions and outcomes through anonymous public reads; feedback and contributions use a separate authorized OAuth connection.",
+  "homepage_url": "https://remnant.dedale-bi.com",
+  "repository_url": "https://github.com/Dedale-Project/remnant-connect",
+  "mcp_endpoint_url": "https://remnant.dedale-bi.com/mcp/chatgpt",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "No open-source license granted; hosted service",
+  "provider": {
+    "name": "Dedale",
+    "url": "https://remnant.dedale-bi.com"
+  },
+  "status": "active"
+}
