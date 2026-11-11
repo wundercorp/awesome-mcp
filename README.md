@@ -100,6 +100,7 @@ node scripts/generate-readme.mjs
 | Kilobat CLI | Open-source macOS network diagnostics CLI with a local stdio MCP server for inspecting connection status. The separate Kilobat desktop app is proprietary. | stdio | [Homepage](https://github.com/seifip/kilobat-cli)<br>[GitHub](https://github.com/seifip/kilobat-cli) |
 | OrcaReplay | Local-first record and replay of AI agent runs: captures provider traffic to an on-disk trace library and serves it over a read-only stdio MCP server with six tools (list, show, checkpoints, graph, replay, compare) for inspecting, diffing, and offline replay. | stdio | [Homepage](https://github.com/Continuum-AI-Corp/OrcaReplay)<br>[GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay)<br>[Package](https://www.npmjs.com/package/orcareplay) |
 | SolidPing | Self-hostable uptime monitor with a built-in MCP server: create, run and diagnose checks across 43 types, read results and incidents, and manage status pages and maintenance windows. Remote (OAuth 2.1) or stdio. | stdio, streamable-http | [Homepage](https://www.solidping.io)<br>[GitHub](https://github.com/fclairamb/solidping) |
+| Telemio | Hosted, authenticated observability MCP for querying workspace telemetry, inspecting runtimes and dashboards, and retrieving integration setup guidance. | streamable-http | [Homepage](https://telemio.sh/mcp-server)<br>[GitHub](https://github.com/wundercorp/telemio-mcp) |
 
 ### Orchestration
 
