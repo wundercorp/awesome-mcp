@@ -1,0 +1,14 @@
+{
+  "slug": "persqo",
+  "name": "Persqo",
+  "category": "browser-automation",
+  "description": "Run AI personas through your web app to see why customers don't buy, then get UX findings and a ready-to-paste fix prompt.",
+  "homepage_url": "https://persqo.com/mcp",
+  "repository_url": "https://github.com/YaakovTzedek/persqo-mcp",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
