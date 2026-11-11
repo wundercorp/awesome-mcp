@@ -1,0 +1,13 @@
+{
+  "slug": "soldfetch",
+  "name": "SoldFetch",
+  "category": "data",
+  "description": "Search eBay sold and active listings, categories, and item details via hosted MCP; API key required. Not affiliated with eBay.",
+  "homepage_url": "https://soldfetch.com",
+  "repository_url": "https://github.com/ecom-crawl/soldfetch-mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "MIT for public metadata; hosted service subject to https://soldfetch.com/terms",
+  "status": "active"
+}
