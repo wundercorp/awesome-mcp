@@ -1,0 +1,17 @@
+{
+  "slug": "govisit-tools",
+  "name": "GoVisit Tools",
+  "category": "data",
+  "description": "Hosted read-only travel discovery for destinations, places, visit facts, and documentation through the public https://govisit.ai/mcp Streamable HTTP endpoint; no API key is required.",
+  "homepage_url": "https://govisit.ai/en/docs/developers/mcp/overview",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary",
+  "provider": {
+    "name": "GoVisit",
+    "url": "https://govisit.ai"
+  },
+  "status": "active"
+}
