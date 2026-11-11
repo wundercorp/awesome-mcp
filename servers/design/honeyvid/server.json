@@ -1,0 +1,19 @@
+{
+  "slug": "honeyvid",
+  "name": "HoneyVid",
+  "category": "design",
+  "description": "Find trending AI video templates and put a person, pet or character from a photo into them, or generate videos and images with Kling, Veo and Seedance; each job is quoted in credits before it runs.",
+  "homepage_url": "https://honeyvid.ai/mcp",
+  "repository_url": "https://github.com/HoneyVid/cli",
+  "package_url": "https://www.npmjs.com/package/honeyvid",
+  "endpoint_url": "https://honeyvid.ai/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary (hosted service; CLI and skills MIT)",
+  "provider": {
+    "name": "HoneyVid",
+    "url": "https://honeyvid.ai"
+  },
+  "status": "active"
+}
