@@ -1,0 +1,40 @@
+{
+  "slug": "cloudgpu",
+  "name": "CloudGPU",
+  "category": "developer-tools",
+  "description": "Local stdio MCP server that lets an agent quote, rent and shut down per-minute cloud GPUs, run commands or one-shot jobs with server-enforced spend, time and idle limits, move files over SFTP, and list models on an OpenAI-compatible API. Rental tools spend from a prepaid balance; CLOUDGPU_READ_ONLY=1 limits it to look-up tools.",
+  "homepage_url": "https://cloudgpu.app/docs/mcp",
+  "repository_url": "https://github.com/mrhy7176/cloudgpu-mcp",
+  "documentation_url": "https://github.com/mrhy7176/cloudgpu-mcp/blob/main/README.md",
+  "package_url": "https://www.npmjs.com/package/cloudgpu-mcp",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "get_account",
+    "list_gpus",
+    "list_templates",
+    "estimate_cost",
+    "create_instance",
+    "get_status",
+    "list_instances",
+    "run_command",
+    "tail_logs",
+    "upload",
+    "download",
+    "stop_instance",
+    "list_models",
+    "run_job",
+    "get_job",
+    "list_jobs",
+    "cancel_job",
+    "connect_account",
+    "finish_connect"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "CloudGPU",
+    "url": "https://cloudgpu.app"
+  },
+  "status": "active"
+}
