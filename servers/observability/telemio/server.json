@@ -1,0 +1,24 @@
+{
+  "slug": "telemio",
+  "name": "Telemio",
+  "category": "observability",
+  "description": "Hosted, authenticated observability MCP for querying workspace telemetry, inspecting runtimes and dashboards, and retrieving integration setup guidance.",
+  "homepage_url": "https://telemio.sh/mcp-server",
+  "repository_url": "https://github.com/wundercorp/telemio-mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "workspace_summary",
+    "query_telemetry",
+    "list_runtimes",
+    "get_runtime",
+    "list_dashboards",
+    "create_dashboard",
+    "list_integrations",
+    "integration_setup",
+    "console_link"
+  ],
+  "license": "Proprietary hosted service; public integration metadata",
+  "status": "active"
+}
