@@ -55,7 +55,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
-| Audo | Hosted audio and video processing for noise removal, speech restoration, transcription, captions, editing, and loudness normalization. | streamable-http | [Homepage](https://audo.ai)<br>[GitHub](https://github.com/audo-ai/audo-mcp) |
+| Audo | Audio and video creation and editing tools for AI agents: speech generation, voice cloning and changing, cleanup, transcription, and captions. | streamable-http | [Homepage](https://audo.ai)<br>[GitHub](https://github.com/audo-ai/audo-mcp) |
 | Magic Hour | Hosted Streamable HTTP MCP server for generating and editing video, images, and audio with Magic Hour. | streamable-http | [Homepage](https://magichour.ai/mcp)<br>[GitHub](https://github.com/magichourhq/magic-hour-mcp)<br>[Package](https://mcp.magichour.ai/) |
 | OrkasVideoStudio | Local TypeScript MCP server and CLI for coding-agent-driven video composition, editing, analysis, captions, transcription, and rendering with editable plan.json timelines. | stdio | [Homepage](https://github.com/Orkas-AI/Orkas-VideoStudio)<br>[GitHub](https://github.com/Orkas-AI/Orkas-VideoStudio) |
 | UIZZE | Authenticated UI reference MCP for Codex, Claude Code, Cursor, and Copilot. It provides focused UI reference and hosted design-material search grounded in 800,000+ real web and iOS screens; the free anti-ui-slop Skill and GitHub Action are separate. | streamable-http | [Homepage](https://uizze.com)<br>[GitHub](https://github.com/uizze/uizze)<br>[Package](https://uizze.com/mcp) |

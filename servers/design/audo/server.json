@@ -2,7 +2,7 @@
   "slug": "audo",
   "name": "Audo",
   "category": "design",
-  "description": "Hosted audio and video processing for noise removal, speech restoration, transcription, captions, editing, and loudness normalization.",
+  "description": "Audio and video creation and editing tools for AI agents: speech generation, voice cloning and changing, cleanup, transcription, and captions.",
   "homepage_url": "https://audo.ai",
   "repository_url": "https://github.com/audo-ai/audo-mcp",
   "endpoint_url": "https://audo.ai/mcp",
