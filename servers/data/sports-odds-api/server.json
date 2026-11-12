@@ -1,0 +1,16 @@
+{
+  "slug": "sports-odds-api",
+  "name": "Sports Odds API (BetRivers, Unibet & 22 more books)",
+  "category": "data",
+  "description": "Live odds from 24 Kambi-powered sportsbooks (BetRivers, Unibet, Paf, Svenska Spel, ATG) for NBA, NFL, NHL, MLB, soccer and more: one row per game with every book's price and the best price per outcome. Hosted on Apify; needs an Apify API token.",
+  "homepage_url": "https://apify.com/publicrecords/sports-odds-api",
+  "package_url": "https://mcp.apify.com?tools=publicrecords/sports-odds-api",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "publicrecords"
+  },
+  "status": "active"
+}
