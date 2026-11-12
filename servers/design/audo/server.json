@@ -1,0 +1,23 @@
+{
+  "slug": "audo",
+  "name": "Audo",
+  "category": "design",
+  "description": "Audio and video creation and editing tools for AI agents: speech generation, voice cloning and changing, cleanup, transcription, and captions.",
+  "homepage_url": "https://audo.ai",
+  "repository_url": "https://github.com/audo-ai/audo-mcp",
+  "endpoint_url": "https://audo.ai/mcp",
+  "documentation_url": "https://audo.ai/docs/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "remove_noise",
+    "enhance_voice",
+    "transcribe_audio",
+    "add_captions",
+    "cut_audio",
+    "adjust_loudness"
+  ],
+  "license": "Proprietary hosted service",
+  "status": "active"
+}
