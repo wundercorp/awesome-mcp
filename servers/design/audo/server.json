@@ -1,0 +1,23 @@
+{
+  "slug": "audo",
+  "name": "Audo",
+  "category": "design",
+  "description": "Hosted audio and video processing for noise removal, speech restoration, transcription, captions, editing, and loudness normalization.",
+  "homepage_url": "https://audo.ai",
+  "repository_url": "https://github.com/audo-ai/audo-mcp",
+  "endpoint_url": "https://audo.ai/mcp",
+  "documentation_url": "https://audo.ai/docs/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "remove_noise",
+    "enhance_voice",
+    "transcribe_audio",
+    "add_captions",
+    "cut_audio",
+    "adjust_loudness"
+  ],
+  "license": "Proprietary hosted service",
+  "status": "active"
+}
