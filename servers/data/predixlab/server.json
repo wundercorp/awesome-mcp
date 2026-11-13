@@ -1,0 +1,15 @@
+{
+  "slug": "predixlab",
+  "name": "PredixLab",
+  "category": "data",
+  "description": "Daily US stock signals, a stock screener and options activity over MCP; read-only, API key required. Not investment advice.",
+  "homepage_url": "https://predixlab.com",
+  "documentation_url": "https://predixlab.com/docs/mcp/",
+  "repository_url": "https://github.com/predixlab/predixlab-api",
+  "endpoint_url": "https://api.predixlab.com/mcp/",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Apache-2.0",
+  "status": "active"
+}
