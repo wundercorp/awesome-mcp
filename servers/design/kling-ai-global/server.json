@@ -11,7 +11,7 @@
     "streamable-http"
   ],
   "tools": [],
-  "license": "Hosted service subject to provider terms; integration repository MIT",
+  "license": "Hosted service subject to provider terms; see integration repository for its license",
   "provider": {
     "name": "Kling AI",
     "url": "https://kling.ai"
