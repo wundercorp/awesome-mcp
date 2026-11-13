@@ -1,0 +1,39 @@
+{
+  "slug": "kling-ai-global",
+  "name": "Kling AI MCP (Global)",
+  "category": "design",
+  "description": "Official Global OAuth MCP for image/video generation, reference workflows and task tracking; generation uses regional account credits.",
+  "homepage_url": "https://kling.ai/app/mcp/guide",
+  "repository_url": "https://github.com/klingai-tech/claude-plugin",
+  "endpoint_url": "https://kling.ai/mcp/plugin",
+  "documentation_url": "https://github.com/klingai-tech/claude-plugin/blob/main/README.md",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Hosted service subject to provider terms; integration repository MIT",
+  "provider": {
+    "name": "Kling AI",
+    "url": "https://kling.ai"
+  },
+  "status": "active",
+  "region": "Global",
+  "authentication": {
+    "method": "OAuth",
+    "authorization_server": "https://kling.ai/auth"
+  },
+  "install_command": "claude mcp add --transport http kling-ai-global https://kling.ai/mcp/plugin",
+  "requirements": "Authorize with a Global-region Kling account in an OAuth-capable client. Generation consumes account credits. China and Global accounts, credits and task IDs are separate; switching regions requires the matching authorization.",
+  "capabilities": [
+    "Image and video generation",
+    "Reference-based media workflows",
+    "Reusable subjects and motion-control workflows where supported by live tools",
+    "Task status and account credit queries"
+  ],
+  "usage_examples": [
+    "Generate a product image from a text description",
+    "Create a video using reference inputs supported by the current model",
+    "Track a submitted generation task by its returned task ID"
+  ],
+  "notes": "The repository contains a Claude Code plugin/integration, not the hosted server source. Available models and parameters depend on live server tools and account permissions. Prompts and selected references are sent to Kling for processing. No full authenticated generation benchmark is claimed by this directory submission."
+}
