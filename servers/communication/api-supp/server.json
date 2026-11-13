@@ -1,0 +1,12 @@
+{
+  "slug": "api-supp",
+  "name": "API-Supp",
+  "category": "communication",
+  "description": "WhatsApp REST API and OAuth MCP for your existing number. Connects existing WhatsApp numbers by QR through an unofficial bridge (not Meta's official Cloud API); paid, $7.50 per number/month.",
+  "homepage_url": "https://api-supp.com",
+  "repository_url": "https://github.com/yehudashtein/wa-bridge-mcp",
+  "transports": ["streamable-http", "stdio"],
+  "license": "MIT",
+  "provider": {"name": "API-Supp", "url": "https://api-supp.com"},
+  "status": "active"
+}
