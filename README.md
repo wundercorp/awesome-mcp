@@ -23,6 +23,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| API-Supp | WhatsApp REST API and OAuth MCP for your existing number. Connects existing WhatsApp numbers by QR through an unofficial bridge (not Meta's official Cloud API); paid, $7.50 per number/month. | streamable-http, stdio | [Homepage](https://api-supp.com)<br>[GitHub](https://github.com/yehudashtein/wa-bridge-mcp) |
 | Taisly Social Media Posting | Publish and schedule short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook. | streamable-http, stdio | [Homepage](https://taisly.com/en/ai-agent-kit)<br>[GitHub](https://github.com/taisly/agent)<br>[Package](https://www.npmjs.com/package/@taisly/agent) |
 
 ### Data
