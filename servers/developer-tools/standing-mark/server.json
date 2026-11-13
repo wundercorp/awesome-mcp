@@ -1,0 +1,20 @@
+{
+  "slug": "standing-mark",
+  "name": "Standing Mark",
+  "category": "developer-tools",
+  "description": "Local Python stdio adapter for the independent examination service operated by Wheeler Hubbell Publishing, Inc. Reads the contract and issuer key, requests examination quotes and checks signed results. USDC-on-Base payment is authorized and sent separately by the caller; no hosted MCP endpoint.",
+  "homepage_url": "https://wheelerhubbellpublishing.com/developers.html",
+  "repository_url": "https://github.com/wheelerhubbell/standing-mark",
+  "documentation_url": "https://github.com/wheelerhubbell/standing-mark/blob/main/mcp/README.md",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "standing_contract",
+    "standing_issuer",
+    "standing_request_examination",
+    "standing_verify"
+  ],
+  "license": "Not specified in source repository",
+  "status": "active"
+}
