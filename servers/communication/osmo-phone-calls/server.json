@@ -1,0 +1,46 @@
+{
+  "slug": "osmo-phone-calls",
+  "name": "OsmO Phone Calls",
+  "category": "communication",
+  "description": "Places real phone calls to businesses and helplines after the user confirms, and returns the outcome, summary and transcript.",
+  "homepage_url": "https://getosmo.app/for-my-ai",
+  "repository_url": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "osmo_help",
+    "list_recent_calls",
+    "get_call",
+    "list_calls",
+    "get_call_status",
+    "find_contact",
+    "search_contacts",
+    "place_call",
+    "get_settings",
+    "update_settings",
+    "get_assistant",
+    "update_assistant",
+    "list_rules",
+    "add_rule",
+    "update_rule",
+    "delete_rule",
+    "get_facts",
+    "get_connections",
+    "list_bookings",
+    "list_chats",
+    "get_chat",
+    "find_business",
+    "get_account_status",
+    "list_scheduled_calls",
+    "osmo_support",
+    "cancel_scheduled_call",
+    "find_customer_care"
+  ],
+  "license": "Proprietary (hosted service); client configs MIT",
+  "provider": {
+    "name": "OsmO AI",
+    "url": "https://getosmo.app"
+  },
+  "status": "active"
+}
