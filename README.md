@@ -23,6 +23,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| OsmO Phone Calls | Places real phone calls to businesses and helplines after the user confirms, and returns the outcome, summary and transcript. | streamable-http | [Homepage](https://getosmo.app/for-my-ai)<br>[GitHub](https://github.com/Mountainheads-Private-limited/osmo-ai-plugins) |
 | Taisly Social Media Posting | Publish and schedule short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook. | streamable-http, stdio | [Homepage](https://taisly.com/en/ai-agent-kit)<br>[GitHub](https://github.com/taisly/agent)<br>[Package](https://www.npmjs.com/package/@taisly/agent) |
 
 ### Data
