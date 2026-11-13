@@ -1,0 +1,39 @@
+{
+  "slug": "kling-ai-china",
+  "name": "Kling AI MCP (China)",
+  "category": "design",
+  "description": "Official China-region OAuth MCP for image/video generation, reference workflows and task tracking; generation uses regional account credits.",
+  "homepage_url": "https://klingai.com",
+  "repository_url": "https://github.com/klingai-dev/openclaw-plugin",
+  "endpoint_url": "https://klingai.com/mcp/plugin",
+  "documentation_url": "https://github.com/klingai-dev/openclaw-plugin/blob/main/README.md",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Hosted service subject to provider terms; integration repository MIT",
+  "provider": {
+    "name": "Kling AI / 可灵",
+    "url": "https://klingai.com"
+  },
+  "status": "active",
+  "region": "China",
+  "authentication": {
+    "method": "OAuth",
+    "authorization_server": "https://klingai.com/auth"
+  },
+  "install_command": "claude mcp add --transport http kling-ai-cn https://klingai.com/mcp/plugin",
+  "requirements": "Authorize with a China-region Kling account in an OAuth-capable client. Generation consumes account credits. China and Global accounts, credits and task IDs are separate; switching regions requires the matching authorization.",
+  "capabilities": [
+    "Image and video generation",
+    "Reference-based media workflows",
+    "Reusable subjects and motion-control workflows where supported by live tools",
+    "Task status and account credit queries"
+  ],
+  "usage_examples": [
+    "Generate a product image from a text description",
+    "Create a video using reference inputs supported by the current model",
+    "Track a submitted generation task by its returned task ID"
+  ],
+  "notes": "The repository contains the China-region OpenClaw plugin/integration, not the hosted server source. Available models and parameters depend on live server tools and account permissions. Prompts and selected references are sent to Kling for processing. No full authenticated generation benchmark is claimed by this directory submission."
+}
