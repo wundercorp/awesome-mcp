@@ -1,0 +1,57 @@
+name: Publish MCP category index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'servers/**/server.json'
+      - 'scripts/generate-readme.mjs'
+      - 'config/mcp-taxonomy.json'
+      - '.github/workflows/sync-catalog.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mcp-catalog-main-sync
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild from current main and push without force
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            # Safe only in this disposable Actions checkout; never reset a local checkout.
+            git reset --hard origin/main
+            node scripts/validate-catalog.mjs
+            node scripts/validate-taxonomy.mjs
+            node scripts/generate-readme.mjs
+            git add -- README.md categories/
+            if git diff --cached --quiet; then
+              echo 'Catalog pages are current.'
+              exit 0
+            fi
+            git commit -m 'docs(catalog): regenerate categorized MCP directory'
+            if git push origin HEAD:main; then
+              echo 'Published category pages.'
+              exit 0
+            fi
+            echo "Main advanced or policy rejected bot push (attempt $attempt)."
+          done
+          echo 'Cannot publish generated category pages. Check branch protection / Actions contents:write and apply regeneration through a maintainer PR.' >&2
+          exit 1

@@ -6,6 +6,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -15,5 +18,8 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/validate-catalog.mjs
+      - run: node scripts/validate-taxonomy.mjs
+      - run: node --test tests/catalog-pages.test.mjs
+      # PRs may contain only server.json, or a legacy README edit. Build and
+      # validate the generated output, but do not demand fork authors commit it.
       - run: node scripts/generate-readme.mjs
-      - run: git diff --exit-code README.md
