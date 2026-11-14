@@ -27,7 +27,7 @@ jobs:
   review:
     name: Review MCP submission (legacy advisory / new enforcement)
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
       # Trusted default-branch scripts only. Do not checkout or execute PR code.
       - uses: actions/checkout@v4
