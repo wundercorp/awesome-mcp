@@ -5,6 +5,7 @@
  * verify real scan provenance and bounded costs before returning 'pass'.
  */
 import fs from 'node:fs';
+import { scanGateway } from './mcp-gateway-client.mjs';
 
 const marker = '<!-- awesome-mcp-safety-report:v1 -->';
 const MAX_ENTRY_BYTES = 64 * 1024;
@@ -126,14 +127,10 @@ export async function changedEntries(repo, pr, sha, headRepo, token) {
 }
 
 export async function scanEntry(gateway, token, repo, pr, sha, entry) {
-  const response = await fetch(gateway.toString(), {
-    method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-    signal: AbortSignal.timeout(180000),
-    body: JSON.stringify({ schema_version: 1, repository: repo, pull_request: pr, source_sha: sha,
-      source_path: entry.path, server: entry.value, requested_checks: REQUIRED_CHECKS })
-  });
-  assert(response.ok, `Scanner gateway rejected the request (${response.status})`);
-  return validateScannerResult(await response.json(), { sha, path: entry.path });
+  return scanGateway(gateway.toString(), token, {
+    schema_version: 1, repository: repo, pull_request: pr, source_sha: sha,
+    source_path: entry.path, server: entry.value, requested_checks: REQUIRED_CHECKS
+  }, result => validateScannerResult(result, { sha, path: entry.path }));
 }
 export function gatewayConfiguration(env) {
   if (!env.MCP_SAFETY_GATEWAY_URL || !env.MCP_SAFETY_GATEWAY_TOKEN) return null;
@@ -181,6 +178,17 @@ export async function main(env = process.env) {
     return;
   }
   if (mode === 'enforce') assert(entries.length === 1, 'New submissions must change exactly one server entry');
+
+  // Ordinary PR events validate metadata only; paid jobs require maintainer dispatch.
+  const approvedManualScan = env.GITHUB_EVENT_NAME === 'workflow_dispatch' &&
+    env.MCP_SAFETY_SCANS_APPROVED === '1';
+  if (!approvedManualScan) {
+    if (mode === 'enforce') throw new Error('Required paid scan awaits manual approval; no VM launched');
+    stepSummary('Automatic metadata review only; **not scanned**. No VM launched or safety verdict issued.');
+    return;
+  }
+  // Bound the spend to one MCP entry even for legacy multi-entry submissions.
+  assert(entries.length === 1, 'Manual paid scan requires exactly one MCP entry');
 
   const gateway = gatewayConfiguration(env);
   if (!gateway) {

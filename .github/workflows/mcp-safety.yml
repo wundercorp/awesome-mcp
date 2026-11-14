@@ -14,6 +14,11 @@ on:
         description: 'Existing PR to review at its current pinned head SHA'
         required: true
         type: number
+      confirm_paid_scan:
+        description: "I approve a potentially billable single-PR sandbox scan"
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -21,13 +26,13 @@ permissions:
 
 concurrency:
   group: mcp-safety-${{ github.event.pull_request.number || inputs.pr_number }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   review:
     name: Review MCP submission (legacy advisory / new enforcement)
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
       # Trusted default-branch scripts only. Do not checkout or execute PR code.
       - uses: actions/checkout@v4
@@ -37,11 +42,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Require explicit approval for manually requested paid scans
+        if: ${{ github.event_name == 'workflow_dispatch' && !inputs.confirm_paid_scan }}
+        run: |
+          echo "Manual paid scan not approved. No VM was started."
+          exit 1
       - name: Evaluate migration policy and request isolated safety checks
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          MCP_SAFETY_SCANS_APPROVED: ${{ github.event_name == 'workflow_dispatch' && inputs.confirm_paid_scan && '1' || '0' }}
           # This cutoff is empty until an independently tested gateway is live.
           # Older PRs remain advisory unless maintainers add mcp-safety-required.
           MCP_SAFETY_ENFORCE_AFTER: ${{ vars.MCP_SAFETY_ENFORCE_AFTER }}
