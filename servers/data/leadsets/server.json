@@ -1,0 +1,27 @@
+{
+  "slug": "leadsets",
+  "name": "LeadSets",
+  "category": "data",
+  "description": "Unlimited B2B Contact Data for AI agents: hosted MCP to search people and companies, enrich records and verify work emails, with a verification status and check date on each record.",
+  "homepage_url": "https://www.leadsets.ai",
+  "package_url": "https://mcp.leadsets.ai",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search_people",
+    "search_companies",
+    "enrich_person",
+    "enrich_company",
+    "verify_email",
+    "scrape_jobs",
+    "scrape_company",
+    "get_usage"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "LeadSets",
+    "url": "https://www.leadsets.ai"
+  },
+  "status": "active"
+}
