@@ -1,0 +1,50 @@
+name: MCP submission safety
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, ready_for_review, labeled, unlabeled]
+    paths:
+      - 'servers/**/server.json'
+      - '.github/workflows/mcp-safety.yml'
+      - 'scripts/mcp-safety-review.mjs'
+      - 'config/mcp-taxonomy.json'
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Existing PR to review at its current pinned head SHA'
+        required: true
+        type: number
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: mcp-safety-${{ github.event.pull_request.number || inputs.pr_number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    name: Review MCP submission (legacy advisory / new enforcement)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      # Trusted default-branch scripts only. Do not checkout or execute PR code.
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Evaluate migration policy and request isolated safety checks
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+          # This cutoff is empty until an independently tested gateway is live.
+          # Older PRs remain advisory unless maintainers add mcp-safety-required.
+          MCP_SAFETY_ENFORCE_AFTER: ${{ vars.MCP_SAFETY_ENFORCE_AFTER }}
+          MCP_SAFETY_GATEWAY_URL: ${{ vars.MCP_SAFETY_GATEWAY_URL }}
+          MCP_SAFETY_GATEWAY_TOKEN: ${{ secrets.MCP_SAFETY_GATEWAY_TOKEN }}
+        run: node scripts/mcp-safety-review.mjs
