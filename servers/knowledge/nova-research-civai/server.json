@@ -1,0 +1,20 @@
+{
+  "slug": "nova-research-civai",
+  "name": "Nova Research (CIVAI)",
+  "category": "knowledge",
+  "description": "Hosted Streamable HTTP MCP server for deep research and sourced report generation over live web search, from the Nova catalog by CIVAI Technologies.",
+  "homepage_url": "https://nova.civai.co/agent/research-agent",
+  "repository_url": "https://github.com/civai-technologies/research-agent-mcp-by-nova-civai",
+  "package_url": "https://nova.civai.co/mcp/agents/research-agent",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "research__conduct-deep-research",
+    "research__generate-research-report",
+    "search__search",
+    "search__converse"
+  ],
+  "license": "Proprietary (hosted service; private source)",
+  "status": "active"
+}
