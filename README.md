@@ -23,6 +23,7 @@ node scripts/generate-readme.mjs
 
 | Server | Description | Transport | Links |
 |---|---|---|---|
+| RapportScore | Hosted OAuth MCP for evidence-linked Conversational AI Coaching from recorded conversations and permissioned Team Dynamics reports. Team Dynamics is a limited U.S. pilot; access depends on account, plan, and permissions. | streamable-http | [Homepage](https://rapportscore.ai)<br>[Package](https://mcp.rapportscore.ai/mcp) |
 | Taisly Social Media Posting | Publish and schedule short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook. | streamable-http, stdio | [Homepage](https://taisly.com/en/ai-agent-kit)<br>[GitHub](https://github.com/taisly/agent)<br>[Package](https://www.npmjs.com/package/@taisly/agent) |
 
 ### Data
