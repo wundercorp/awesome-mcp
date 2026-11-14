@@ -1,0 +1,18 @@
+{
+  "slug": "tera-ads",
+  "name": "Tera Ads",
+  "category": "data",
+  "description": "Hosted Meta (Facebook and Instagram) ads MCP server: read live campaigns, ad sets, ads, creatives and insights, review which campaigns lose money after Shopify returns, pause, turn on and change budgets, and create campaigns, ad sets and ads that always start paused. Each connection is read only, ask first (the owner approves every change) or make changes; a pause, turn-on or budget change can be undone for 7 days. Streamable HTTP at https://teraads.co/mcp with OAuth 2.1 (PKCE, dynamic client registration). Free plan: 30 calls a week.",
+  "homepage_url": "https://teraads.co/meta-ads-mcp",
+  "repository_url": "https://github.com/Teralabsx/meta-ads-mcp",
+  "endpoint_url": "https://teraads.co/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "MIT (setup files and plugin repo); proprietary hosted service",
+  "provider": {
+    "name": "Tera Ads",
+    "url": "https://teraads.co"
+  },
+  "status": "active"
+}
