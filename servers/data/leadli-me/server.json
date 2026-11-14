@@ -1,0 +1,28 @@
+{
+  "slug": "leadli-me",
+  "name": "leadli.me",
+  "category": "data",
+  "description": "Telegram subscriber reports and Meta/TikTok ad attribution for channels and bots over Streamable HTTP. Requires an organization access key in Authorization: Bearer; available tools depend on key permissions and plan. Configuration and channel moderation tools can change live settings and ban or unban subscribers.",
+  "homepage_url": "https://leadli.me/en/guides/mcp-server",
+  "package_url": "https://api.leadli.me/api/v1/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary (hosted service; private source)",
+  "provider": {
+    "name": "leadli.me",
+    "url": "https://leadli.me"
+  },
+  "deployment": "hosted",
+  "auth_method": "api-key",
+  "capability_tags": [
+    "api-access",
+    "metrics"
+  ],
+  "risk_capabilities": [
+    "external-network-access",
+    "production-write"
+  ],
+  "status": "active"
+}
