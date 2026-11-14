@@ -1,0 +1,27 @@
+{
+  "slug": "aihot",
+  "name": "AIHOT",
+  "category": "knowledge",
+  "description": "Read-only MCP server for Chinese-language AI industry news, with topical search, briefings, reports, and usage-reset timelines.",
+  "homepage_url": "https://aihot.news/agent?tab=mcp",
+  "repository_url": "https://github.com/KKKKhazix/AIHOT",
+  "package_url": "https://aihot.news/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "aihot_get_latest",
+    "aihot_search",
+    "aihot_get_hot_topics",
+    "aihot_get_story",
+    "aihot_get_daily",
+    "aihot_get_weekly",
+    "aihot_get_monthly",
+    "aihot_get_codex_resets",
+    "aihot_get_antigravity_resets",
+    "aihot_get_claude_resets",
+    "aihot_get_grok_bot_resets"
+  ],
+  "license": "MIT (engine); AIHOT Terms (hosted service and data)",
+  "status": "active"
+}
