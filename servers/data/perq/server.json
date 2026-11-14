@@ -1,0 +1,17 @@
+{
+  "slug": "perq",
+  "name": "Perq",
+  "category": "data",
+  "description": "Search a directory of verified free AI credits, startup programs and perks. Each offer has a source link and last-verified date. No account or API key.",
+  "homepage_url": "https://perq.sh",
+  "repository_url": "https://github.com/f-o-x11/perq-skill",
+  "package_url": "",
+  "transports": ["streamable-http"],
+  "tools": ["find_credits", "get_offer", "list_packs", "get_pack", "trending", "recently_changed", "early_offers", "subscribe"],
+  "license": "MIT",
+  "provider": {
+    "name": "Avatar 8 LLC",
+    "url": "https://perq.sh"
+  },
+  "status": "active"
+}
