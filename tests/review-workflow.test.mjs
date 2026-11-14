@@ -6,7 +6,7 @@ const sha = 'a'.repeat(40);
 const entryPath = 'servers/security/checker/server.json';
 const entry = {slug:'checker',name:'Checker',category:'security',description:'Security tools',homepage_url:'https://example.com',license:'MIT',status:'active'};
 
-async function fakeRun({cutoff='', gateway=false, verdict='fail', modified=false}={}) {
+async function fakeRun({cutoff='', gateway=false, verdict='fail', modified=false, manual=true, approved=true}={}) {
   const calls=[];
   const original=globalThis.fetch;
   const gh = 'https://api.github.com';
@@ -29,7 +29,9 @@ async function fakeRun({cutoff='', gateway=false, verdict='fail', modified=false
   let err;
   try { await main({GITHUB_REPOSITORY:'wundercorp/awesome-mcp',PR_NUMBER:'7',GITHUB_TOKEN:'fake-test-token',
     MCP_SAFETY_ENFORCE_AFTER:cutoff,MCP_SAFETY_GATEWAY_URL:gateway?'https://scan.example.com/v1':'',
-    MCP_SAFETY_GATEWAY_TOKEN:gateway?'fake-gateway-token':''}); }
+    MCP_SAFETY_GATEWAY_TOKEN:gateway?'fake-gateway-token':'',
+    GITHUB_EVENT_NAME:manual?'workflow_dispatch':'pull_request_target',
+    MCP_SAFETY_SCANS_APPROVED:approved?'1':'0'}); }
   catch(e) {err=e;}
   finally {globalThis.fetch=original;}
   return {calls,error:err};
@@ -64,4 +66,22 @@ test('legacy invalid metadata stays advisory; no positive report',async()=>{
   const r=await fakeRun({modified:true});
   assert.equal(r.error,undefined);
   assert.equal(r.calls.some(c=>c.method==='POST'),false);
+});
+
+
+test('automatic PR events never launch a paid scan even with gateway configured', async()=>{
+  const r=await fakeRun({gateway:true, verdict:'pass', manual:false});
+  assert.equal(r.error,undefined);
+  assert.equal(r.calls.some(c=>c.url.startsWith('https://scan.example.com/')),false);
+  assert.equal(r.calls.some(c=>c.method==='POST'),false);
+});
+test('unapproved manual runs never launch a VM', async()=>{
+  const r=await fakeRun({gateway:true, verdict:'pass', manual:true, approved:false});
+  assert.equal(r.error,undefined);
+  assert.equal(r.calls.some(c=>c.url.startsWith('https://scan.example.com/')),false);
+});
+test('enforced PR without manual approval blocks but does not launch a VM', async()=>{
+  const r=await fakeRun({cutoff:'2026-11-13T00:00:00Z',gateway:true,manual:false});
+  assert.match(String(r.error),/awaits manual approval/);
+  assert.equal(r.calls.some(c=>c.url.startsWith('https://scan.example.com/')),false);
 });
