@@ -2,7 +2,7 @@
   "slug": "openany",
   "name": "OpenAny",
   "category": "developer-tools",
-  "description": "Remote MCP server giving agents one endpoint for 3,200+ data and tool APIs and 168+ AI models; browsing and search are free, only run_api needs a Bearer API key.",
+  "description": "The B2A (business to agent) marketplace. One MCP endpoint for 3,200+ APIs and 168+ AI models. Browse free; pay per call.",
   "homepage_url": "https://openany.si",
   "repository_url": "https://github.com/openanysi/openany-mcp",
   "documentation_url": "https://github.com/openanysi/openany-mcp#readme",
