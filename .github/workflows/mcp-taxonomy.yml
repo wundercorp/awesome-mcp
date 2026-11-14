@@ -1,0 +1,26 @@
+name: MCP taxonomy infrastructure tests
+on:
+  pull_request:
+    paths:
+      - 'config/mcp-taxonomy.json'
+      - 'scripts/mcp-safety-review.mjs'
+      - 'scripts/validate-taxonomy.mjs'
+      - 'scripts/pr-shepherd.mjs'
+      - 'scripts/telemio-handoff.mjs'
+      - 'tests/**'
+      - '.github/workflows/mcp-taxonomy.yml'
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  taxonomy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/validate-taxonomy.mjs
+      - run: node --test tests/*.test.mjs
