@@ -1,0 +1,18 @@
+{
+  "slug": "fair-value-calculator",
+  "name": "Fair Value Calculator",
+  "category": "data",
+  "description": "Hosted MCP server for stock valuation: fair value, verdict, screening, peer comparison and portfolio check for 40,000+ listed companies worldwide, plus watchlist and alert tools that change data only on explicit request. OAuth, free tier. Not investment advice.",
+  "homepage_url": "https://www.fairvalue-calculator.com/integrations",
+  "repository_url": "https://github.com/petz00711/fair-value-calculator-mcp",
+  "transports": ["streamable-http"],
+  "tools": [
+    "resolve_stock", "get_stock_preview", "get_stock_verdict", "screen_stocks", "compare_stocks",
+    "check_portfolio", "get_watchlist", "add_to_watchlist", "remove_from_watchlist", "set_watchlist_alerts", "suggest_watchlist_stocks"
+  ],
+  "capability_tags": ["finance", "research"],
+  "deployment": "hosted",
+  "auth_method": "oauth",
+  "license": "Proprietary",
+  "status": "active"
+}
