@@ -1,0 +1,20 @@
+{
+  "slug": "getyoutubetranscript",
+  "name": "GetYouTubeTranscript",
+  "category": "knowledge",
+  "description": "Full YouTube transcripts in any caption language (with optional timestamps and translation), plus YouTube search, channel uploads and playlist videos for your AI.",
+  "homepage_url": "https://getyoutubetranscript.com",
+  "repository_url": "https://github.com/tubeagentkit/youtube-mcp",
+  "documentation_url": "https://github.com/tubeagentkit/youtube-mcp#readme",
+  "endpoint_url": "https://getyoutubetranscript.com/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "MIT",
+  "provider": {
+    "name": "GetYouTubeTranscript",
+    "url": "https://getyoutubetranscript.com"
+  },
+  "status": "active"
+}
