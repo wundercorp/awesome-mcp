@@ -1,0 +1,19 @@
+{
+  "slug": "agentseo",
+  "name": "AgentSEO MCP",
+  "category": "data",
+  "description": "Official SEO MCP server for AI agents and developer workflows. Research Google SERPs, keywords and competitors; track rankings; audit sites; inspect backlinks; plan content; and check sampled AI Overview visibility for AEO workflows. Hosted Streamable HTTP and local stdio transports require an AgentSEO API key and credits; new accounts receive 100 one-time live credits, with paid plans from $9/month.",
+  "homepage_url": "https://www.agentseo.dev/seo-mcp-server",
+  "repository_url": "https://github.com/AgentSEO-dev/agentseo-clients",
+  "package_url": "https://www.npmjs.com/package/@agentseo/mcp-server",
+  "endpoint_url": "https://www.agentseo.dev/mcp",
+  "transports": ["streamable-http", "stdio"],
+  "tools": ["agentseo_search", "agentseo_analyze_serp", "agentseo_keyword_ideas_suggest", "agentseo_rank_track", "agentseo_backlinks_summary", "agentseo_ai_overview_extract"],
+  "license": "MIT (client/MCP package); hosted service proprietary",
+  "provider": {"name": "Joy Technologies LLC", "url": "https://www.agentseo.dev/about"},
+  "status": "active",
+  "deployment": "hosted",
+  "auth_method": "api-key",
+  "capability_tags": ["api-access", "research", "workflow"],
+  "risk_capabilities": ["credential-access", "external-network-access"]
+}
