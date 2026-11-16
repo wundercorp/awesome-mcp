@@ -1,0 +1,31 @@
+{
+  "slug": "plushsource-mcp",
+  "name": "PlushSource MCP",
+  "category": "data",
+  "description": "Search, filter and compare the 55 custom plush manufacturers listed in the PlushSource directory by country, MOQ, lead time, OEM/ODM, product types and claimed certifications; facts are compiled from each manufacturer's own website, the dataset is bundled, and the server makes no network calls.",
+  "homepage_url": "https://plushsource.com",
+  "repository_url": "https://github.com/quickman924/plushsource-mcp",
+  "package_url": "https://www.npmjs.com/package/plushsource-mcp",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "search_manufacturers",
+    "get_manufacturer",
+    "compare_manufacturers",
+    "get_facets",
+    "get_dataset_info"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "PlushSource",
+    "url": "https://plushsource.com"
+  },
+  "capability_tags": [
+    "research",
+    "knowledge-search"
+  ],
+  "deployment": "local",
+  "auth_method": "none",
+  "status": "active"
+}
