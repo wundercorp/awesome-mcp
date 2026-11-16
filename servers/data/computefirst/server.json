@@ -1,0 +1,14 @@
+{
+  "slug": "computefirst",
+  "name": "ComputeFirst",
+  "category": "data",
+  "description": "Hosted MCP server with free, versioned, deterministic tools that agents call instead of writing code: CSV and JSON conversion and diffing, text processing, date arithmetic, exact decimal math, hashing and encodings. Agents search in plain English, read the tool contract, then execute. No key or sign-up needed; daily per-network limits apply.",
+  "homepage_url": "https://computefirst.net",
+  "repository_url": "https://github.com/321zz321/computefirst-skill",
+  "documentation_url": "https://computefirst.net/docs",
+  "endpoint_url": "https://computefirst.net/mcp",
+  "transports": ["streamable-http"],
+  "auth": "none",
+  "license": "Not specified (hosted service); setup kit is MIT",
+  "status": "active"
+}
