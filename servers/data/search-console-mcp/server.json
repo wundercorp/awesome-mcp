@@ -1,0 +1,14 @@
+{
+  "slug": "search-console-mcp",
+  "name": "search-console-mcp",
+  "category": "data",
+  "description": "Google Search Console for any MCP client - 30-second login, no Google Cloud project.",
+  "homepage_url": "https://www.getpercy.io/search-console-mcp",
+  "repository_url": "https://github.com/sudomichael/search-console-mcp",
+  "transports": [
+    "stdio"
+  ],
+  "license": "MIT",
+  "deployment": "local",
+  "status": "active"
+}
