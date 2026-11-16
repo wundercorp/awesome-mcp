@@ -1,0 +1,17 @@
+{
+  "slug": "agent-flights",
+  "name": "Agent Flights",
+  "category": "data",
+  "description": "Cheapest flights worldwide, strong on Africa: compares Kiwi.com, Duffel and Aviasales fares, with price calendars, cheap destinations and booking links. Free, no key.",
+  "homepage_url": "https://lowest.flights",
+  "repository_url": "https://github.com/lomiafrica/agent-flights-mcp",
+  "package_url": "",
+  "transports": ["streamable-http"],
+  "tools": ["search_flights", "find_cheapest_dates", "explore_cheap_destinations", "get_flight_offer", "get_booking_link", "list_flight_sources", "register_agent"],
+  "license": "MIT",
+  "provider": {
+    "name": "lomi.",
+    "url": "https://lomi.africa"
+  },
+  "status": "active"
+}
