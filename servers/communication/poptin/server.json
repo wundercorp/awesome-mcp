@@ -1,0 +1,19 @@
+{
+  "slug": "poptin",
+  "name": "Poptin MCP",
+  "category": "communication",
+  "description": "Official hosted OAuth server for email campaigns, existing popup and form analytics and management, and audience segmentation. Sending and scheduling campaigns require explicit user confirmation.",
+  "homepage_url": "https://developers.poptin.com/docs/mcp",
+  "repository_url": "https://github.com/Poptin-LTD/Poptin-MCP",
+  "package_url": "https://mcp.popt.in/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary (hosted implementation); MIT (public documentation and configuration)",
+  "provider": {
+    "name": "Poptin",
+    "url": "https://www.poptin.com"
+  },
+  "status": "active"
+}
