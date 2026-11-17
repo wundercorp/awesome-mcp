@@ -1,0 +1,16 @@
+{
+  "slug": "prime-rate-sofr-fed-funds-rate-today-mcp",
+  "name": "Prime Rate SOFR Fed Funds Rate Today MCP",
+  "category": "data",
+  "description": "Read-only New York Fed reference rates: fed funds target range and effective rate, prime rate, SOFR and SOFR averages, rate history, FOMC rate changes and a prime or SOFR based loan rate calculator. Hosted, no account or API key.",
+  "homepage_url": "https://github.com/theluckystrike/prime-rate-sofr-fed-funds-rate-today-mcp",
+  "repository_url": "https://github.com/theluckystrike/prime-rate-sofr-fed-funds-rate-today-mcp",
+  "transports": ["streamable-http", "stdio"],
+  "tools": ["fed_funds_rate_today", "sofr_rate_today", "interest_rate_history", "fed_rate_changes", "loan_rate_calculator"],
+  "license": "MIT",
+  "provider": {
+    "name": "theluckystrike",
+    "url": "https://github.com/theluckystrike"
+  },
+  "status": "active"
+}
