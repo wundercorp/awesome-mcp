@@ -1,0 +1,15 @@
+{
+  "slug": "stalkchain-data",
+  "name": "StalkChain Data",
+  "category": "data",
+  "description": "Read-only crypto research for Solana wallet activity, token holders, early buyers, tracked traders, and Hyperliquid markets. Hosted Streamable HTTP with StalkChain OAuth sign-in. Metered queries use account credits.",
+  "homepage_url": "https://stalkchain.com/mcp",
+  "endpoint_url": "https://data.stalkchain.com/mcp/directory",
+  "transports": ["streamable-http"],
+  "license": "Proprietary; hosted service",
+  "provider": {
+    "name": "StalkChain",
+    "url": "https://stalkchain.com"
+  },
+  "status": "active"
+}
