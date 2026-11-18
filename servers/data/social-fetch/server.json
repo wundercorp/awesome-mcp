@@ -1,0 +1,18 @@
+{
+  "slug": "social-fetch",
+  "name": "Social Fetch MCP",
+  "category": "data",
+  "description": "Hosted MCP server at https://api.socialfetch.dev/mcp for live public social data from TikTok, Instagram, YouTube, X, Reddit, LinkedIn and more, with a local stdio server that uses an API key.",
+  "homepage_url": "https://www.socialfetch.dev/docs/integrations/mcp",
+  "repository_url": "https://github.com/social-freak-ltd/socialfetch-mcp",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Social Freak Ltd",
+    "url": "https://www.socialfetch.dev"
+  },
+  "status": "active"
+}
