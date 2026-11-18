@@ -1,0 +1,26 @@
+{
+  "slug": "quelllm-mcp",
+  "name": "QuelLLM MCP",
+  "category": "knowledge",
+  "description": "Explore local open-weight LLMs and estimate VRAM and API versus self-hosted costs.",
+  "homepage_url": "https://quelllm.fr/",
+  "repository_url": "https://github.com/MGM-FALCON/quelllm-mcp",
+  "package_url": "",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "list_models",
+    "get_model",
+    "compare",
+    "estimate_vram",
+    "estimate_cost",
+    "search_models"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "QuelLLM",
+    "url": "https://quelllm.fr/"
+  },
+  "status": "active"
+}
