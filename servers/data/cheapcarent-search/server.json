@@ -1,0 +1,21 @@
+{
+  "slug": "cheapcarent-search",
+  "name": "CheapCarRent Search",
+  "category": "data",
+  "description": "Official hosted Streamable HTTP MCP server for car rental search at 15,000 pickup points in 46 countries and 19 languages. No account or API key. Read-only tools list_locations and search_cars.",
+  "homepage_url": "https://cheapcarent.com",
+  "repository_url": "https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "list_locations",
+    "search_cars"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "CheapCarRent",
+    "url": "https://cheapcarent.com"
+  },
+  "status": "active"
+}
