@@ -1,0 +1,27 @@
+{
+  "slug": "learn-ai-tzedek",
+  "name": "Learn AI with Yaakov Tzedek",
+  "category": "knowledge",
+  "description": "Free, read-only hosted MCP server for learning AI: search and read practical AI guides, browse AI courses with syllabus and free preview lessons, build a learning path and get the latest AI news from tzedek.me, in English and Hebrew. No sign-up or API key.",
+  "homepage_url": "https://tzedek.me/en/mcp",
+  "repository_url": "https://github.com/YaakovTzedek/tzedek-ai-mcp",
+  "package_url": "https://tzedek.me/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search_guides",
+    "get_guide",
+    "list_courses",
+    "get_course",
+    "latest_ai_news",
+    "get_learning_path",
+    "about_ai_tv"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Yaakov Tzedek",
+    "url": "https://tzedek.me"
+  },
+  "status": "active"
+}
