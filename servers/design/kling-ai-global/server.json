@@ -22,7 +22,7 @@
     "method": "OAuth",
     "authorization_server": "https://kling.ai/auth"
   },
-  "install_command": "claude mcp add --transport http kling-ai-global https://kling.ai/mcp/plugin",
+  "install_command": "claude mcp add --transport http kling-ai-global-plugin https://kling.ai/mcp/plugin",
   "requirements": "Authorize with a Global-region Kling account in an OAuth-capable client. Generation consumes account credits. China and Global accounts, credits and task IDs are separate; switching regions requires the matching authorization.",
   "capabilities": [
     "Image and video generation",
