@@ -1,0 +1,34 @@
+{
+  "slug": "frank-ai-researcher",
+  "name": "Frank AI Researcher",
+  "category": "data",
+  "description": "Official hosted MCP server (OAuth, Streamable HTTP) for AI-moderated voice interviews with your customers: create studies, run them, and read transcripts. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.",
+  "homepage_url": "https://www.hifrank.ai",
+  "repository_url": "https://github.com/nar-vardanyan/frank-mcp",
+  "endpoint_url": "https://api.hifrank.ai/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "list_researches",
+    "get_research",
+    "list_interviews",
+    "get_interview",
+    "list_products",
+    "create_product",
+    "create_research",
+    "edit_research",
+    "link_product",
+    "publish_research",
+    "list_embeds",
+    "get_embed",
+    "configure_embed",
+    "ping"
+  ],
+  "license": "MIT (docs and metadata repository); hosted service",
+  "provider": {
+    "name": "hifrank",
+    "url": "https://www.hifrank.ai"
+  },
+  "status": "active"
+}
