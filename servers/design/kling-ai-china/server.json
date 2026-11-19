@@ -1,6 +1,6 @@
 {
   "slug": "kling-ai-china",
-  "name": "Kling AI MCP (China)",
+  "name": "Kling AI China Plugin",
   "category": "design",
   "description": "Official China-region OAuth MCP for image/video generation, reference workflows and task tracking; generation uses regional account credits.",
   "homepage_url": "https://klingai.com",
