@@ -1,6 +1,6 @@
 {
   "slug": "kling-ai-global",
-  "name": "Kling AI MCP (Global)",
+  "name": "Kling AI Global Plugin",
   "category": "design",
   "description": "Official Global OAuth MCP for image/video generation, reference workflows and task tracking; generation uses regional account credits.",
   "homepage_url": "https://kling.ai/app/mcp/guide",
