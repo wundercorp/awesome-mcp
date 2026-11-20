@@ -1,0 +1,32 @@
+{
+  "slug": "openshorts-io",
+  "name": "OpenShorts.io MCP",
+  "category": "design",
+  "description": "Hosted MCP server that creates captioned short clips from long videos and tracks jobs and usage.",
+  "homepage_url": "https://openshorts.io/api",
+  "repository_url": "https://github.com/xspring1982/openshorts-oss",
+  "endpoint_url": "https://openshorts.io/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "clip_video",
+    "get_job",
+    "list_jobs",
+    "get_usage"
+  ],
+  "license": "MIT (self-hosted pipeline); hosted service terms apply",
+  "provider": {
+    "name": "OpenShorts.io",
+    "url": "https://openshorts.io"
+  },
+  "status": "active",
+  "documentation_url": "https://openshorts.io/api",
+  "deployment": "hosted",
+  "auth_method": "api-key",
+  "capability_tags": [
+    "api-access",
+    "media-generation"
+  ],
+  "requirements": "Account and API key required for operations; processing uses account minutes. Free and paid plans are available."
+}
