@@ -1,0 +1,17 @@
+{
+  "slug": "osmo-travel-esim",
+  "name": "OsmO Travel eSIM",
+  "category": "data",
+  "description": "Compares travel eSIM data plans for a trip (including multi-country), checks phone eSIM support, estimates trip data, compares a carrier's roaming pass, and gives setup help. No sign-in.",
+  "homepage_url": "https://esim.getosmo.app",
+  "repository_url": "https://github.com/Mountainheads-Private-limited/osmo-travel-esim",
+  "package_url": "",
+  "transports": ["streamable-http"],
+  "tools": ["search_esim_plans", "get_esim_plan", "compare_esim_plans", "check_esim_device", "estimate_trip_data", "get_destination_guide", "get_esim_setup_steps", "compare_roaming_vs_esim", "get_keep_your_number_guide", "get_before_you_fly_checklist"],
+  "license": "Proprietary (hosted service); client configs MIT",
+  "provider": {
+    "name": "OsmO AI",
+    "url": "https://esim.getosmo.app"
+  },
+  "status": "active"
+}
