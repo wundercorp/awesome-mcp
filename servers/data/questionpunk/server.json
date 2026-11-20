@@ -1,0 +1,27 @@
+{
+  "slug": "questionpunk",
+  "name": "QuestionPunk",
+  "category": "data",
+  "description": "Create and publish surveys in a QuestionPunk account, then retrieve individual responses, cross-tabs and exports over OAuth.",
+  "homepage_url": "https://www.questionpunk.com/features/mcp-server",
+  "package_url": "https://app.questionpunk.com/api/v1",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary; hosted service",
+  "provider": {
+    "name": "QuestionPunk",
+    "url": "https://www.questionpunk.com"
+  },
+  "capability_tags": [
+    "research",
+    "api-access"
+  ],
+  "risk_capabilities": [
+    "production-write",
+    "external-network-access"
+  ],
+  "deployment": "hosted",
+  "auth_method": "oauth",
+  "status": "active"
+}
