@@ -1,0 +1,17 @@
+{
+  "slug": "vidmoat",
+  "name": "Vidmoat",
+  "category": "design",
+  "description": "Hosted AI video editor with a remote MCP server (Streamable HTTP, OAuth or API key): agents import footage, edit a multi-track timeline, preview frames and render MP4s. Test keys are free on every plan; live MCP access needs the Studio plan.",
+  "homepage_url": "https://www.vidmoat.com",
+  "endpoint_url": "https://api.vidmoat.com/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary hosted service",
+  "provider": {
+    "name": "Buzz Innovations Ltd",
+    "url": "https://www.vidmoat.com"
+  },
+  "status": "active"
+}
