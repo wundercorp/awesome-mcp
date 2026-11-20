@@ -1,0 +1,26 @@
+{
+  "slug": "plugmcp-directory",
+  "name": "PlugMCP directory",
+  "category": "orchestration",
+  "description": "Search 70,000+ MCP servers and agent skills, compare them, and get install configs for Cursor, Claude, VS Code, Codex, Grok Bot and more.",
+  "homepage_url": "https://plugmcp.ai/directory-mcp",
+  "repository_url": "https://github.com/plugmcp-ai/plugmcp-mcp",
+  "package_url": "https://www.npmjs.com/package/plugmcp-mcp",
+  "transports": [
+    "stdio",
+    "streamable-http"
+  ],
+  "tools": [
+    "search_servers",
+    "get_server",
+    "get_install",
+    "list_categories",
+    "whats_new",
+    "compare_servers",
+    "recommend_servers",
+    "search_skills",
+    "get_skill"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
