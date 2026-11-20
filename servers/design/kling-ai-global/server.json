@@ -2,7 +2,7 @@
   "slug": "kling-ai-global",
   "name": "Kling AI Global Plugin",
   "category": "design",
-  "description": "Official Global OAuth MCP for image/video generation, reference workflows and task tracking; generation uses regional account credits.",
+  "description": "Official Global OAuth MCP for image/video generation, reference workflows and task tracking; generation uses regional account credits. Standalone npm CLI: [@klingai/cli-global](https://www.npmjs.com/package/@klingai/cli-global).",
   "homepage_url": "https://kling.ai/app/mcp/guide",
   "repository_url": "https://github.com/klingai-tech/claude-plugin",
   "endpoint_url": "https://kling.ai/mcp/plugin",
@@ -35,5 +35,6 @@
     "Create a video using reference inputs supported by the current model",
     "Track a submitted generation task by its returned task ID"
   ],
-  "notes": "The repository contains a Claude Code plugin/integration, not the hosted server source. Available models and parameters depend on live server tools and account permissions. Prompts and selected references are sent to Kling for processing. No full authenticated generation benchmark is claimed by this directory submission."
+  "notes": "The repository contains a Claude Code plugin/integration, not the hosted server source. Available models and parameters depend on live server tools and account permissions. Prompts and selected references are sent to Kling for processing. No full authenticated generation benchmark is claimed by this directory submission.",
+  "package_url": "https://www.npmjs.com/package/@klingai/plugin-global"
 }
