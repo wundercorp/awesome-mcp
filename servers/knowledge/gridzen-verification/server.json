@@ -1,0 +1,28 @@
+{
+  "slug": "gridzen-verification",
+  "name": "GridZen Verification",
+  "category": "knowledge",
+  "description": "Read-only MCP tools for planning identity-verification coverage and exercising sandbox decision results. Not live identity verification.",
+  "homepage_url": "https://gridzen.ai/developers/",
+  "repository_url": "https://github.com/immurray/gridzen-developer-kit",
+  "package_url": "https://pypi.org/project/gridzen-developer-kit/",
+  "documentation_url": "https://gridzen.ai/developers/",
+  "remote_endpoint_url": "https://gridzen.ai/developers/mcp",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "tools": [
+    "get_coverage",
+    "plan_verification",
+    "create_sandbox_verification",
+    "get_sandbox_verification",
+    "explain_result"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "GridZen",
+    "url": "https://gridzen.ai/developers/"
+  },
+  "status": "active"
+}
