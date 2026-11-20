@@ -2,7 +2,7 @@
   "slug": "kling-ai-china",
   "name": "Kling AI China Plugin",
   "category": "design",
-  "description": "Official China-region OAuth MCP for image/video generation, reference workflows and task tracking; generation uses regional account credits.",
+  "description": "Official China-region OAuth MCP for image/video generation, reference workflows and task tracking; generation uses regional account credits. Standalone npm CLI: [@klingai/cli-cn](https://www.npmjs.com/package/@klingai/cli-cn).",
   "homepage_url": "https://klingai.com",
   "repository_url": "https://github.com/klingai-dev/openclaw-plugin",
   "endpoint_url": "https://klingai.com/mcp/plugin",
@@ -35,5 +35,6 @@
     "Create a video using reference inputs supported by the current model",
     "Track a submitted generation task by its returned task ID"
   ],
-  "notes": "The repository contains the China-region OpenClaw plugin/integration, not the hosted server source. Available models and parameters depend on live server tools and account permissions. Prompts and selected references are sent to Kling for processing. No full authenticated generation benchmark is claimed by this directory submission."
+  "notes": "The repository contains the China-region OpenClaw plugin/integration, not the hosted server source. Available models and parameters depend on live server tools and account permissions. Prompts and selected references are sent to Kling for processing. No full authenticated generation benchmark is claimed by this directory submission.",
+  "package_url": "https://www.npmjs.com/package/@klingai/plugin-cn"
 }
