@@ -1,0 +1,39 @@
+{
+  "slug": "brewpage-mcp",
+  "name": "BrewPage MCP",
+  "category": "files",
+  "description": "Publish HTML pages, Markdown, files, static sites, JSON and key-value data to BrewPage and get a shareable HTTPS link, then list, read, update, delete or change settings of your publications; free, no account or API key needed.",
+  "homepage_url": "https://brewpage.app",
+  "repository_url": "https://github.com/kochetkov-ma/brewpage-openapi",
+  "package_url": "https://www.npmjs.com/package/brewpage-mcp",
+  "endpoint_url": "https://brewpage.app/mcp",
+  "documentation_url": "https://brewpage.app/integrations",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "tools": [
+    "publish",
+    "list_publications",
+    "read_publication",
+    "update_publication",
+    "publication_settings",
+    "delete_publication",
+    "read_page_data",
+    "write_page_data",
+    "delete_page_data",
+    "domains",
+    "account",
+    "notifications",
+    "get_guide"
+  ],
+  "install_command": "npx -y brewpage-mcp",
+  "auth": "None (anonymous); optional OAuth sign-in to a free BrewPage account",
+  "license": "Apache-2.0",
+  "provider": {
+    "name": "BrewPage",
+    "url": "https://brewpage.app"
+  },
+  "status": "active",
+  "requirements": "Free service; you set how long each publication stays; an optional free profile manages all publications in one place."
+}
