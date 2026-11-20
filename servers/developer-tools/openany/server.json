@@ -1,0 +1,25 @@
+{
+  "slug": "openany",
+  "name": "OpenAny",
+  "category": "developer-tools",
+  "description": "The B2A (business to agent) marketplace. One MCP endpoint for 3,200+ APIs and 168+ AI models. Browse free; pay per call.",
+  "homepage_url": "https://openany.si",
+  "repository_url": "https://github.com/openanysi/openany-mcp",
+  "documentation_url": "https://github.com/openanysi/openany-mcp#readme",
+  "remote_endpoint_url": "https://mcp.openany.si",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "openany_overview",
+    "search_apis",
+    "get_api",
+    "run_api"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "OpenAny",
+    "url": "https://openany.si"
+  },
+  "status": "active"
+}
