@@ -1,0 +1,34 @@
+{
+  "slug": "i2v-ai",
+  "name": "I2v.ai",
+  "category": "design",
+  "description": "Generate images and video from any MCP client across 12 image and 16 video models, with a USD quote before each paid task and a caller-supplied spending ceiling.",
+  "homepage_url": "https://i2v.ai",
+  "repository_url": "https://github.com/i2v-ai/i2v-mcp",
+  "package_url": "https://www.npmjs.com/package/@i2v-ai/cli",
+  "transports": [
+    "streamable-http",
+    "stdio"
+  ],
+  "tools": [
+    "list_models",
+    "get_model_params",
+    "estimate_cost",
+    "create_task",
+    "recommend_models",
+    "prepare_generation",
+    "recover_submission",
+    "get_task",
+    "get_account",
+    "get_usage",
+    "search_docs",
+    "create_upload_url",
+    "complete_upload"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "i2v.ai",
+    "url": "https://i2v.ai"
+  },
+  "status": "active"
+}
