@@ -1,0 +1,31 @@
+{
+  "slug": "solidping",
+  "name": "SolidPing",
+  "category": "observability",
+  "description": "Self-hostable uptime monitor with a built-in MCP server: create, run and diagnose checks across 43 types, read results and incidents, and manage status pages and maintenance windows. Remote (OAuth 2.1) or stdio.",
+  "homepage_url": "https://www.solidping.io",
+  "repository_url": "https://github.com/fclairamb/solidping",
+  "documentation_url": "https://docs.solidping.io",
+  "endpoint_url": "https://solidping.io/api/v1/mcp",
+  "transports": [
+    "stdio",
+    "streamable-http"
+  ],
+  "auth": "OAuth",
+  "tools": [
+    "list_checks",
+    "create_check",
+    "run_check",
+    "diagnose_check",
+    "list_results",
+    "list_incidents",
+    "create_status_page",
+    "create_maintenance_window"
+  ],
+  "license": "AGPL-3.0-only",
+  "provider": {
+    "name": "SolidPing",
+    "url": "https://www.solidping.io"
+  },
+  "status": "active"
+}

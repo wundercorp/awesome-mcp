@@ -1,0 +1,21 @@
+{
+  "slug": "uk-legislation-changes",
+  "name": "UK Legislation Changes",
+  "category": "knowledge",
+  "description": "Point-in-time amendment history for UK legislation, derived from legislation.gov.uk under the Open Government Licence v3.0. Deterministic version-boundary diffs, not AI-generated text.",
+  "homepage_url": "https://github.com/busybusybussiness/uk-legislation-changes",
+  "repository_url": "https://github.com/busybusybussiness/uk-legislation-changes",
+  "package_url": "",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "uk-legislation-changes"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "busybusybussiness",
+    "url": "https://uk-legal-changes.pages.dev"
+  },
+  "status": "active"
+}

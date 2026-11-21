@@ -1,0 +1,17 @@
+{
+  "slug": "datacircle",
+  "name": "Datacircle",
+  "category": "data",
+  "description": "Find the best GTM APIs. Our MCP server is open to anyone, with no key: list_apis lists the GTM APIs on our sheet, and search_plans finds their plans by API, provider or price.",
+  "homepage_url": "https://datacircle.dev",
+  "repository_url": "https://github.com/waynehamadi/datacircle",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "list_apis",
+    "search_plans"
+  ],
+  "license": "MIT",
+  "status": "active"
+}

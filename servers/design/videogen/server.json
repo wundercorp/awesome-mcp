@@ -1,9 +1,9 @@
 {
   "slug": "videogen",
-  "name": "VideoGen",
+  "name": "VideoGen MCP",
   "category": "design",
   "description": "Create editable videos from scripts and storyboards, manage projects, and export results through the VideoGen API.",
-  "homepage_url": "https://videogen.io",
+  "homepage_url": "https://videogen.io/videogen-mcp",
   "repository_url": "https://github.com/video-gen/videogen-mcp",
   "package_url": "https://www.npmjs.com/package/@videogen/mcp",
   "endpoint_url": "https://mcp.videogen.io/mcp",
@@ -11,10 +11,77 @@
     "streamable-http",
     "stdio"
   ],
-  "license": "No declared license",
+  "license": "MIT",
   "provider": {
     "name": "VideoGen",
     "url": "https://videogen.io"
   },
-  "status": "active"
+  "status": "active",
+  "documentation_url": "https://docs.videogen.io/libraries/mcp",
+  "tools": [
+    "add_entity_reference",
+    "archive_entity",
+    "cancel_tool_execution",
+    "cancel_workflow_run",
+    "create_entity",
+    "create_file_upload",
+    "export_project",
+    "generate_avatar",
+    "generate_image",
+    "generate_motion_graphic",
+    "generate_music",
+    "generate_sound_effect",
+    "generate_video_clip",
+    "get_app_deep_link",
+    "get_async_tasks_guidance",
+    "get_entity",
+    "get_file",
+    "get_getting_started_guidance",
+    "get_me",
+    "get_project",
+    "get_project_export",
+    "get_tool_execution",
+    "get_tools_vs_workflows_guidance",
+    "get_workflow_run",
+    "get_workflows_guidance",
+    "image_3d_effect",
+    "list_entities",
+    "list_files",
+    "list_languages",
+    "list_project_remix_actions",
+    "list_projects",
+    "list_tool_executions",
+    "list_tts_voices",
+    "list_workflow_runs",
+    "open_uploader",
+    "prompt_to_video_clip",
+    "remix_project",
+    "remove_entity_reference",
+    "remove_image_background",
+    "remove_video_background",
+    "script_to_video",
+    "slideshow_to_video",
+    "storyboard_to_video",
+    "text_to_speech",
+    "update_entity",
+    "upload_file",
+    "upscale_image",
+    "upscale_video",
+    "vectorize_image",
+    "voiceover_to_video"
+  ],
+  "tool_schemas_url": "https://github.com/video-gen/videogen-mcp/blob/main/tool-schemas.json",
+  "install_command": "npx -y @videogen/mcp",
+  "authentication": {
+    "stdio": {
+      "environment_variable": "VIDEOGEN_API_KEY"
+    },
+    "streamable-http": {
+      "methods": [
+        "OAuth",
+        "API key bearer token"
+      ]
+    }
+  },
+  "requirements": "VideoGen account and generation credits are required for media generation."
 }

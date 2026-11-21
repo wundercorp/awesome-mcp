@@ -1,0 +1,17 @@
+{
+  "slug": "reach-google-business-profile-mcp",
+  "name": "Reach by Locus: Google Business Profile MCP",
+  "category": "data",
+  "description": "Hosted Google Business Profile MCP (GBP MCP) for local SEO: read profiles, reviews, performance, Google Maps rankings, competitors and leads; preview and approve review replies, posts, profile edits and photo changes. Streamable HTTP at https://reach.locus-intelligence.com/api/mcp with Reach account OAuth 2.1. Google connection state, permissions and plan limits apply; a free plan is available.",
+  "homepage_url": "https://reach.locus-intelligence.com/google-business-profile-mcp",
+  "endpoint_url": "https://reach.locus-intelligence.com/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Unspecified (hosted service)",
+  "provider": {
+    "name": "Reach by Locus",
+    "url": "https://reach.locus-intelligence.com"
+  },
+  "status": "active"
+}
