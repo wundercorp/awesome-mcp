@@ -1,0 +1,21 @@
+{
+  "slug": "xmcp-docs",
+  "name": "xmcp Docs",
+  "category": "developer-tools",
+  "description": "Search and read the official xmcp framework documentation through the public, read-only Streamable HTTP endpoint https://xmcp.dev/mcp; no authentication required.",
+  "homepage_url": "https://xmcp.dev/docs/guides/xmcp-mcp-server",
+  "repository_url": "https://github.com/basementstudio/xmcp",
+  "package_url": "",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "basement.studio",
+    "url": "https://xmcp.dev"
+  },
+  "status": "active"
+}
