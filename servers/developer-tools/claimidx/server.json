@@ -1,0 +1,61 @@
+{
+  "slug": "claimidx",
+  "name": "ClaimIDX",
+  "category": "developer-tools",
+  "description": "Local MCP server and CLI that indexes recurring software failures and replay-tested fixes, so coding agents can check prior art before retrying. Install with `pip install \"claimidx[server]\"` and launch `claimidx-mcp` over stdio. Capabilities to know about: it can run an eval command locally to replay a claim and can apply a pin or patch only with an explicit yes flag, and `claimidx run` executes a command you give it. Claims are stored locally; sharing a public projection to the commons at home.claimidx.com requires a per-claim confirmation (`--share-yes`) and `CLAIMIDX_COMMONS=0` disables it. The package and the public commons are free; ClaimIDX also sells optional hosted homes and a one-time $299 Private Home Pilot. The submitter is the project's author.",
+  "homepage_url": "https://claimidx.com",
+  "repository_url": "https://github.com/claimidx/claimidx",
+  "package_url": "https://pypi.org/project/claimidx/",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "claimidx_ask",
+    "claimidx_hook",
+    "claimidx_run",
+    "claimidx_home_ask",
+    "claimidx_explain",
+    "claimidx_alternatives",
+    "claimidx_session",
+    "claimidx_ingest",
+    "claimidx_publish",
+    "claimidx_claim",
+    "claimidx_apply",
+    "claimidx_ingest_draft",
+    "claimidx_confirm",
+    "claimidx_fail",
+    "claimidx_reject",
+    "claimidx_verify",
+    "claimidx_share",
+    "claimidx_share_preview",
+    "claimidx_home_push",
+    "claimidx_home_propose",
+    "claimidx_home_pull",
+    "claimidx_sync",
+    "claimidx_proof_validate",
+    "claimidx_proof_run",
+    "claimidx_whoami",
+    "claimidx_impact",
+    "claimidx_leaderboard",
+    "claimidx_prune",
+    "claimidx_doctor"
+  ],
+  "license": "Apache-2.0",
+  "provider": {
+    "name": "ClaimIDX",
+    "url": "https://claimidx.com"
+  },
+  "status": "active",
+  "capability_tags": [
+    "code",
+    "testing",
+    "knowledge-search"
+  ],
+  "risk_capabilities": [
+    "arbitrary-code-execution",
+    "external-network-access",
+    "filesystem-write"
+  ],
+  "deployment": "local",
+  "auth_method": "none"
+}
