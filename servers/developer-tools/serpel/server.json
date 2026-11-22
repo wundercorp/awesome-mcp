@@ -1,0 +1,38 @@
+{
+  "slug": "serpel",
+  "name": "Serpel",
+  "category": "developer-tools",
+  "description": "Remote MCP server for Google rankings, site audits, keyword research, and AI visibility monitoring across ChatGPT, Claude, Cursor, Codex, and Gemini.",
+  "homepage_url": "https://serpel.app",
+  "repository_url": "https://github.com/Serpelapp/serpel-plugin",
+  "documentation_url": "https://serpel.app/developers/mcp",
+  "remote_endpoint_url": "https://serpel.app/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "list_projects",
+    "get_project_overview",
+    "get_keyword_rankings",
+    "get_search_performance",
+    "find_keyword_opportunities",
+    "analyze_competitors",
+    "get_crawl_issues",
+    "get_ai_visibility",
+    "get_seo_recommendations",
+    "get_codebase_overview",
+    "get_conversion_performance",
+    "get_job_status",
+    "research_keywords"
+  ],
+  "authentication": {
+    "type": "oauth2",
+    "oauth_metadata_url": "https://serpel.app/.well-known/oauth-protected-resource"
+  },
+  "provider": {
+    "name": "Serpel",
+    "url": "https://serpel.app"
+  },
+  "license": "MIT",
+  "status": "active"
+}
