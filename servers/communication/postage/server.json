@@ -1,0 +1,18 @@
+{
+  "slug": "postage",
+  "name": "Postage",
+  "category": "communication",
+  "description": "Native Mac email client for any IMAP account with a built-in local MCP server on 127.0.0.1 only. Agents such as Claude Code, Codex and Cursor read, sort and draft mail at the access level you grant; by default you press Send. Local app, runs on your Mac.",
+  "homepage_url": "https://postageformac.com/?ref=awesome-mcp-wundercorp",
+  "documentation_url": "https://postageformac.com/agents",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary; native Mac app",
+  "provider": {
+    "name": "Great Work LLC",
+    "url": "https://greatwork.company"
+  },
+  "status": "active"
+}
