@@ -1,0 +1,20 @@
+{
+  "slug": "taskhold",
+  "name": "Taskhold",
+  "category": "orchestration",
+  "description": "Hosted remote MCP server for one task list shared by a person and their coding agents: agents file tasks, plan steps, report live progress, block on a question and complete work on a board the person watches. API-key bearer.",
+  "homepage_url": "https://taskhold.com/?ref=awesome-mcp-wundercorp",
+  "repository_url": "https://github.com/gettaskhold/taskhold-plugin",
+  "remote_endpoint_url": "https://taskhold.com/api/mcp",
+  "documentation_url": "https://taskhold.com/docs/mcp-tools",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary; hosted service (public plugin repo is MIT)",
+  "provider": {
+    "name": "Great Work LLC",
+    "url": "https://greatwork.company"
+  },
+  "status": "active"
+}
