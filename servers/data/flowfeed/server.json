@@ -1,0 +1,25 @@
+{
+  "slug": "flowfeed",
+  "name": "FlowFeed MCP",
+  "category": "data",
+  "description": "Hosted MCP server that gives agents real-time macro, forex and crypto news from 30 sources, an economic calendar with forecast and actual values, and central bank releases (OAuth or API key, paid plan).",
+  "homepage_url": "https://flowfeed.cc",
+  "repository_url": "https://github.com/loyt1/flowfeed-mcp",
+  "package_url": "",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "get_market_brief",
+    "get_latest_news",
+    "search_news",
+    "get_economic_calendar",
+    "get_official_releases"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "FlowFeed",
+    "url": "https://flowfeed.cc"
+  },
+  "status": "active"
+}
