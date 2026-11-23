@@ -1,0 +1,36 @@
+{
+  "slug": "callforme",
+  "name": "CallForMe",
+  "category": "communication",
+  "description": "Hosted remote MCP server that phones businesses for you: find a business, preview a call, place one or several calls, answer questions mid-call and get the outcome with a transcript. Quotes, bookings, cancellations and hold queues. Zero-input OAuth.",
+  "homepage_url": "https://callforme.tel/?ref=awesome-mcp-wundercorp",
+  "repository_url": "https://github.com/callforme-tel/callforme",
+  "remote_endpoint_url": "https://callforme.tel/mcp",
+  "documentation_url": "https://callforme.tel/docs/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "account",
+    "answer_question",
+    "call_around",
+    "find_business",
+    "get_batch",
+    "get_call",
+    "hang_up",
+    "list_calls",
+    "place_call",
+    "plan_call",
+    "pricing",
+    "redial",
+    "share_call",
+    "stop_batch",
+    "wait_for_setup"
+  ],
+  "license": "Proprietary; hosted service (public repo is MIT)",
+  "provider": {
+    "name": "Great Work LLC",
+    "url": "https://greatwork.company"
+  },
+  "status": "active"
+}
