@@ -1,0 +1,34 @@
+{
+  "slug": "runheed",
+  "name": "Runheed",
+  "category": "observability",
+  "description": "Hosted remote MCP server for production error tracking: coding agents search error groups, read the full context of one, merge, ignore and mark errors resolved with the fixing commit. OAuth 2.1 or agent key.",
+  "homepage_url": "https://runheed.com/?ref=awesome-mcp-wundercorp",
+  "repository_url": "https://github.com/getrunheed/runheed-plugin",
+  "remote_endpoint_url": "https://runheed.com/api/mcp",
+  "documentation_url": "https://runheed.com/mcp-server",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "runheed_create_project",
+    "runheed_get_error",
+    "runheed_get_error_context",
+    "runheed_get_project_health",
+    "runheed_get_recent",
+    "runheed_get_trends",
+    "runheed_ignore_error",
+    "runheed_list_projects",
+    "runheed_merge_errors",
+    "runheed_resolve_error",
+    "runheed_search_errors",
+    "runheed_send_test_event",
+    "runheed_unignore_error"
+  ],
+  "license": "Proprietary; hosted service (public plugin repo is MIT)",
+  "provider": {
+    "name": "Great Work LLC",
+    "url": "https://greatwork.company"
+  },
+  "status": "active"
+}
