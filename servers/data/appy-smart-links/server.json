@@ -1,0 +1,18 @@
+{
+  "slug": "appy-smart-links",
+  "name": "Appy Smart Links",
+  "category": "data",
+  "description": "Create and manage device-aware campaign links and retrieve click breakdowns by device, country, and routing outcome. Enterprise adds mobile SDK attribution reports for installs, in-app events, and revenue. Tool calls require a Business or Enterprise API key.",
+  "homepage_url": "https://appy.to/docs/mcp",
+  "transports": ["streamable-http"],
+  "deployment": "hosted",
+  "auth_method": "api-key",
+  "capability_tags": ["api-access", "metrics"],
+  "risk_capabilities": ["production-write"],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Appy",
+    "url": "https://appy.to/"
+  },
+  "status": "active"
+}
