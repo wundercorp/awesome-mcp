@@ -1,0 +1,21 @@
+{
+  "slug": "brainy-48",
+  "name": "Brainy 48",
+  "category": "data",
+  "description": "Fixed-price business automation catalogue for the UAE and Spain, plus a free 48-hour team diagnosis: list automations with prices, estimate the diagnosis and get a WhatsApp request link. Read-only, no API key. Streamable HTTP endpoint: https://48.brainy.ae/mcp",
+  "homepage_url": "https://48.brainy.ae/developers",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "list_automations",
+    "estimate_diagnosis",
+    "request_free_diagnosis"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "SOFT DEV FZ LLC",
+    "url": "https://48.brainy.ae"
+  },
+  "status": "active"
+}
