@@ -1,0 +1,53 @@
+{
+  "slug": "octopost",
+  "name": "Octopost",
+  "category": "communication",
+  "description": "Hosted remote MCP server and REST API for social media posting: create, schedule, queue and thread posts to X, Bluesky, Mastodon, LinkedIn and Threads, with an optional human approval step before anything is published.",
+  "homepage_url": "https://octopost.ink/?ref=awesome-mcp-wundercorp",
+  "repository_url": "https://github.com/octopost-ink/octopost-plugin",
+  "remote_endpoint_url": "https://octopost.ink/mcp",
+  "documentation_url": "https://octopost.ink/docs/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "add_feed",
+    "approve_queued_post",
+    "cancel_scheduled",
+    "create_connect_link",
+    "create_post",
+    "create_upload",
+    "delete_post",
+    "get_analytics",
+    "get_guide",
+    "get_post",
+    "get_queue_status",
+    "get_usage",
+    "list_accounts",
+    "list_feeds",
+    "list_posts",
+    "list_presets",
+    "list_youtube_comments",
+    "preview_post",
+    "publish_draft",
+    "queue_post",
+    "remove_feed",
+    "reject_queued_post",
+    "reorder_queue",
+    "reply_to_youtube_comment",
+    "reschedule_post",
+    "resubmit_post",
+    "retry_failed",
+    "schedule_post",
+    "set_evergreen",
+    "split_thread",
+    "update_post",
+    "update_queue_settings"
+  ],
+  "license": "Proprietary; hosted service (public plugin repo is MIT)",
+  "provider": {
+    "name": "Great Work LLC",
+    "url": "https://greatwork.company"
+  },
+  "status": "active"
+}
