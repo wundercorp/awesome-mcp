@@ -1,0 +1,24 @@
+{
+  "slug": "selvedge",
+  "name": "Selvedge",
+  "category": "knowledge",
+  "description": "Local stdio MCP server and CLI for saving coding decisions, reasons, and rejected approaches in SQLite and retrieving them across sessions.",
+  "homepage_url": "https://selvedge.sh/",
+  "repository_url": "https://github.com/masondelan/selvedge",
+  "package_url": "https://pypi.org/project/selvedge/",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "log_change",
+    "diff",
+    "blame",
+    "history",
+    "changeset",
+    "search",
+    "prior_attempts",
+    "stale_decisions"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
