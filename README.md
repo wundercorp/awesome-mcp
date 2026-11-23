@@ -47,6 +47,7 @@ node scripts/generate-readme.mjs
 | Xquik MCP Server | MCP server for exploring Xquik's X data API and running source-backed X data workflows. | streamable-http | [Homepage](https://docs.xquik.com/mcp/overview)<br>[GitHub](https://github.com/Xquik-dev/x-twitter-scraper) |
 | Zovo MCP Estate | Hosted MCP estate of 42 document, finance and office servers — spreadsheets, invoices, expense tracking, bank statements, PDF, DOCX, time tracking, amortization and currency — reachable over streamable HTTP with no install and no API key. | streamable-http | [Homepage](https://mcp.zovo.one/mcp)<br>[GitHub](https://github.com/theluckystrike/mcp-servers) |
 
+- [Skool Community Scraper](https://github.com/GeminiGeorge22/publicrecords-mcp/tree/main/servers/skool-community-mcp) - Search Skool communities by keyword. Members, price, rating and estimated monthly revenue for each, plus daily growth tracking.
 ### Design
 
 | Server | Description | Transport | Links |
