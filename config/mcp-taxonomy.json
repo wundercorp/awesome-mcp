@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "primary_categories": {
+    "browser-automation": "Control browsers, navigate sites, or automate web workflows",
+    "code-hosting": "Manage repositories, pull requests, issues, and hosted source code",
+    "communication": "Send messages, email, calls, or notifications",
+    "data": "Retrieve, transform, and analyze structured or external datasets",
+    "design": "Create or edit visual, audio, and other creative artifacts",
+    "developer-tools": "Help develop, test, debug, or document software",
+    "files": "Read, search, edit, or manage file storage",
+    "knowledge": "Retrieve or organize research, memory, and reference knowledge",
+    "observability": "Inspect logs, metrics, traces, health, and operational events",
+    "orchestration": "Coordinate workflows, tools, jobs, and agent execution",
+    "security": "Assess, monitor, or enforce system and application security"
+  },
+  "capability_tags": [
+    "api-access", "automation", "browser", "code", "compliance", "database",
+    "documentation", "email", "filesystem", "finance", "health", "incident-response",
+    "knowledge-search", "logs", "media-generation", "metrics", "monitoring",
+    "payments", "privacy", "research", "security-analysis", "testing", "tracing",
+    "workflow"
+  ],
+  "risk_capabilities": [
+    "arbitrary-code-execution", "external-network-access", "credential-access",
+    "financial-transactions", "filesystem-write", "message-send", "production-write"
+  ],
+  "deployments": ["hosted", "local", "self-hosted"],
+  "auth_methods": ["none", "api-key", "oauth", "other", "unknown"]
+}
