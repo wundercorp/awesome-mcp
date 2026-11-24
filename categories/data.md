@@ -5,7 +5,7 @@
 
 Retrieve, transform, and analyze structured or external datasets
 
-**21 servers**
+**22 servers**
 
 | Server | Description | Transport | Project links |
 | --- | --- | --- | --- |
@@ -16,6 +16,7 @@ Retrieve, transform, and analyze structured or external datasets
 | CorpusIQ | Hosted OAuth MCP server for business data: query 40+ connected systems such as QuickBooks, Shopify, Stripe, HubSpot and Google Search Console through one connection, with read-only access and answers cited back to the source record. | streamable-http | [Homepage](https://www.corpusiq.io/?utm_source=directory-wundercorp&utm_medium=referral&utm_campaign=organic-discovery) · [GitHub](https://github.com/CorpusIQ/mcp-manifest) · [Package](https://mcp2.corpusiq.io/mcp) |
 | Court Rules | MCP server for U.S. federal and state court filing rules, local rules, judge standing orders and court holiday calendars, each returned with a citation to the source document. | streamable-http | [Homepage](https://docs.courtrules.app/guides/mcp-court-rules) · [GitHub](https://github.com/foklepoint/court-rules-mcp) |
 | Datacircle | Find the best GTM APIs. Our MCP server is open to anyone, with no key: list\_apis lists the GTM APIs on our sheet, and search\_plans finds their plans by API, provider or price. | streamable-http | [Homepage](https://datacircle.dev/) · [GitHub](https://github.com/waynehamadi/datacircle) |
+| Etsy Sales MCP | Etsy search results by keyword, marketplace and category plus daily sales counts and growth for any Etsy shop. Local stdio server via npx; needs your own Apify API token. | stdio | [Homepage](https://github.com/GeminiGeorge22/etsy-sales-mcp) · [GitHub](https://github.com/GeminiGeorge22/etsy-sales-mcp) |
 | Invokely | Hosted MCP server for official statistics. Search indicators and places, retrieve values and time series with source citations, compare places, and rank results across U.S. states and counties, EU countries and NUTS 2 regions, Spanish municipalities, and World Bank data for every country and the world. Anonymous trial: 25 calls per day per IP. | streamable-http | [Homepage](https://invokely.ai/docs) · [Package](https://invokely.ai/mcp) |
 | NotFair | Connect AI clients to Google Ads, Meta Ads, X Ads, Google Search Console, and Google Analytics with OAuth, approval-gated writes, and change history. | streamable-http | [Homepage](https://notfair.co/) |
 | OptionsAhoy | Equity-compensation planning math: ISO exercise schedules under AMT, NSO and RSU sell-vs-hold, lot selection, concentration risk, protective-put and collar pricing from daily option-chain data, and QSBS eligibility. No key, no signup. | streamable-http, stdio | [Homepage](https://optionsahoy.com/for-agents) · [GitHub](https://github.com/AlvisoOculus/optionsahoy-mcp) · [Package](https://www.npmjs.com/package/optionsahoy-mcp) |
