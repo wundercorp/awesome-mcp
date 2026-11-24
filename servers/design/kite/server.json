@@ -1,0 +1,19 @@
+{
+  "slug": "kite",
+  "name": "Kite",
+  "category": "design",
+  "description": "Hosted Streamable HTTP MCP server (OAuth 2.1) for creating Kite design files and drawing editable frames, text, components and auto layout that a team edits in the same file.",
+  "homepage_url": "https://kite.new",
+  "repository_url": "https://github.com/kitedotnew/kite-agent-plugins",
+  "package_url": "https://kite.new/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Kite",
+    "url": "https://kite.new"
+  },
+  "status": "active"
+}
