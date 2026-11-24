@@ -5,10 +5,11 @@
 
 Retrieve, transform, and analyze structured or external datasets
 
-**21 servers**
+**22 servers**
 
 | Server | Description | Transport | Project links |
 | --- | --- | --- | --- |
+| ATS Jobs MCP | New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards. Local stdio server via npx; needs your own Apify API token. | stdio | [Homepage](https://github.com/GeminiGeorge22/ats-jobs-mcp) · [GitHub](https://github.com/GeminiGeorge22/ats-jobs-mcp) |
 | BestPrice Shopping | Read-only shopping decisions, product search, live offers, delivered totals, and price history for Greece. No BestPrice account or API key. | streamable-http | [Homepage](https://www.bestprice.gr/mcp) · [GitHub](https://github.com/TheBestCo/bestprice-mcp) |
 | BuyWhere | Real-time product search and price comparison across 15+ Singapore/SEA merchants (11M+ products). REST API + MCP server for AI agents. | stdio, streamable-http | [Homepage](https://buywhere.ai/) · [GitHub](https://github.com/BuyWhere/buywhere-mcp) · [Package](https://www.npmjs.com/package/@buywhere/mcp-server) |
 | CareClinic Health Tracker | Hosted OAuth MCP server for reviewing personal medication schedules, symptoms, mood, and confirmed health check-ins. | streamable-http | [Homepage](https://cdn.careclinic.io/mcp/help/index.html) · [Package](https://mcp.careclinic.io/mcp) |

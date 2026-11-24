@@ -10,7 +10,7 @@ A curated directory of Model Context Protocol (MCP) servers maintained by Wunder
 | [Browser Automation](categories/browser-automation.md) | 1 | Control browsers, navigate sites, or automate web workflows |
 | [Code Hosting](categories/code-hosting.md) | 0 | Manage repositories, pull requests, issues, and hosted source code |
 | [Communication](categories/communication.md) | 1 | Send messages, email, calls, or notifications |
-| [Data & APIs](categories/data.md) | 21 | Retrieve, transform, and analyze structured or external datasets |
+| [Data & APIs](categories/data.md) | 22 | Retrieve, transform, and analyze structured or external datasets |
 | [Design & Media](categories/design.md) | 4 | Create or edit visual, audio, and other creative artifacts |
 | [Developer Tools](categories/developer-tools.md) | 3 | Help develop, test, debug, or document software |
 | [Files](categories/files.md) | 1 | Read, search, edit, or manage file storage |
@@ -19,7 +19,7 @@ A curated directory of Model Context Protocol (MCP) servers maintained by Wunder
 | [Orchestration](categories/orchestration.md) | 2 | Coordinate workflows, tools, jobs, and agent execution |
 | [Security](categories/security.md) | 2 | Assess, monitor, or enforce system and application security |
 
-**52 servers** across 11 categories.
+**53 servers** across 11 categories.
 
 ## Submit an MCP server
 
