@@ -1,0 +1,19 @@
+{
+  "slug": "corpusiq",
+  "name": "CorpusIQ",
+  "category": "data",
+  "description": "Hosted OAuth MCP server for business data: query 40+ connected systems such as QuickBooks, Shopify, Stripe, HubSpot and Google Search Console through one connection, with read-only access and answers cited back to the source record.",
+  "homepage_url": "https://www.corpusiq.io/?utm_source=directory-wundercorp&utm_medium=referral&utm_campaign=organic-discovery",
+  "repository_url": "https://github.com/CorpusIQ/mcp-manifest",
+  "package_url": "https://mcp2.corpusiq.io/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "Proprietary; hosted service",
+  "provider": {
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "status": "active"
+}
