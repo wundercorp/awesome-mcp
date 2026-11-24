@@ -1,0 +1,22 @@
+{
+  "slug": "vertov",
+  "name": "Vertov MCP",
+  "category": "design",
+  "description": "Search screen recordings, retrieve timestamped briefs and transcripts, and upload existing videos to a Vertov workspace.",
+  "homepage_url": "https://vertov.app/",
+  "documentation_url": "https://vertov.app/docs/mcp",
+  "endpoint_url": "https://vertov.app/mcp",
+  "transports": ["streamable-http"],
+  "license": "Proprietary hosted service",
+  "provider": {
+    "name": "Vertov",
+    "url": "https://vertov.app/"
+  },
+  "status": "active",
+  "authentication": {
+    "streamable-http": {
+      "methods": ["OAuth", "API key bearer token"]
+    }
+  },
+  "requirements": "A Vertov account and workspace access are required. The Free plan supports connecting."
+}
