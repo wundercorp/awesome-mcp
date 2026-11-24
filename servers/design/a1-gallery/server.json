@@ -1,0 +1,43 @@
+{
+  "slug": "a1-gallery",
+  "name": "A1 Gallery",
+  "category": "design",
+  "description": "Hosted Streamable HTTP MCP server (OAuth) for design references from a hand-picked gallery of real live websites: sections, full pages, fonts, font pairings, and colours, type sizes and spacing measured off each page.",
+  "homepage_url": "https://www.a1.gallery/mcp",
+  "repository_url": "https://github.com/a1-gallery/a1-mcp",
+  "package_url": "https://www.a1.gallery/api/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "search_websites",
+    "browse_websites",
+    "get_website",
+    "get_similar_websites",
+    "compare_websites",
+    "get_recently_added",
+    "get_design_brief",
+    "get_design_filters",
+    "search_sections",
+    "get_website_sections",
+    "analyze_section_content",
+    "search_pages",
+    "get_website_pages",
+    "analyze_design_tokens",
+    "browse_fonts",
+    "get_font",
+    "find_font_pairings",
+    "browse_creators",
+    "get_creator",
+    "list_boards",
+    "get_board",
+    "save_to_board",
+    "remove_from_board"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "A1 Gallery",
+    "url": "https://www.a1.gallery"
+  },
+  "status": "active"
+}
