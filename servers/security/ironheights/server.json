@@ -1,0 +1,37 @@
+{
+  "slug": "ironheights",
+  "name": "Ironheights",
+  "category": "security",
+  "description": "Local stdio MCP server that scans agent skills before install and pins MCP tool descriptions to flag drift, returning allow/block decisions with findings; rule-based, so it misses some plain-language attacks.",
+  "homepage_url": "https://www.ironheights.dev",
+  "repository_url": "https://github.com/Frank-Masciopinto/ironheights",
+  "package_url": "https://www.npmjs.com/package/ironheights",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "check_skill",
+    "check_shortlist",
+    "tool_manifest_check",
+    "drift_status",
+    "threatmodel_check",
+    "verify_check",
+    "get_rule",
+    "redeem_authorization",
+    "check_invocation",
+    "skill_copies",
+    "type_verdict",
+    "verdict_gate",
+    "lookup_verdict",
+    "session_binding",
+    "load_binding",
+    "session_lock",
+    "check_coverage"
+  ],
+  "license": "Apache-2.0",
+  "provider": {
+    "name": "Ironheights",
+    "url": "https://www.ironheights.dev"
+  },
+  "status": "active"
+}
