@@ -1,0 +1,35 @@
+{
+  "slug": "open-agent-api",
+  "name": "Open Agent API",
+  "category": "orchestration",
+  "description": "A local stdio MCP bridge for a self-hosted Open Agent API gateway. Discover and inspect published agents with a read-only key, or submit and observe tasks when authorized. Requires a running gateway and a scoped key file; there is no hosted MCP endpoint.",
+  "homepage_url": "https://openagentapi.pages.dev/",
+  "repository_url": "https://github.com/jiangxingfan1-coder/Open-Agent-API",
+  "package_url": "https://github.com/jiangxingfan1-coder/Open-Agent-API/releases/download/mcp-open-agent-api-v0.0.64/open-agent-api-mcp-0.0.64.mcpb",
+  "transports": ["stdio"],
+  "tools": [
+    "oaa_cancel",
+    "oaa_get_run",
+    "oaa_inspect_agent",
+    "oaa_invoke",
+    "oaa_list_agents",
+    "oaa_list_artifacts",
+    "oaa_preview_route",
+    "oaa_publish",
+    "oaa_publish_native",
+    "oaa_read_output",
+    "oaa_upload_text",
+    "oaa_wait_run",
+    "oaa_watch_catalog"
+  ],
+  "license": "Apache-2.0",
+  "provider": {
+    "name": "Open Agent API contributors",
+    "url": "https://github.com/jiangxingfan1-coder/Open-Agent-API"
+  },
+  "status": "active",
+  "capability_tags": ["api-access", "monitoring", "workflow"],
+  "risk_capabilities": ["arbitrary-code-execution", "external-network-access", "filesystem-write"],
+  "deployment": "self-hosted",
+  "auth_method": "api-key"
+}
