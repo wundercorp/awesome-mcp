@@ -1,0 +1,29 @@
+{
+  "slug": "linger",
+  "name": "Linger MCP",
+  "category": "knowledge",
+  "description": "Browse saved design references, existing image previews, and Project Canvases through a local stdio server bundled with the Linger desktop app. Requires an initialized Linger library on an Apple Silicon Mac running macOS 14 or later. Read-only by default. An explicit --allow-write flag enables machine analysis, vocabulary suggestions, and job queue actions.",
+  "homepage_url": "https://withlinger.com/resources/mcp-design-reference-library/",
+  "transports": ["stdio"],
+  "tools": [
+    "get_library_summary",
+    "list_inspirations",
+    "get_inspiration",
+    "view_inspiration",
+    "get_ai_status",
+    "list_vocabulary",
+    "list_boards",
+    "load_board",
+    "get_board_assets",
+    "view_board_reference"
+  ],
+  "deployment": "local",
+  "auth_method": "none",
+  "capability_tags": ["knowledge-search", "research"],
+  "license": "Proprietary (bundled with the Linger desktop app)",
+  "provider": {
+    "name": "Linger",
+    "url": "https://withlinger.com/"
+  },
+  "status": "active"
+}
