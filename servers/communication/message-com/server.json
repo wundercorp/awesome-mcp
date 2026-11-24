@@ -1,0 +1,12 @@
+{
+  "slug": "message-com",
+  "name": "Message.com",
+  "category": "communication",
+  "description": "Read customer conversations and reply to chats and tickets in an authorized Message.com workspace.",
+  "homepage_url": "https://www.message.com/developers/integrations/mcp",
+  "endpoint_url": "https://app.message.com/api/v1/mcp",
+  "transports": ["streamable-http"],
+  "license": "Proprietary",
+  "provider": {"name": "Message.com", "url": "https://www.message.com"},
+  "status": "active"
+}
