@@ -1,0 +1,19 @@
+{
+  "slug": "drop-file-transfer",
+  "name": "DROP File Transfer",
+  "category": "files",
+  "description": "Send selected files by link, collect client uploads and let an authorized agent process enabled requests. A personal Bearer token is required.",
+  "homepage_url": "https://drop.space/en/agent-file-transfer/",
+  "license": "Proprietary",
+  "status": "active",
+  "transports": ["streamable-http"],
+  "deployment": "hosted",
+  "auth_method": "api-key",
+  "tools": [
+    "drop_create_request",
+    "drop_list_tasks",
+    "drop_claim_task",
+    "drop_create_transfer",
+    "drop_complete_transfer"
+  ]
+}
