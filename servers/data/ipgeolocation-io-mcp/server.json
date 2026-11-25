@@ -1,0 +1,28 @@
+{
+  "slug": "ipgeolocation-io-mcp",
+  "name": "IPGeolocation.io MCP Server",
+  "category": "data",
+  "description": "Look up IP geolocation, company information, ASN and network data, IP security signals (VPN, proxy, Tor, bot, hosting and spam detection), and abuse contacts. The server also covers time zones, astronomy, currency data and user-agent parsing. Cached pagination reads more of a result without another API request.",
+  "homepage_url": "https://ipgeolocation.io/integrations/ipgeolocation-io-mcp",
+  "repository_url": "https://github.com/IPGeolocation/ipgeolocation-io-mcp",
+  "package_url": "https://www.npmjs.com/package/ipgeolocation-io-mcp",
+  "transports": [
+    "stdio",
+    "streamable-http"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "IPGeolocation.io",
+    "url": "https://ipgeolocation.io"
+  },
+  "status": "active",
+  "capability_tags": [
+    "api-access",
+    "security-analysis"
+  ],
+  "risk_capabilities": [
+    "external-network-access"
+  ],
+  "auth_method": "api-key",
+  "telemetry_opt_in": false
+}
