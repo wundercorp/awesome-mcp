@@ -1,0 +1,34 @@
+{
+  "slug": "stock-data-archive",
+  "name": "Stock Data Archive",
+  "category": "data",
+  "description": "Search historical US stock and ETF coverage, including delisted tickers. Get Parquet/CSV schemas, public sample URLs and dataset prices. Purchased-file listings require the buyer's bearer token; the five public discovery tools need no account. Market data is read from the downloaded files.",
+  "homepage_url": "https://stockdataarchive.com/mcp-server/",
+  "transports": [
+    "streamable-http"
+  ],
+  "endpoint_url": "https://stockdataarchive.com/mcp",
+  "registry_name": "io.github.stockdataarchive/stock-data-archive",
+  "tools": [
+    "search_tickers",
+    "get_ticker",
+    "list_products",
+    "get_file_format",
+    "get_sample_files",
+    "list_purchases",
+    "list_purchase_files"
+  ],
+  "license": "Proprietary hosted service; dataset terms at https://stockdataarchive.com/license/",
+  "provider": {
+    "name": "Stock Data Archive",
+    "url": "https://stockdataarchive.com"
+  },
+  "deployment": "hosted",
+  "auth_method": "none",
+  "capability_tags": [
+    "finance",
+    "research",
+    "documentation"
+  ],
+  "status": "active"
+}
