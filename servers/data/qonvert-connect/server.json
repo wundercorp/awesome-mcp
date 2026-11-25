@@ -1,0 +1,17 @@
+{
+  "slug": "qonvert-connect",
+  "name": "Qonvert Marketing AI",
+  "category": "data",
+  "description": "Qonvert Connect checks supplied Google Ads and Yandex Direct URLs for missing tracking tags without sign-in, and lets AI assistants use authorized project marketing sources after OAuth and source consent.",
+  "homepage_url": "https://qonvert.ai/connect",
+  "endpoint_url": "https://mcp.qonvert.ai/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary hosted service",
+  "provider": {
+    "name": "Qonvert Marketing AI",
+    "url": "https://qonvert.ai"
+  },
+  "status": "active"
+}
