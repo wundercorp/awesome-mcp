@@ -1,0 +1,19 @@
+{
+  "slug": "groundsocial",
+  "name": "Groundsocial",
+  "category": "data",
+  "description": "Hosted read-only MCP server for public social and web data from 77 platforms, including Reddit threads, X posts, TikTok, Instagram and YouTube videos with transcripts, LinkedIn pages and Google results, each in the platform's own JSON.",
+  "homepage_url": "https://groundsocial.dev/docs/mcp",
+  "repository_url": "https://github.com/shivanshmehendiratta/groundsocial-mcp",
+  "package_url": "https://api.groundsocial.dev/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "MIT (configs and docs repo); hosted service",
+  "provider": {
+    "name": "Groundsocial",
+    "url": "https://groundsocial.dev"
+  },
+  "status": "active"
+}
