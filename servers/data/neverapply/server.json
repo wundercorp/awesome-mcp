@@ -1,0 +1,19 @@
+{
+  "slug": "neverapply",
+  "name": "NeverApply",
+  "category": "data",
+  "description": "Hosted OAuth MCP server for job seekers: search and match jobs, tailor resumes, answer screening questions, prepare for interviews, and apply to jobs with your approval.",
+  "homepage_url": "https://neverapply.co/features/mcp",
+  "repository_url": "https://github.com/kasovy/neverapply-mcp",
+  "package_url": "https://neverapply.co/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [],
+  "license": "MIT (plugin manifests repo); hosted service",
+  "provider": {
+    "name": "NeverApply",
+    "url": "https://neverapply.co"
+  },
+  "status": "active"
+}
