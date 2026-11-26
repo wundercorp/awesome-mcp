@@ -1,0 +1,13 @@
+{
+  "slug": "pangolinfo-amazon-data-mcp",
+  "name": "Pangolinfo Amazon Data MCP",
+  "category": "data",
+  "description": "Official read-only MCP bridge for real-time Amazon research, market intelligence, Google search, trends, and local-search data.",
+  "homepage_url": "https://www.pangolinfo.com/amazon-data-mcp/",
+  "repository_url": "https://github.com/Pangolin-spg/amazon-data-mcp",
+  "package_url": "https://www.npmjs.com/package/pangolinfo-amazon-data-mcp",
+  "transports": ["stdio", "streamable-http"],
+  "tools": ["Amazon product research", "Amazon reviews", "Amazon categories and niches", "Google AI Overview search", "Google Trends", "Google Maps local search"],
+  "license": "MIT",
+  "status": "active"
+}
