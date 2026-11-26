@@ -1,0 +1,25 @@
+{
+  "slug": "alphasift",
+  "name": "AlphaSift",
+  "category": "data",
+  "description": "Read-only 14-tool STDIO MCP server for multi-market quantitative stock screening across 7 exchanges, zero-snooping Walk-Forward pattern replay, and public T+5/10/20 track-record audits.",
+  "homepage_url": "https://alphasift.zhulinsen.tech/",
+  "repository_url": "https://github.com/ZhuLinsen/alphasift",
+  "package_url": "https://pypi.org/project/alphasift/",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    { "name": "alphasift_health", "description": "Check market snapshots, cache health, and runtime readiness." },
+    { "name": "alphasift_screen_strategies", "description": "Run deterministic 12-strategy YAML equity screening across 7 markets." },
+    { "name": "alphasift_replay_patterns", "description": "Execute zero-snooping Walk-Forward pattern replay with Newey-West t-stats." },
+    { "name": "alphasift_discover_hotspots", "description": "Discover sector and theme rotation leaders and lifecycle stages." },
+    { "name": "alphasift_get_performance", "description": "Inspect public post-close next_open T+5/10/20 evaluation benchmarks." }
+  ],
+  "license": "Apache-2.0",
+  "provider": {
+    "name": "AlphaSift",
+    "url": "https://github.com/ZhuLinsen/alphasift"
+  },
+  "status": "active"
+}
