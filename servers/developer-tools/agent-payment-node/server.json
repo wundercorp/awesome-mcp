@@ -2,7 +2,7 @@
   "slug": "agent-payment-node",
   "name": "Agent Payment Node",
   "category": "developer-tools",
-  "description": "Local macOS CLI and stdio MCP payments with foreground owner approval for signing.",
+  "description": "Local macOS CLI and stdio MCP payments with an owner-set x402 policy and terminal approval for direct transfers.",
   "homepage_url": "https://github.com/nuanu-ai/agent-payment-node",
   "repository_url": "https://github.com/nuanu-ai/agent-payment-node",
   "transports": [
