@@ -1,0 +1,16 @@
+{
+  "slug": "dash",
+  "name": "Dash",
+  "category": "orchestration",
+  "description": "Connect AI clients to Dash to request work and manage workspace skills, scheduled tasks, goals, and connected apps.",
+  "homepage_url": "https://dashpup.ai/help/use-dash-as-an-mcp-server/",
+  "repository_url": "https://github.com/dash-pup/dash-mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "license": "Proprietary",
+  "provider": {
+    "name": "Dash"
+  },
+  "status": "active"
+}
