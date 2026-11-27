@@ -1,0 +1,37 @@
+{
+  "slug": "genaya-connect",
+  "name": "Genaya Connect",
+  "category": "data",
+  "description": "Hosted MCP server for Genaya, an operations app for service businesses: ask about appointments, clients, invoices, calls and tasks, and prepare changes that run only after the member confirms them. Streamable HTTP at https://api.genaya.com/mcp with Genaya account OAuth 2.1. Commercial hosted product; there is no free plan, every plan starts with a 14-day free trial.",
+  "homepage_url": "https://developer.genaya.com/mcp",
+  "repository_url": "https://github.com/genaya-app/genaya-claude-plugins",
+  "endpoint_url": "https://api.genaya.com/mcp",
+  "transports": [
+    "streamable-http"
+  ],
+  "tools": [
+    "whoami",
+    "ask_genaya",
+    "genaya_act",
+    "confirm_action",
+    "cancel_action",
+    "undo_action",
+    "list_actions"
+  ],
+  "license": "Proprietary; hosted service",
+  "provider": {
+    "name": "Genaya",
+    "url": "https://www.genaya.com"
+  },
+  "deployment": "hosted",
+  "auth_method": "oauth",
+  "capability_tags": [
+    "api-access",
+    "workflow"
+  ],
+  "risk_capabilities": [
+    "production-write",
+    "message-send"
+  ],
+  "status": "active"
+}
