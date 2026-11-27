@@ -2,7 +2,7 @@
   "slug": "sandscale",
   "name": "Sandscale",
   "category": "developer-tools",
-  "description": "Hosted MCP server that lets MCP clients create a Firecracker microVM sandbox per task, run commands in it, move files and throw it away, with allow/ask/deny rules per tool, human approvals and an audit log. Free plan available.",
+  "description": "Hosted MCP server that lets MCP clients create a Firecracker microVM sandbox per task, run commands in it, move files and throw it away, with every call recorded in an audit log. Free plan available.",
   "homepage_url": "https://sandscale.dev/sandboxes/mcp",
   "documentation_url": "https://sandscale.dev/docs/guides/connect-claude-chatgpt",
   "remote_endpoint_url": "https://mcp.sandscale.dev/mcp",
