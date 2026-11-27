@@ -1,0 +1,27 @@
+{
+  "slug": "ghostpaw-codex",
+  "name": "GhostPaw Codex",
+  "category": "knowledge",
+  "description": "Local SQLite memory for AI agents that retains sources, certainty and revision history. Run `npx -y @ghostpaw/codex mcp` over stdio with Node.js 24+.",
+  "homepage_url": "https://codex.ghostpaw.dev/",
+  "repository_url": "https://github.com/GhostPawJS/codex",
+  "package_url": "https://www.npmjs.com/package/@ghostpaw/codex",
+  "transports": [
+    "stdio"
+  ],
+  "tools": [
+    "search_codex",
+    "review_codex",
+    "inspect_codex_item",
+    "remember_belief",
+    "revise_belief",
+    "retire_belief",
+    "dismiss_proximity"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "GhostPawJS",
+    "url": "https://github.com/GhostPawJS"
+  },
+  "status": "active"
+}
