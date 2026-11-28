@@ -1,0 +1,17 @@
+{
+  "slug": "lantern-works-gpu-prices",
+  "name": "Lantern Works GPU Prices",
+  "category": "data",
+  "description": "Compare cloud GPU rental prices across tracked providers, cheapest first, with vendor source pages and check times, plus recent price changes, AI-infra deals and GPU job cost estimates. Free, no API key.",
+  "homepage_url": "https://thelanternworks.com/?ref=wundercorp-awesome-mcp",
+  "repository_url": "https://github.com/connormatthewdouglas/agent-work-stack-deals",
+  "package_url": "https://pypi.org/project/lantern-works-deals-mcp/",
+  "transports": ["stdio", "streamable-http"],
+  "tools": ["compare_gpu_prices", "get_price_changes", "get_price_trend", "find_available_gpus", "estimate_job_cost", "optimize_stack", "optimize_agent_stack", "rebuild_quote", "search_deals", "compare_deals", "get_deal"],
+  "license": "MIT",
+  "provider": {
+    "name": "Lantern Works",
+    "url": "https://thelanternworks.com/?ref=wundercorp-awesome-mcp"
+  },
+  "status": "active"
+}
