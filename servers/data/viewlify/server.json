@@ -1,0 +1,21 @@
+{
+  "slug": "viewlify",
+  "name": "Viewlify",
+  "category": "data",
+  "description": "Hosted read-only MCP server for public TikTok data: videos that beat their creator's usual views, plus rising videos, hashtags and sounds by niche.",
+  "homepage_url": "https://viewlify.app/tiktok-data-api",
+  "repository_url": "https://github.com/benjaminb10/viewlify-mcp",
+  "package_url": "https://www.npmjs.com/package/viewlify",
+  "transports": ["streamable-http"],
+  "tools": [
+    "get_trending",
+    "get_outliers",
+    "get_trending_hashtags",
+    "get_creator",
+    "search_trending_videos",
+    "get_balance",
+    "top_up"
+  ],
+  "license": "MIT",
+  "status": "active"
+}
