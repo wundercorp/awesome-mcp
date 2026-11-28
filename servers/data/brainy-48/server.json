@@ -2,7 +2,7 @@
   "slug": "brainy-48",
   "name": "Brainy 48",
   "category": "data",
-  "description": "Fixed-price business automation catalogue for the UAE and Spain, plus a free 48-hour team diagnosis: list automations with prices, estimate the diagnosis and get a WhatsApp request link. Read-only, no API key. Streamable HTTP endpoint: https://48.brainy.ae/mcp",
+  "description": "Browse fixed-price business automations and estimate or request a free 48-hour team diagnosis in the UAE and Spain. Find the free receipt-to-Excel page and compare AI-seat costs with your own automation. Read-only Streamable HTTP, no API key: https://48.brainy.ae/mcp",
   "homepage_url": "https://48.brainy.ae/developers",
   "transports": [
     "streamable-http"
@@ -10,7 +10,9 @@
   "tools": [
     "list_automations",
     "estimate_diagnosis",
-    "request_free_diagnosis"
+    "request_free_diagnosis",
+    "receipts_to_spreadsheet_free",
+    "compare_ai_seat_costs"
   ],
   "license": "Proprietary",
   "provider": {
